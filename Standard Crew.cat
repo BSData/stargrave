@@ -1,0 +1,1657 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="6d21-733c-e47e-558a" name="Standard Crew" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="b7a1-a7ef-bd2f-c484" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="e7fc-369a-1059-31e1" name="First Mate Biomorph" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="a7eb-eba5-0242-cc05" name="First Mate" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
+          <modifiers>
+            <modifier type="increment" field="dc65-e78a-d390-d9d5" value="1">
+              <conditions>
+                <condition field="selections" scope="e7fc-369a-1059-31e1" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bd04-29f1-86fb-7d68" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="453a-8ce6-f448-bb37" value="+3">
+              <conditions>
+                <condition field="selections" scope="e7fc-369a-1059-31e1" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="54d1-3c5f-8e6d-61a8" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="d603-9472-1d68-663e" value="+3">
+              <conditions>
+                <condition field="selections" scope="e7fc-369a-1059-31e1" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e902-9a47-9cb1-b0ef" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="M" typeId="dc65-e78a-d390-d9d5">6</characteristic>
+            <characteristic name="F" typeId="453a-8ce6-f448-bb37">+2</characteristic>
+            <characteristic name="S" typeId="d603-9472-1d68-663e">+2</characteristic>
+            <characteristic name="A" typeId="d1a5-3245-2f90-1ffe">9</characteristic>
+            <characteristic name="W" typeId="cd10-7835-de9f-ba64">+2</characteristic>
+            <characteristic name="H" typeId="c25e-02c0-2580-ff3c">15</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="8311-91aa-c814-8b07" name="First Mate" hidden="false" targetId="8749-37ea-6f9e-0824" primary="true"/>
+        <categoryLink id="d5b8-841f-4545-96e8" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7a5e-f557-3a97-3a3e" name="Biomorph Choices" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03fb-7fb5-fd93-d363" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e6b-8a06-9dd3-5a52" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="bd04-29f1-86fb-7d68" name="+1 Move" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6a2-9bc0-c9f2-f278" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="54d1-3c5f-8e6d-61a8" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75b3-1c29-94b7-bf3b" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e902-9a47-9cb1-b0ef" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec11-5af1-9876-fb74" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="6a75-4cb3-f5b4-3c0e" name="Powers" hidden="false" collective="false" import="true" targetId="7753-4141-f613-ae54" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8479-04ef-c0c9-1afa" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="fb9d-577c-7212-7dbe" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bf99-1689-5758-d46c" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="4868-71e6-8250-a229" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4441-f05c-6eb0-22da" name="Veteran" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="3260-fbd6-47f3-9fa3" name="Veteran" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
+          <modifiers>
+            <modifier type="set" field="d603-9472-1d68-663e" value="+3">
+              <conditions>
+                <condition field="selections" scope="4441-f05c-6eb0-22da" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8f48-0f41-257b-f8e9" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="453a-8ce6-f448-bb37" value="+5">
+              <conditions>
+                <condition field="selections" scope="4441-f05c-6eb0-22da" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5853-69a5-4263-2ab0" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="dc65-e78a-d390-d9d5" value="1">
+              <conditions>
+                <condition field="selections" scope="4441-f05c-6eb0-22da" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4111-be6e-185e-4c7f" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="M" typeId="dc65-e78a-d390-d9d5">6</characteristic>
+            <characteristic name="F" typeId="453a-8ce6-f448-bb37">+4</characteristic>
+            <characteristic name="S" typeId="d603-9472-1d68-663e">+2</characteristic>
+            <characteristic name="A" typeId="d1a5-3245-2f90-1ffe">9</characteristic>
+            <characteristic name="W" typeId="cd10-7835-de9f-ba64">+3</characteristic>
+            <characteristic name="H" typeId="c25e-02c0-2580-ff3c">17</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="8ff2-30aa-43bc-cb09" name="New CategoryLink" hidden="false" targetId="16bf-5402-ac6a-dab3" primary="true"/>
+        <categoryLink id="2874-379c-edd6-be27" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ae3c-8685-84ee-a21f" name="Veteran Choices" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a29-6b65-0473-533b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4009-e306-9e28-989e" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="4111-be6e-185e-4c7f" name="+1 Move" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5853-69a5-4263-2ab0" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8f48-0f41-257b-f8e9" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b7e3-6bda-ceff-29e3" name="Powers" hidden="false" collective="false" import="true" targetId="7753-4141-f613-ae54" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2386-dffe-0b3d-ffdb" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="91ff-2eb5-6dfd-1da8" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eb06-eb3b-8c17-e34e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a8df-e6de-d7fc-ca45" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fc64-9d1d-1a02-4051" name="Tekker" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1073-6e88-3f73-16f5" name="Tekker" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
+          <modifiers>
+            <modifier type="increment" field="c25e-02c0-2580-ff3c" value="1">
+              <conditions>
+                <condition field="selections" scope="fc64-9d1d-1a02-4051" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="709e-fe9b-05d8-f238" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="d603-9472-1d68-663e" value="+3">
+              <conditions>
+                <condition field="selections" scope="fc64-9d1d-1a02-4051" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1501-9652-2282-05b9" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="dc65-e78a-d390-d9d5" value="1">
+              <conditions>
+                <condition field="selections" scope="fc64-9d1d-1a02-4051" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6fbc-eb6b-6b43-1f27" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="453a-8ce6-f448-bb37" value="+4">
+              <conditions>
+                <condition field="selections" scope="fc64-9d1d-1a02-4051" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e09e-fe6f-424b-8750" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="M" typeId="dc65-e78a-d390-d9d5">6</characteristic>
+            <characteristic name="F" typeId="453a-8ce6-f448-bb37">+3</characteristic>
+            <characteristic name="S" typeId="d603-9472-1d68-663e">+2</characteristic>
+            <characteristic name="A" typeId="d1a5-3245-2f90-1ffe">9</characteristic>
+            <characteristic name="W" typeId="cd10-7835-de9f-ba64">+5</characteristic>
+            <characteristic name="H" typeId="c25e-02c0-2580-ff3c">16</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="35c6-2cd7-f948-2500" name="New CategoryLink" hidden="false" targetId="16bf-5402-ac6a-dab3" primary="true"/>
+        <categoryLink id="dec7-f1f9-9467-dda4" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9068-16c6-8c81-5313" name="Tekker Choices" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="171f-3425-facd-e8b2" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70cf-302d-5453-56ca" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6fbc-eb6b-6b43-1f27" name="+1 Move" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33b0-8f4e-eb2c-70fa" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e09e-fe6f-424b-8750" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abe6-7a6d-bb2a-12f9" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1501-9652-2282-05b9" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62bd-5499-0616-a90c" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="709e-fe9b-05d8-f238" name="+1 Health" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5dac-8722-f814-e1bc" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="673d-b0ce-d11a-2e7f" name="Powers" hidden="false" collective="false" import="true" targetId="7753-4141-f613-ae54" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="670f-ad54-f41e-1de8" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="0ad5-ebf8-0ee4-811c" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="35b5-2789-88be-ffd1" name="Psionicist" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="4378-38f5-66e3-dd09" name="Psionicist" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
+          <modifiers>
+            <modifier type="increment" field="dc65-e78a-d390-d9d5" value="1">
+              <conditions>
+                <condition field="selections" scope="35b5-2789-88be-ffd1" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="af2c-c120-b6fd-ab2b" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="d603-9472-1d68-663e" value="+3">
+              <conditions>
+                <condition field="selections" scope="35b5-2789-88be-ffd1" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d8f4-0c56-aa60-06c4" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="453a-8ce6-f448-bb37" value="+4">
+              <conditions>
+                <condition field="selections" scope="35b5-2789-88be-ffd1" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="193b-e638-1b37-a9db" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="M" typeId="dc65-e78a-d390-d9d5">6</characteristic>
+            <characteristic name="F" typeId="453a-8ce6-f448-bb37">+3</characteristic>
+            <characteristic name="S" typeId="d603-9472-1d68-663e">+2</characteristic>
+            <characteristic name="A" typeId="d1a5-3245-2f90-1ffe">9</characteristic>
+            <characteristic name="W" typeId="cd10-7835-de9f-ba64">+5</characteristic>
+            <characteristic name="H" typeId="c25e-02c0-2580-ff3c">17</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="4ef0-6230-5e45-3a57" name="New CategoryLink" hidden="false" targetId="16bf-5402-ac6a-dab3" primary="true"/>
+        <categoryLink id="5b45-0540-21c9-5030" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0feb-779f-8aac-74e6" name="Psionicist Choices" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1561-0152-043d-5c5d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96d2-fa93-88ea-3d90" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="af2c-c120-b6fd-ab2b" name="+1 Move" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="193b-e638-1b37-a9db" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d8f4-0c56-aa60-06c4" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b76a-c45a-3e94-6d64" name="Powers" hidden="false" collective="false" import="true" targetId="7753-4141-f613-ae54" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5302-75ef-bb90-ea2d" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="81fe-5cbf-1aa7-a3c4" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7e2b-7422-9372-bcc3" name="Robotics Expert" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="6cf9-84aa-b2e5-be2a" name="Robotics Expert" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
+          <modifiers>
+            <modifier type="increment" field="c25e-02c0-2580-ff3c" value="1">
+              <conditions>
+                <condition field="selections" scope="7e2b-7422-9372-bcc3" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="77c7-0bd2-1f34-e91e" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="dc65-e78a-d390-d9d5" value="1">
+              <conditions>
+                <condition field="selections" scope="7e2b-7422-9372-bcc3" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="503d-f90c-3668-34c7" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="453a-8ce6-f448-bb37" value="+4">
+              <conditions>
+                <condition field="selections" scope="7e2b-7422-9372-bcc3" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b9d8-51e5-8551-87f6" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="d603-9472-1d68-663e" value="+3">
+              <conditions>
+                <condition field="selections" scope="7e2b-7422-9372-bcc3" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c206-f02f-3526-f5e2" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="M" typeId="dc65-e78a-d390-d9d5">6</characteristic>
+            <characteristic name="F" typeId="453a-8ce6-f448-bb37">+3</characteristic>
+            <characteristic name="S" typeId="d603-9472-1d68-663e">+2</characteristic>
+            <characteristic name="A" typeId="d1a5-3245-2f90-1ffe">9</characteristic>
+            <characteristic name="W" typeId="cd10-7835-de9f-ba64">+4</characteristic>
+            <characteristic name="H" typeId="c25e-02c0-2580-ff3c">16</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="ae7f-210d-3465-ed45" name="New CategoryLink" hidden="false" targetId="16bf-5402-ac6a-dab3" primary="true"/>
+        <categoryLink id="d4b5-9657-c842-a0f0" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="84d5-3c86-a373-7475" name="Robotics Expert Choices" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="915c-e414-0eee-c3fd" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="283f-63d0-71f0-d767" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="503d-f90c-3668-34c7" name="+1 Move" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d0b-4e15-1050-da67" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b9d8-51e5-8551-87f6" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78a4-fcd7-61b2-4f6c" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="77c7-0bd2-1f34-e91e" name="+1 Health" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91dc-ae27-a2af-61eb" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c206-f02f-3526-f5e2" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4722-52eb-02d4-900b" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="b344-d18f-d509-7a50" name="Powers" hidden="false" collective="false" import="true" targetId="7753-4141-f613-ae54" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="848a-b2f8-7afb-5c38" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a44c-aed4-d53a-2f8a" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="84fc-0ae6-ae73-c028" name="Rogue" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="99f9-5c06-adde-1b85" name="Rogue" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
+          <modifiers>
+            <modifier type="increment" field="dc65-e78a-d390-d9d5" value="1">
+              <conditions>
+                <condition field="selections" scope="84fc-0ae6-ae73-c028" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c8f-0a9d-3cd8-b1e4" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="453a-8ce6-f448-bb37" value="+4">
+              <conditions>
+                <condition field="selections" scope="84fc-0ae6-ae73-c028" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5dc5-ef9e-029c-578c" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="d603-9472-1d68-663e" value="+3">
+              <conditions>
+                <condition field="selections" scope="84fc-0ae6-ae73-c028" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e7b7-1a52-477b-a4d8" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="M" typeId="dc65-e78a-d390-d9d5">6</characteristic>
+            <characteristic name="F" typeId="453a-8ce6-f448-bb37">+3</characteristic>
+            <characteristic name="S" typeId="d603-9472-1d68-663e">+2</characteristic>
+            <characteristic name="A" typeId="d1a5-3245-2f90-1ffe">9</characteristic>
+            <characteristic name="W" typeId="cd10-7835-de9f-ba64">+4</characteristic>
+            <characteristic name="H" typeId="c25e-02c0-2580-ff3c">17</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="507e-8c4a-6c57-0b45" name="New CategoryLink" hidden="false" targetId="16bf-5402-ac6a-dab3" primary="true"/>
+        <categoryLink id="0d1a-aa0b-1477-c293" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0796-7cb2-2bbe-9b1d" name="Rogue Choices" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb0e-a346-9c87-3afc" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9138-71ef-c131-7022" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="2c8f-0a9d-3cd8-b1e4" name="+1 Move" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63e1-3b96-a76d-32b8" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5dc5-ef9e-029c-578c" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecf7-c4d2-6e8a-5e0d" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e7b7-1a52-477b-a4d8" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ccf-362d-0e0f-50f5" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="5652-da95-4de6-e926" name="Powers" hidden="false" collective="false" import="true" targetId="7753-4141-f613-ae54" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4fbb-a548-75c3-0a3a" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3a91-7d85-6368-c18e" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9136-661e-90b6-fd97" name="Biomorph" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="5670-2b8c-af42-0f33" name="Biomorph" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
+          <modifiers>
+            <modifier type="increment" field="dc65-e78a-d390-d9d5" value="1">
+              <conditions>
+                <condition field="selections" scope="9136-661e-90b6-fd97" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d73c-c299-3d94-920a" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="453a-8ce6-f448-bb37" value="+4">
+              <conditions>
+                <condition field="selections" scope="9136-661e-90b6-fd97" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5da0-36a4-e1b8-f091" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="d603-9472-1d68-663e" value="+3">
+              <conditions>
+                <condition field="selections" scope="9136-661e-90b6-fd97" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="32b5-8aa4-780a-32f6" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="M" typeId="dc65-e78a-d390-d9d5">6</characteristic>
+            <characteristic name="F" typeId="453a-8ce6-f448-bb37">+3</characteristic>
+            <characteristic name="S" typeId="d603-9472-1d68-663e">+2</characteristic>
+            <characteristic name="A" typeId="d1a5-3245-2f90-1ffe">9</characteristic>
+            <characteristic name="W" typeId="cd10-7835-de9f-ba64">+3</characteristic>
+            <characteristic name="H" typeId="c25e-02c0-2580-ff3c">17</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="86c6-aab1-08c0-1777" name="New CategoryLink" hidden="false" targetId="16bf-5402-ac6a-dab3" primary="true"/>
+        <categoryLink id="f0b7-a6a3-6835-3555" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a253-5a7a-0b29-69e8" name="Biomorph Choices" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3792-933b-9088-ff04" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b7f-e379-9210-ba7a" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d73c-c299-3d94-920a" name="+1 Move" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c11-965d-74a2-7870" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5da0-36a4-e1b8-f091" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10f9-d9dc-3e90-34c7" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="32b5-8aa4-780a-32f6" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ed9-43e2-d2a5-2de5" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="1dc2-7bfe-92d1-a883" name="Powers" hidden="false" collective="false" import="true" targetId="7753-4141-f613-ae54" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ee4d-a847-3f37-7985" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1c22-22c3-49fb-661e" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9d6d-a32d-7054-364c" name="First Mate Cyborg" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="7e26-f81d-4412-601e" name="First Mate" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
+          <modifiers>
+            <modifier type="increment" field="dc65-e78a-d390-d9d5" value="1">
+              <conditions>
+                <condition field="selections" scope="9d6d-a32d-7054-364c" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2b42-bb84-9912-648e" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="453a-8ce6-f448-bb37" value="+3">
+              <conditions>
+                <condition field="selections" scope="9d6d-a32d-7054-364c" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3323-4c53-a815-4277" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="d603-9472-1d68-663e" value="+3">
+              <conditions>
+                <condition field="selections" scope="9d6d-a32d-7054-364c" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aab4-ecb5-ea16-e3f5" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="M" typeId="dc65-e78a-d390-d9d5">6</characteristic>
+            <characteristic name="F" typeId="453a-8ce6-f448-bb37">+2</characteristic>
+            <characteristic name="S" typeId="d603-9472-1d68-663e">+2</characteristic>
+            <characteristic name="A" typeId="d1a5-3245-2f90-1ffe">9</characteristic>
+            <characteristic name="W" typeId="cd10-7835-de9f-ba64">+2</characteristic>
+            <characteristic name="H" typeId="c25e-02c0-2580-ff3c">15</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="419f-8d93-437f-5d37" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+        <categoryLink id="2660-2790-ff55-079d" name="New CategoryLink" hidden="false" targetId="8749-37ea-6f9e-0824" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a8ab-62ad-974c-cf58" name="Cyborg Choices" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d77f-a8ff-ee86-1322" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ef4-346e-2546-3367" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="2b42-bb84-9912-648e" name="+1 Move" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b105-409f-9481-6993" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3323-4c53-a815-4277" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd82-c490-9004-4c20" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="aab4-ecb5-ea16-e3f5" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc47-8de5-1516-a151" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="7a5a-a695-4ca1-0b54" name="Powers" hidden="false" collective="false" import="true" targetId="7753-4141-f613-ae54" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fd3b-9a51-a7f1-130b" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="0b6e-c1c6-5bc0-479f" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="990d-73ed-22dd-7017" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="0094-d7d0-41bc-0008" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="36d1-0a6b-8a65-fe71" name="Mystic" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="c8bf-cae3-4df4-0eeb" name="Mystic" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
+          <modifiers>
+            <modifier type="increment" field="dc65-e78a-d390-d9d5" value="1">
+              <conditions>
+                <condition field="selections" scope="36d1-0a6b-8a65-fe71" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="dc76-34c8-afd6-b5dd" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="453a-8ce6-f448-bb37" value="+4">
+              <conditions>
+                <condition field="selections" scope="36d1-0a6b-8a65-fe71" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c946-3359-82a7-829f" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="d603-9472-1d68-663e" value="+3">
+              <conditions>
+                <condition field="selections" scope="36d1-0a6b-8a65-fe71" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="457d-79d2-2714-50c1" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="M" typeId="dc65-e78a-d390-d9d5">6</characteristic>
+            <characteristic name="F" typeId="453a-8ce6-f448-bb37">+3</characteristic>
+            <characteristic name="S" typeId="d603-9472-1d68-663e">+2</characteristic>
+            <characteristic name="A" typeId="d1a5-3245-2f90-1ffe">9</characteristic>
+            <characteristic name="W" typeId="cd10-7835-de9f-ba64">+5</characteristic>
+            <characteristic name="H" typeId="c25e-02c0-2580-ff3c">17</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="d598-3c9e-508d-638d" name="New CategoryLink" hidden="false" targetId="16bf-5402-ac6a-dab3" primary="true"/>
+        <categoryLink id="cfae-8e4d-1df1-5f88" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1c92-a4e1-b741-d48b" name="Mystic Choices" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baff-d7cb-3514-c47d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2027-c20f-63a5-94bf" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="dc76-34c8-afd6-b5dd" name="+1 Move" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c946-3359-82a7-829f" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="457d-79d2-2714-50c1" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="605f-4369-c8c9-3e1d" name="Powers" hidden="false" collective="false" import="true" targetId="7753-4141-f613-ae54" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e418-62fb-0b6a-394f" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="2ded-8cc9-1688-4399" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b3fd-a4d7-4d23-f7ce" name="Cyborg" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="ed82-eb1a-637b-2306" name="Cyborg" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
+          <modifiers>
+            <modifier type="increment" field="dc65-e78a-d390-d9d5" value="1">
+              <conditions>
+                <condition field="selections" scope="b3fd-a4d7-4d23-f7ce" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7734-23e1-a774-b7e9" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="453a-8ce6-f448-bb37" value="+4">
+              <conditions>
+                <condition field="selections" scope="b3fd-a4d7-4d23-f7ce" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="11f3-e54d-39ef-8381" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="d603-9472-1d68-663e" value="+3">
+              <conditions>
+                <condition field="selections" scope="b3fd-a4d7-4d23-f7ce" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3b44-2734-bc3c-bb51" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="M" typeId="dc65-e78a-d390-d9d5">6</characteristic>
+            <characteristic name="F" typeId="453a-8ce6-f448-bb37">+3</characteristic>
+            <characteristic name="S" typeId="d603-9472-1d68-663e">+2</characteristic>
+            <characteristic name="A" typeId="d1a5-3245-2f90-1ffe">9</characteristic>
+            <characteristic name="W" typeId="cd10-7835-de9f-ba64">+3</characteristic>
+            <characteristic name="H" typeId="c25e-02c0-2580-ff3c">17</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="7c59-dbc4-636b-ac65" name="New CategoryLink" hidden="false" targetId="16bf-5402-ac6a-dab3" primary="true"/>
+        <categoryLink id="d37b-517c-e43c-420d" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="81d5-9e98-4704-c64e" name="Cyborg Choices" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1d6-23df-fbfa-5002" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64a6-b661-b633-9fb4" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="7734-23e1-a774-b7e9" name="+1 Move" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="903b-6892-3a0f-2ef5" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="11f3-e54d-39ef-8381" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e596-2700-aed6-c065" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3b44-2734-bc3c-bb51" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3ae-ae66-0dc1-41be" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="9b4f-03e8-bda8-4b8a" name="Powers" hidden="false" collective="false" import="true" targetId="7753-4141-f613-ae54" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0509-5e59-ba6b-7bc2" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="b3fd-4db6-e69e-6366" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="703b-b594-1549-7ce4" name="First Mate Mystic" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="dfcb-8803-d268-17f8" name="First Mate" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
+          <modifiers>
+            <modifier type="increment" field="dc65-e78a-d390-d9d5" value="1">
+              <conditions>
+                <condition field="selections" scope="703b-b594-1549-7ce4" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a6ea-b2c7-a441-cb87" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="453a-8ce6-f448-bb37" value="+3">
+              <conditions>
+                <condition field="selections" scope="703b-b594-1549-7ce4" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="11db-61bb-a94b-227c" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="d603-9472-1d68-663e" value="+3">
+              <conditions>
+                <condition field="selections" scope="703b-b594-1549-7ce4" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b59d-7931-829d-a558" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="M" typeId="dc65-e78a-d390-d9d5">6</characteristic>
+            <characteristic name="F" typeId="453a-8ce6-f448-bb37">+2</characteristic>
+            <characteristic name="S" typeId="d603-9472-1d68-663e">+2</characteristic>
+            <characteristic name="A" typeId="d1a5-3245-2f90-1ffe">9</characteristic>
+            <characteristic name="W" typeId="cd10-7835-de9f-ba64">+4</characteristic>
+            <characteristic name="H" typeId="c25e-02c0-2580-ff3c">15</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="cb96-0bb8-86b0-3c55" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+        <categoryLink id="a942-8ca7-000e-8ad5" name="New CategoryLink" hidden="false" targetId="8749-37ea-6f9e-0824" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3fb3-ece1-7d5b-2aab" name="Mystic Choices" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac23-f4b2-e225-e94a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42f2-e40c-ebb2-09c7" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a6ea-b2c7-a441-cb87" name="+1 Move" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="11db-61bb-a94b-227c" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b59d-7931-829d-a558" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="6619-6e9d-2ec4-ba96" name="Powers" hidden="false" collective="false" import="true" targetId="7753-4141-f613-ae54" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="521c-6859-ba86-c240" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7f77-d8bd-3497-2652" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7fff-bc95-58eb-e5db" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a9f9-71ef-16fb-c7a1" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dd7b-042e-4d07-7f8e" name="First Mate Psionicist" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="ab52-c63b-2c91-c7c6" name="First Mate" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
+          <modifiers>
+            <modifier type="increment" field="dc65-e78a-d390-d9d5" value="1">
+              <conditions>
+                <condition field="selections" scope="dd7b-042e-4d07-7f8e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="38bc-3e72-5ad6-9efc" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="d603-9472-1d68-663e" value="+3">
+              <conditions>
+                <condition field="selections" scope="dd7b-042e-4d07-7f8e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fa77-54db-3456-86e5" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="453a-8ce6-f448-bb37" value="+3">
+              <conditions>
+                <condition field="selections" scope="dd7b-042e-4d07-7f8e" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="905d-6d81-90cc-1067" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="M" typeId="dc65-e78a-d390-d9d5">6</characteristic>
+            <characteristic name="F" typeId="453a-8ce6-f448-bb37">+2</characteristic>
+            <characteristic name="S" typeId="d603-9472-1d68-663e">+2</characteristic>
+            <characteristic name="A" typeId="d1a5-3245-2f90-1ffe">9</characteristic>
+            <characteristic name="W" typeId="cd10-7835-de9f-ba64">+4</characteristic>
+            <characteristic name="H" typeId="c25e-02c0-2580-ff3c">15</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="573b-142b-f363-c8f9" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+        <categoryLink id="43af-9fdd-02b8-fb8c" name="New CategoryLink" hidden="false" targetId="8749-37ea-6f9e-0824" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="719e-1c33-b21e-8e1e" name="Psionicist Choices" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c060-fd7c-d53b-9dbb" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06de-a94c-5d20-368f" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="38bc-3e72-5ad6-9efc" name="+1 Move" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="905d-6d81-90cc-1067" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fa77-54db-3456-86e5" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="63f5-e67a-d948-bec1" name="Powers" hidden="false" collective="false" import="true" targetId="7753-4141-f613-ae54" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="009b-bcdd-84c5-11e4" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c474-37f1-10d9-83c4" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4532-e861-ab93-dd10" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="72f3-ca90-ab7a-02a9" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7caf-92d2-2c83-f857" name="First Mate Robotics Expert" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="553e-1f1f-f558-2dfc" name="First Mate" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
+          <modifiers>
+            <modifier type="increment" field="c25e-02c0-2580-ff3c" value="1">
+              <conditions>
+                <condition field="selections" scope="7caf-92d2-2c83-f857" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="db90-74d0-aa74-43c5" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="dc65-e78a-d390-d9d5" value="1">
+              <conditions>
+                <condition field="selections" scope="7caf-92d2-2c83-f857" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d4e4-a2fa-77c4-413e" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="453a-8ce6-f448-bb37" value="+4">
+              <conditions>
+                <condition field="selections" scope="7caf-92d2-2c83-f857" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="540a-a336-a6fc-6aea" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="d603-9472-1d68-663e" value="+3">
+              <conditions>
+                <condition field="selections" scope="7caf-92d2-2c83-f857" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5cb8-80c4-3a0f-3eb8" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="M" typeId="dc65-e78a-d390-d9d5">6</characteristic>
+            <characteristic name="F" typeId="453a-8ce6-f448-bb37">+2</characteristic>
+            <characteristic name="S" typeId="d603-9472-1d68-663e">+2</characteristic>
+            <characteristic name="A" typeId="d1a5-3245-2f90-1ffe">9</characteristic>
+            <characteristic name="W" typeId="cd10-7835-de9f-ba64">+3</characteristic>
+            <characteristic name="H" typeId="c25e-02c0-2580-ff3c">14</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="b906-f815-88e5-7daf" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+        <categoryLink id="77ed-f571-ba1a-5a81" name="New CategoryLink" hidden="false" targetId="8749-37ea-6f9e-0824" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="032c-91c2-68db-0a89" name="Robotics Expert Choices" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f99c-d6d5-b585-61a0" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c41-7395-b154-56d1" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d4e4-a2fa-77c4-413e" name="+1 Move" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5667-ee7e-7511-65ca" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="540a-a336-a6fc-6aea" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a83b-69fc-d4cc-8b8d" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="db90-74d0-aa74-43c5" name="+1 Health" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ed9-1451-2669-1c17" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5cb8-80c4-3a0f-3eb8" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e07a-f39c-3561-fe5d" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="febb-5c76-6688-270e" name="Powers" hidden="false" collective="false" import="true" targetId="7753-4141-f613-ae54" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f4dd-8efc-35c9-08a6" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6a9a-a013-185e-a1b7" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d88a-e873-b1bc-d14e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8bf1-8e48-af6b-347b" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6199-8f8e-c0fe-38ea" name="First Mate Rogue" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="2b8a-9027-dc86-d116" name="First Mate" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
+          <modifiers>
+            <modifier type="increment" field="dc65-e78a-d390-d9d5" value="1">
+              <conditions>
+                <condition field="selections" scope="6199-8f8e-c0fe-38ea" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a894-0013-4e76-3d68" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="453a-8ce6-f448-bb37" value="+3">
+              <conditions>
+                <condition field="selections" scope="6199-8f8e-c0fe-38ea" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3666-82f5-e5cd-0e6b" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="d603-9472-1d68-663e" value="+3">
+              <conditions>
+                <condition field="selections" scope="6199-8f8e-c0fe-38ea" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c40d-38e2-2da5-e730" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="M" typeId="dc65-e78a-d390-d9d5">6</characteristic>
+            <characteristic name="F" typeId="453a-8ce6-f448-bb37">+2</characteristic>
+            <characteristic name="S" typeId="d603-9472-1d68-663e">+2</characteristic>
+            <characteristic name="A" typeId="d1a5-3245-2f90-1ffe">9</characteristic>
+            <characteristic name="W" typeId="cd10-7835-de9f-ba64">+3</characteristic>
+            <characteristic name="H" typeId="c25e-02c0-2580-ff3c">15</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="e919-91a0-b518-518c" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+        <categoryLink id="ad69-c071-227f-636a" name="New CategoryLink" hidden="false" targetId="8749-37ea-6f9e-0824" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b7e8-7db1-b702-043b" name="Rogue Choices" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd5f-5dc9-2d60-72dc" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a88-4bc2-3978-2abd" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a894-0013-4e76-3d68" name="+1 Move" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa8b-86c3-f1ec-3a5a" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3666-82f5-e5cd-0e6b" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7578-14e0-ff5f-0b5a" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c40d-38e2-2da5-e730" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdfe-3904-0a9f-39b3" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="be92-0975-2c56-5495" name="Powers" hidden="false" collective="false" import="true" targetId="7753-4141-f613-ae54" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3e94-3795-1123-e76e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a5eb-faa4-143d-546a" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="664c-ddb5-3dbc-bc4b" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="57cf-2d46-2e84-2821" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ce96-23fc-e0b7-e3e8" name="First Mate Tekker" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="89b2-72b5-2079-8d35" name="First Mate" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
+          <modifiers>
+            <modifier type="increment" field="c25e-02c0-2580-ff3c" value="1">
+              <conditions>
+                <condition field="selections" scope="ce96-23fc-e0b7-e3e8" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="449a-2a69-7e11-59e2" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="d603-9472-1d68-663e" value="+3">
+              <conditions>
+                <condition field="selections" scope="ce96-23fc-e0b7-e3e8" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3ce8-551c-625b-45f6" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="dc65-e78a-d390-d9d5" value="1">
+              <conditions>
+                <condition field="selections" scope="ce96-23fc-e0b7-e3e8" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d804-c388-e30a-ea77" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="453a-8ce6-f448-bb37" value="+3">
+              <conditions>
+                <condition field="selections" scope="ce96-23fc-e0b7-e3e8" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3ce8-551c-625b-45f6" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="M" typeId="dc65-e78a-d390-d9d5">6</characteristic>
+            <characteristic name="F" typeId="453a-8ce6-f448-bb37">+2</characteristic>
+            <characteristic name="S" typeId="d603-9472-1d68-663e">+2</characteristic>
+            <characteristic name="A" typeId="d1a5-3245-2f90-1ffe">9</characteristic>
+            <characteristic name="W" typeId="cd10-7835-de9f-ba64">+4</characteristic>
+            <characteristic name="H" typeId="c25e-02c0-2580-ff3c">14</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="d517-3aba-473d-2aa0" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+        <categoryLink id="cbde-364b-fc1f-824f" name="New CategoryLink" hidden="false" targetId="8749-37ea-6f9e-0824" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7236-e2bc-4650-0565" name="Tekker Choices" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2ef-620e-e970-307c" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0abc-2eee-e799-4c1b" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d804-c388-e30a-ea77" name="+1 Move" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be4e-459e-047e-1d28" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3aea-f295-c83e-8864" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34db-5acc-f96b-28e3" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3ce8-551c-625b-45f6" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19e7-286b-fef5-c321" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="449a-2a69-7e11-59e2" name="+1 Health" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f9b-776c-4d14-0719" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="7793-2ce4-ebd5-de62" name="Powers" hidden="false" collective="false" import="true" targetId="7753-4141-f613-ae54" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="20a3-b771-3cd2-ff55" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5555-1b0a-c82f-ffeb" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aca7-5d58-60ef-940b" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6b04-ad04-79d0-97b3" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4bea-2bb5-2b58-e0fd" name="First Mate Veteran" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="624b-d084-1ec2-a5c0" name="First Mate" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
+          <modifiers>
+            <modifier type="set" field="d603-9472-1d68-663e" value="+3">
+              <conditions>
+                <condition field="selections" scope="4bea-2bb5-2b58-e0fd" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1bc1-840a-ddf7-e61e" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="453a-8ce6-f448-bb37" value="+4">
+              <conditions>
+                <condition field="selections" scope="4bea-2bb5-2b58-e0fd" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e1f3-5290-6b92-2d55" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="dc65-e78a-d390-d9d5" value="1">
+              <conditions>
+                <condition field="selections" scope="4bea-2bb5-2b58-e0fd" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e1a3-8ae5-9aed-baf7" type="notEqualTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="M" typeId="dc65-e78a-d390-d9d5">6</characteristic>
+            <characteristic name="F" typeId="453a-8ce6-f448-bb37">+3</characteristic>
+            <characteristic name="S" typeId="d603-9472-1d68-663e">+2</characteristic>
+            <characteristic name="A" typeId="d1a5-3245-2f90-1ffe">9</characteristic>
+            <characteristic name="W" typeId="cd10-7835-de9f-ba64">+2</characteristic>
+            <characteristic name="H" typeId="c25e-02c0-2580-ff3c">15</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="d8c3-5c9f-5268-ce7c" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+        <categoryLink id="dfdd-53dc-d756-4f70" name="New CategoryLink" hidden="false" targetId="8749-37ea-6f9e-0824" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="77c5-657f-fb5d-39c6" name="Veteran Choices" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a5f-bebf-f56f-af0d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8666-49be-e04c-57c2" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e1a3-8ae5-9aed-baf7" name="+1 Move" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e1f3-5290-6b92-2d55" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1bc1-840a-ddf7-e61e" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+                <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="31bb-a5ea-2362-9f01" name="Powers" hidden="false" collective="false" import="true" targetId="7753-4141-f613-ae54" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a4e6-2ea1-038f-b35d" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="bb3e-0b53-d99d-6ae2" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4e5b-2f66-c8a4-9465" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="ea56-faae-a5ba-40ad" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="ec5c-5c9a-2f64-a18b" name="Armoured Trooper" hidden="false" collective="false" import="true" targetId="a4c3-a70e-6571-f5f1" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="2618-5a5e-83e1-7d35" name="Carbine" hidden="false" targetId="33df-9e64-5d0e-ddf0" type="profile"/>
+        <infoLink id="04f7-36f2-6309-4b8b" name="Combat Armour" hidden="false" targetId="47a8-ff0e-8853-f4c1" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7853-02a8-0357-6efc" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+        <categoryLink id="5355-b0a5-bf21-fafe" name="Specialists" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="fa10-c128-39ae-9c14" name="Commando" hidden="false" collective="false" import="true" targetId="25d0-2116-83ce-c078" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="4333-065d-faa4-5e66" name="Carbine" hidden="false" targetId="33df-9e64-5d0e-ddf0" type="profile"/>
+        <infoLink id="8622-909c-6be3-57f0" name="Grenade –Fragmentation" hidden="false" targetId="3e4d-99d7-96e7-f55a" type="profile"/>
+        <infoLink id="af44-d58f-277f-1cf8" name="Grenade –Smoke" hidden="false" targetId="5326-388e-c567-dd48" type="profile"/>
+        <infoLink id="f786-5724-5fd6-3c4c" name="Heavy Armour" hidden="false" targetId="b098-75ec-54b4-02f5" type="profile"/>
+        <infoLink id="7662-55c6-64d6-9ced" name="Hand Weapon" hidden="false" targetId="9474-d826-128b-3e89" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c47a-65c7-f596-6b73" name="New CategoryLink" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
+        <categoryLink id="468d-4abf-762a-f6ed" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="0ae6-4f82-3d3e-c931" name="Burner" hidden="false" collective="false" import="true" targetId="3af1-995d-6a3f-2164" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="fb9c-08e8-a1b5-989e" name="Flamethrower" hidden="false" targetId="b73f-ed92-99a9-ea6f" type="profile"/>
+        <infoLink id="df09-0b25-083b-fcfe" name="Pistol" hidden="false" targetId="3a81-e812-849e-1d92" type="profile"/>
+        <infoLink id="999b-91f8-8a64-22ce" name="Knife" hidden="false" targetId="1ed7-8d7c-f190-78d2" type="profile"/>
+        <infoLink id="9fe8-8ea7-e79e-a32d" name="Heavy Armour" hidden="false" targetId="b098-75ec-54b4-02f5" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8e4d-c8a4-4521-2e9e" name="New CategoryLink" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
+        <categoryLink id="9af8-adf8-ea6e-6729" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c0f9-223a-2b7f-eb3a" name="Codebreaker" hidden="false" collective="false" import="true" targetId="aee4-e6c5-e21b-8623" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="7c00-1e1e-ac56-f8e8" name="Carbine" hidden="false" targetId="33df-9e64-5d0e-ddf0" type="profile"/>
+        <infoLink id="b7d3-f6b3-6d25-dd4f" name="Deck" hidden="false" targetId="f616-0201-95ab-bfa7" type="profile"/>
+        <infoLink id="3ce7-262f-0204-8bfe" name="Knife" hidden="false" targetId="1ed7-8d7c-f190-78d2" type="profile"/>
+        <infoLink id="2fa1-c635-245b-5e25" name="Light Armour" hidden="false" targetId="eb6d-253d-4d80-d778" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a4f6-85d5-3075-3f91" name="New CategoryLink" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
+        <categoryLink id="fd6e-a869-c9be-f0e4" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="56f6-d810-ffb5-e636" name="Casecracker" hidden="false" collective="false" import="true" targetId="fa49-9ab4-5565-f466" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="932b-f965-7c6e-b194" name="Carbine" hidden="false" targetId="33df-9e64-5d0e-ddf0" type="profile"/>
+        <infoLink id="f259-48da-6025-3568" name="Picks" hidden="false" targetId="434d-59ed-0898-1ac7" type="profile"/>
+        <infoLink id="6c81-37fa-6e8f-719f" name="Light Armour" hidden="false" targetId="eb6d-253d-4d80-d778" type="profile"/>
+        <infoLink id="4e44-80c0-d1c1-0e8b" name="Knife" hidden="false" targetId="1ed7-8d7c-f190-78d2" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="af65-3254-1e96-be0f" name="New CategoryLink" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
+        <categoryLink id="e952-3fdb-733a-5405" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="eeb6-d21a-fdea-690a" name="Pathfinder" hidden="false" collective="false" import="true" targetId="8516-acdf-df6c-426d" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="1192-7ed8-08f1-e73c" name="Carbine" hidden="false" targetId="33df-9e64-5d0e-ddf0" type="profile"/>
+        <infoLink id="164a-b401-0deb-549b" name="Grenade –Fragmentation" hidden="false" targetId="3e4d-99d7-96e7-f55a" type="profile"/>
+        <infoLink id="d623-cd69-fba2-decd" name="Grenade –Smoke" hidden="false" targetId="5326-388e-c567-dd48" type="profile"/>
+        <infoLink id="2fb8-3d8c-a9fe-0924" name="Heavy Armour" hidden="false" targetId="b098-75ec-54b4-02f5" type="profile"/>
+        <infoLink id="2746-6701-2f1a-ccda" name="Hand Weapon" hidden="false" targetId="9474-d826-128b-3e89" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="93a2-6ccf-d3f5-6780" name="New CategoryLink" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
+        <categoryLink id="2ccd-cac9-3c1c-9d23" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a18f-8a4a-e827-1dbc" name="Sniper" hidden="false" collective="false" import="true" targetId="7ab1-4642-39ca-f8e1" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="6f82-12a4-46df-fc84" name="Carbine" hidden="false" targetId="33df-9e64-5d0e-ddf0" type="profile"/>
+        <infoLink id="6a94-a3c6-0a91-8910" name="Light Armour" hidden="false" targetId="eb6d-253d-4d80-d778" type="profile"/>
+        <infoLink id="db0a-5010-8b66-fad6" name="Hand Weapon" hidden="false" targetId="9474-d826-128b-3e89" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1209-f78c-0d17-fb90" name="New CategoryLink" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
+        <categoryLink id="08c3-affd-ad96-1ac2" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6f87-54ba-bdd7-acc4" name="Grenadier" hidden="false" collective="false" import="true" targetId="d9db-e7da-d7fb-2ade" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="f999-9094-c0bb-4d87" name="Grenade Launcher" hidden="false" targetId="fb0d-2aee-5b14-124d" type="profile"/>
+        <infoLink id="7d7b-3997-5ebd-70f8" name="Pistol" hidden="false" targetId="3a81-e812-849e-1d92" type="profile"/>
+        <infoLink id="9a64-b431-1fe3-d2da" name="Heavy Armour" hidden="false" targetId="b098-75ec-54b4-02f5" type="profile"/>
+        <infoLink id="fd17-55d5-d66b-4a77" name="Knife" hidden="false" targetId="1ed7-8d7c-f190-78d2" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f996-4ac9-0f88-3dae" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+        <categoryLink id="8603-227f-456a-280d" name="New CategoryLink" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c442-6855-a388-89ef" name="Gunner" hidden="false" collective="false" import="true" targetId="de59-b02d-a3e1-8f76" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="94ac-ff01-1f7c-2952" name="Rapid Fire" hidden="false" targetId="8930-1266-4a29-0816" type="profile"/>
+        <infoLink id="1a78-3fb5-6a6d-296b" name="Pistol" hidden="false" targetId="3a81-e812-849e-1d92" type="profile"/>
+        <infoLink id="dfda-7f81-a039-a19a" name="Knife" hidden="false" targetId="1ed7-8d7c-f190-78d2" type="profile"/>
+        <infoLink id="3dc0-9c48-2e52-79cf" name="Heavy Armour" hidden="false" targetId="b098-75ec-54b4-02f5" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="86c4-882f-08bc-5887" name="New CategoryLink" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
+        <categoryLink id="14b2-f310-fa6a-a467" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1fc4-b68a-929f-4fca" name="Recruit" hidden="false" collective="false" import="true" targetId="47b9-b6d6-5068-6959" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="143c-6f60-0ac9-8302" name="Pistol" hidden="false" targetId="3a81-e812-849e-1d92" type="profile"/>
+        <infoLink id="a73e-da5e-846b-4c6a" name="Light Armour" hidden="false" targetId="eb6d-253d-4d80-d778" type="profile"/>
+        <infoLink id="3262-e200-a20b-9e2f" name="Knife" hidden="false" targetId="1ed7-8d7c-f190-78d2" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f741-377c-9d2a-806d" name="New CategoryLink" hidden="false" targetId="12dd-f26c-ca77-721a" primary="true"/>
+        <categoryLink id="1883-467f-efd6-a7eb" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="50f1-7efb-5f8a-9de3" name="Runner" hidden="false" collective="false" import="true" targetId="f23b-6f05-b103-c7d5" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="0205-df0e-1ebf-a979" name="Knife" hidden="false" targetId="1ed7-8d7c-f190-78d2" type="profile"/>
+        <infoLink id="6c24-cae7-1b91-1409" name="Pistol" hidden="false" targetId="3a81-e812-849e-1d92" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8140-f934-d52a-8fa6" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+        <categoryLink id="75fa-2774-4c8d-66d9" name="New CategoryLink" hidden="false" targetId="12dd-f26c-ca77-721a" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ba7f-0d61-b3c6-3ccd" name="Hacker" hidden="false" collective="false" import="true" targetId="0c09-0d89-d90d-876b" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="0442-6478-19bb-f412" name="Pistol" hidden="false" targetId="3a81-e812-849e-1d92" type="profile"/>
+        <infoLink id="19c2-534f-008d-7db1" name="Light Armour" hidden="false" targetId="eb6d-253d-4d80-d778" type="profile"/>
+        <infoLink id="df70-4b1b-e319-881a" name="Knife" hidden="false" targetId="1ed7-8d7c-f190-78d2" type="profile"/>
+        <infoLink id="504d-1424-a0df-3117" name="Deck" hidden="false" targetId="f616-0201-95ab-bfa7" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="51b9-6296-1334-d081" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+        <categoryLink id="a717-1541-6663-2a5a" name="New CategoryLink" hidden="false" targetId="12dd-f26c-ca77-721a" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="2357-b27f-841e-6061" name="Chisler" hidden="false" collective="false" import="true" targetId="131b-c9c6-1454-f5c4" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="f1d5-f3b1-df59-4976" name="Pistol" hidden="false" targetId="3a81-e812-849e-1d92" type="profile"/>
+        <infoLink id="a24b-8ec3-65cc-e2c3" name="Picks" hidden="false" targetId="434d-59ed-0898-1ac7" type="profile"/>
+        <infoLink id="a85b-39ed-1d7b-b081" name="Light Armour" hidden="false" targetId="eb6d-253d-4d80-d778" type="profile"/>
+        <infoLink id="3b32-ecc2-c443-33f8" name="Knife" hidden="false" targetId="1ed7-8d7c-f190-78d2" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="af30-97b1-2ff2-18b3" name="New CategoryLink" hidden="false" targetId="12dd-f26c-ca77-721a" primary="true"/>
+        <categoryLink id="2ab0-4d19-62f3-1c07" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d6f0-ce33-5aea-4009" name="Guard Dog" hidden="false" collective="false" import="true" targetId="a8f1-fcf4-f430-4f54" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c15a-ca74-88b0-b6b7" name="New CategoryLink" hidden="false" targetId="12dd-f26c-ca77-721a" primary="true"/>
+        <categoryLink id="0fbe-80f2-e651-85e3" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="43d8-e5db-163c-85c1" name="Sentry" hidden="false" collective="false" import="true" targetId="c67f-2f9f-3fc0-9d0d" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="0d60-4b26-2009-072d" name="Carbine" hidden="false" targetId="33df-9e64-5d0e-ddf0" type="profile"/>
+        <infoLink id="5b03-6010-ba51-9563" name="Heavy Armour" hidden="false" targetId="b098-75ec-54b4-02f5" type="profile"/>
+        <infoLink id="82d0-2206-ec3b-7432" name="Hand Weapon" hidden="false" targetId="9474-d826-128b-3e89" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1751-5905-5425-d02a" name="New CategoryLink" hidden="false" targetId="12dd-f26c-ca77-721a" primary="true"/>
+        <categoryLink id="df41-a48d-40f0-6194" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ac03-007d-dada-c15d" name="Trooper" hidden="false" collective="false" import="true" targetId="50cd-3310-aa7c-fc1f" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="add7-290a-650b-8cb4" name="Carbine" hidden="false" targetId="33df-9e64-5d0e-ddf0" type="profile"/>
+        <infoLink id="e5d8-ef0a-1d81-72f3" name="Heavy Armour" hidden="false" targetId="b098-75ec-54b4-02f5" type="profile"/>
+        <infoLink id="7e4d-06fb-fb76-2d6d" name="Knife" hidden="false" targetId="1ed7-8d7c-f190-78d2" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d000-e835-14e7-9ea8" name="New CategoryLink" hidden="false" targetId="12dd-f26c-ca77-721a" primary="true"/>
+        <categoryLink id="9a07-0f11-f1e4-42be" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="de70-4ea5-633b-b6d0" name="Medic" hidden="false" collective="false" import="true" targetId="a1cc-ac3b-a9cb-2547" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="b462-b02f-fafb-329b" name="Pistol" hidden="false" targetId="3a81-e812-849e-1d92" type="profile"/>
+        <infoLink id="5e88-3872-1a82-e933" name="Light Armour" hidden="false" targetId="eb6d-253d-4d80-d778" type="profile"/>
+        <infoLink id="cafe-7f14-ba3e-b7f1" name="Medic Kit" hidden="false" targetId="5907-12d3-16ad-484f" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2991-1161-6fa3-4295" name="New CategoryLink" hidden="false" targetId="12dd-f26c-ca77-721a" primary="true"/>
+        <categoryLink id="ee6b-435d-f49c-10a6" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+</catalogue>
