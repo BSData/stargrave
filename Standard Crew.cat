@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="6d21-733c-e47e-558a" name="Standard Crew" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="b7a1-a7ef-bd2f-c484" gameSystemRevision="9" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1adb-b357-2db9-e646" name="Standard Crew" revision="4" battleScribeVersion="2.03" library="false" gameSystemId="b7a1-a7ef-bd2f-c484" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="e7fc-369a-1059-31e1" name="First Mate Biomorph" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -573,7 +573,7 @@
     </selectionEntry>
     <selectionEntry id="9136-661e-90b6-fd97" name="Biomorph" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="5670-2b8c-af42-0f33" name="Biomorph" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
+        <profile id="9a57-b0f7-874c-8fff" name="Biomorph" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
           <modifiers>
             <modifier type="increment" field="dc65-e78a-d390-d9d5" value="1">
               <conditions>

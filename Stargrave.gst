@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="b7a1-a7ef-bd2f-c484" name="Stargrave" revision="8" battleScribeVersion="2.03" authorName="Eric Gibert" authorContact="ericgibert@yahoo.fr" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="b7a1-a7ef-bd2f-c484" name="Stargrave" revision="10" battleScribeVersion="2.03" authorName="Eric Gibert" authorContact="ericgibert@yahoo.fr" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <comment>Stargrave </comment>
   <publications>
     <publication id="205d-6ed1-3ffa-ebbb" name="Stragrave" publisher="Osprey Games"/>
@@ -75,7 +75,7 @@
   <forceEntries>
     <forceEntry id="798e-117b-84d4-1408" name="Stargrave Crew" publicationId="205d-6ed1-3ffa-ebbb" page="11" hidden="false">
       <categoryLinks>
-        <categoryLink id="f361-8942-ceb1-7f8b" name="Soldier" hidden="false" targetId="12dd-f26c-ca77-721a" primary="false">
+        <categoryLink id="f361-8942-ceb1-7f8b" name="Soldiers" hidden="false" targetId="12dd-f26c-ca77-721a" primary="false">
           <modifiers>
             <modifier type="set" field="name" value="Soldiers">
               <conditions>
@@ -84,7 +84,7 @@
             </modifier>
           </modifiers>
         </categoryLink>
-        <categoryLink id="900a-bb03-7b3b-0fe1" name="Specialist" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="false">
+        <categoryLink id="900a-bb03-7b3b-0fe1" name="Specialists" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="false">
           <modifiers>
             <modifier type="set" field="name" value="Specialists">
               <conditions>
@@ -721,12 +721,41 @@
       <infoLinks>
         <infoLink id="989b-0e0a-9031-7fb7" name="Heavy Armour" hidden="false" targetId="b098-75ec-54b4-02f5" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e6de-0e1b-01a2-306f" name="is a Robot" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="950a-cd3d-a6a4-2232" type="max"/>
-        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e89-6641-0cbf-498b" type="min"/>
       </constraints>
+      <costs>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3094-bb20-c571-1ce3" name="Snap-shot" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="ecd6-1476-9e7f-43b1" name="Snap-shot" hidden="false" targetId="1181-23e9-c3a4-035e" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="1.0"/>
+        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2142-0f14-2ee3-210e" name="Indestructible Carbine" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="a017-e9eb-bc28-2545" name="Indestructible Carbine" hidden="false" targetId="4e7e-ac64-3f76-e35d" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -1717,6 +1746,14 @@ Creates an impenetrable, transparent wall, up to 6” long and 3” high anywher
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="1.0"/>
           </costs>
         </entryLink>
+        <entryLink id="316f-1045-7157-7b88" name="Indestructible Carbine" hidden="false" collective="false" import="true" targetId="2142-0f14-2ee3-210e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6459-b44d-2d81-ffb9" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="2.0"/>
+          </costs>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
@@ -1769,7 +1806,7 @@ Creates an impenetrable, transparent wall, up to 6” long and 3” high anywher
         <characteristic name="Notes" typeId="1d86-7031-0559-c0d3"/>
       </characteristics>
     </profile>
-    <profile id="8930-1266-4a29-0816" name="Rapid Fire" hidden="false" typeId="b3e7-8aac-9b40-b90f" typeName="Weapon">
+    <profile id="8930-1266-4a29-0816" name="Indestructible Rapid Fire" hidden="false" typeId="b3e7-8aac-9b40-b90f" typeName="Weapon">
       <characteristics>
         <characteristic name="Damage Modifier" typeId="2f98-8b41-3393-8e5d">+2</characteristic>
         <characteristic name="Max Range" typeId="0ca8-352b-e65a-1036">24&quot;</characteristic>
@@ -1859,6 +1896,34 @@ Creates an impenetrable, transparent wall, up to 6” long and 3” high anywher
       <characteristics>
         <characteristic name="Description" typeId="375c-f713-d0a7-cdfe">The common slang-term for a small tool-kit designed to break through physical locks and restraints and useful for unlocking physical-loot counters. Any figure carrying picks receives a +6 on their rolls to unlock physical-loot.</characteristic>
         <characteristic name="Gear Slots" typeId="9da0-a8d8-37f7-b9a1">1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4e7e-ac64-3f76-e35d" name="Indestructible Carbine" hidden="false" typeId="b3e7-8aac-9b40-b90f" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Damage Modifier" typeId="2f98-8b41-3393-8e5d">-</characteristic>
+        <characteristic name="Max Range" typeId="0ca8-352b-e65a-1036">24&quot;</characteristic>
+        <characteristic name="Gear Slots" typeId="ab7f-6a7e-3141-0227">2</characteristic>
+        <characteristic name="Notes" typeId="1d86-7031-0559-c0d3"/>
+      </characteristics>
+    </profile>
+    <profile id="27f4-b50e-40f9-33ac" name="Displacement Field" hidden="false" typeId="3ea4-c854-8cee-54d9" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Description" typeId="375c-f713-d0a7-cdfe">This piece of technology can detect incoming fire and phase her out of reality until the danger has passed. Whenever a figure makes a Shooting attack against Cyrstophon, the shot will miss automatically (regardless of any other factors) if the result shown on the die (i.e. before any modifiers are applied) is an odd number. The displacement field confers no benefits in hand-to-hand combat.</characteristic>
+        <characteristic name="Gear Slots" typeId="9da0-a8d8-37f7-b9a1">1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1181-23e9-c3a4-035e" name="Snap-shot" hidden="false" typeId="3ea4-c854-8cee-54d9" typeName="Equipment">
+      <characteristics>
+        <characteristic name="Description" typeId="375c-f713-d0a7-cdfe">Whenever a figure activates within line of sight of this model or moves into its line of sight during their activation, this model immediately interrupts that activation and makes a +1 Shooting attack against the figure. Once this attack has been resolved and any effects (stunned, wounded, etc.) applied, the figure may continue its activation if it is able. There is no limit to the number of these ‘snap shots’ that this modelre may make per turn, but each figure may only be attacked in this way once per turn.</characteristic>
+        <characteristic name="Gear Slots" typeId="9da0-a8d8-37f7-b9a1">1</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b3ca-b785-4ce7-ec01" name="Rapid Fire" hidden="false" typeId="b3e7-8aac-9b40-b90f" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Damage Modifier" typeId="2f98-8b41-3393-8e5d">+2</characteristic>
+        <characteristic name="Max Range" typeId="0ca8-352b-e65a-1036">24&quot;</characteristic>
+        <characteristic name="Gear Slots" typeId="ab7f-6a7e-3141-0227">3</characteristic>
+        <characteristic name="Notes" typeId="1d86-7031-0559-c0d3">2 targets, -1 Move unless wearing heavy armour or combat armour.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

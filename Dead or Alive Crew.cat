@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="b1f0-5a8d-12f3-af0d" name="Dead or Alive Crew" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="b7a1-a7ef-bd2f-c484" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="5263-178a-f3d3-4e7c" name="Crystophon Marrs" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="5670-2b8c-af42-0f33" name="Crystophon Marrs" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="dc65-e78a-d390-d9d5">6</characteristic>
+            <characteristic name="F" typeId="453a-8ce6-f448-bb37">+4</characteristic>
+            <characteristic name="S" typeId="d603-9472-1d68-663e">+4</characteristic>
+            <characteristic name="A" typeId="d1a5-3245-2f90-1ffe">11</characteristic>
+            <characteristic name="W" typeId="cd10-7835-de9f-ba64">+6</characteristic>
+            <characteristic name="H" typeId="c25e-02c0-2580-ff3c">14</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="53ca-bd2b-8e23-300e" name="Indestructible Carbine" hidden="false" targetId="4e7e-ac64-3f76-e35d" type="profile"/>
+        <infoLink id="d637-d781-d7e5-f6bf" name="Pistol" hidden="false" targetId="3a81-e812-849e-1d92" type="profile"/>
+        <infoLink id="b792-f448-67fa-3374" name="Hand Weapon" hidden="false" targetId="9474-d826-128b-3e89" type="profile"/>
+        <infoLink id="c2b3-3c2d-33e5-c5c9" name="Heavy Armour" hidden="false" targetId="b098-75ec-54b4-02f5" type="profile"/>
+        <infoLink id="95dc-9863-2091-8f86" name="Displacement Field" hidden="false" targetId="27f4-b50e-40f9-33ac" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="86c6-aab1-08c0-1777" name="New CategoryLink" hidden="false" targetId="16bf-5402-ac6a-dab3" primary="true"/>
+        <categoryLink id="5226-3765-b393-524d" name="Faction: Dead or Alive Crew" hidden="false" targetId="83e3-703e-bdef-f3b1" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="0589-c8f7-ea71-882c" name="Bounty" hidden="false" collective="false" import="true" targetId="731e-1314-df5e-0fa9" type="selectionEntry">
+          <costs>
+            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="300.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="66f6-9a82-96a7-2f96" name="Thamix Phage" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="c38d-d651-3d64-f3ae" name="Thamix Phage" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="dc65-e78a-d390-d9d5">6</characteristic>
+            <characteristic name="F" typeId="453a-8ce6-f448-bb37">+4</characteristic>
+            <characteristic name="S" typeId="d603-9472-1d68-663e">+3</characteristic>
+            <characteristic name="A" typeId="d1a5-3245-2f90-1ffe">14</characteristic>
+            <characteristic name="W" typeId="cd10-7835-de9f-ba64">+3</characteristic>
+            <characteristic name="H" typeId="c25e-02c0-2580-ff3c">14</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7fd3-0727-e596-7513" name="Indestructible Carbine" hidden="false" targetId="4e7e-ac64-3f76-e35d" type="profile"/>
+        <infoLink id="970f-0a76-0f71-f1dc" name="Combat Armour" hidden="false" targetId="47a8-ff0e-8853-f4c1" type="profile"/>
+        <infoLink id="717d-2dcc-44c7-92f8" name="Snap-shot" hidden="false" targetId="1181-23e9-c3a4-035e" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7c59-dbc4-636b-ac65" name="New CategoryLink" hidden="false" targetId="16bf-5402-ac6a-dab3" primary="true"/>
+        <categoryLink id="ca46-8230-c55f-4561" name="Faction: Dead or Alive Crew" hidden="false" targetId="83e3-703e-bdef-f3b1" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4a12-72e9-696e-ee3a" name="Bounty" hidden="false" collective="false" import="true" targetId="731e-1314-df5e-0fa9" type="selectionEntry">
+          <costs>
+            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="350.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c12e-ea6d-d73f-768c" name="Dogorin the Soulshark" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="83ef-e39c-e2ab-87c5" name="Dogorin the Soulshark" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="dc65-e78a-d390-d9d5">6</characteristic>
+            <characteristic name="F" typeId="453a-8ce6-f448-bb37">+4</characteristic>
+            <characteristic name="S" typeId="d603-9472-1d68-663e">+2</characteristic>
+            <characteristic name="A" typeId="d1a5-3245-2f90-1ffe">11</characteristic>
+            <characteristic name="W" typeId="cd10-7835-de9f-ba64">+8</characteristic>
+            <characteristic name="H" typeId="c25e-02c0-2580-ff3c">16</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="179d-c916-ca54-ea40" name="Hand Weapon" hidden="false" targetId="9474-d826-128b-3e89" type="profile"/>
+        <infoLink id="d921-eafc-1514-f486" name="Pistol" hidden="false" targetId="3a81-e812-849e-1d92" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="61ca-6974-471e-e415" name="New CategoryLink" hidden="false" targetId="16bf-5402-ac6a-dab3" primary="true"/>
+        <categoryLink id="96cc-476f-a1bf-dfe8" name="Faction: Dead or Alive Crew" hidden="false" targetId="83e3-703e-bdef-f3b1" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5970-8269-bd4b-6574" name="Bounty" hidden="false" collective="false" import="true" targetId="731e-1314-df5e-0fa9" type="selectionEntry">
+          <costs>
+            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="250.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="e25e-2390-4105-7e53" name="Dark Energy" hidden="false" collective="false" import="true" targetId="e7b1-92c2-8781-9e01" type="selectionEntry"/>
+        <entryLink id="e4cf-5804-55f6-8a42" name="Psionic Fire" hidden="false" collective="false" import="true" targetId="4281-ac7e-77ba-7e42" type="selectionEntry"/>
+        <entryLink id="0c79-0e2b-462d-381e" name="Regenerate" hidden="false" collective="false" import="true" targetId="1545-d219-59d5-e596" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="734b-25e8-99e2-c7b0" name="Pondo-Pondo" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="9f05-e57c-76c7-9d0e" name="Pondo-Pondo" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="dc65-e78a-d390-d9d5">5</characteristic>
+            <characteristic name="F" typeId="453a-8ce6-f448-bb37">+4</characteristic>
+            <characteristic name="S" typeId="d603-9472-1d68-663e">+1</characteristic>
+            <characteristic name="A" typeId="d1a5-3245-2f90-1ffe">11</characteristic>
+            <characteristic name="W" typeId="cd10-7835-de9f-ba64">+10</characteristic>
+            <characteristic name="H" typeId="c25e-02c0-2580-ff3c">16</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ee89-e3db-ea3b-327f" name="Natural Weapons" hidden="false" typeId="b3e7-8aac-9b40-b90f" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Damage Modifier" typeId="2f98-8b41-3393-8e5d">-</characteristic>
+            <characteristic name="Max Range" typeId="0ca8-352b-e65a-1036">-</characteristic>
+            <characteristic name="Gear Slots" typeId="ab7f-6a7e-3141-0227">-</characteristic>
+            <characteristic name="Notes" typeId="1d86-7031-0559-c0d3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="5b83-cacc-bf3f-3fda" name="New CategoryLink" hidden="false" targetId="16bf-5402-ac6a-dab3" primary="true"/>
+        <categoryLink id="1dc2-ac21-6ae7-058f" name="Faction: Dead or Alive Crew" hidden="false" targetId="83e3-703e-bdef-f3b1" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="85c0-1c45-e8c0-09e6" name="Bounty" hidden="false" collective="false" import="true" targetId="731e-1314-df5e-0fa9" type="selectionEntry">
+          <costs>
+            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="300.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="64ea-6ab1-440d-9482" name="Hypnotic Suggestion" hidden="false" collective="false" import="true" targetId="da1a-0442-2f64-e815" type="selectionEntry"/>
+        <entryLink id="4066-4e0c-e8c5-de65" name="Hypnotic Force" hidden="false" collective="false" import="true" targetId="91c1-3dee-5d80-92ed" type="selectionEntry"/>
+        <entryLink id="a22a-4f63-eebf-53d0" name="Levitate" hidden="false" collective="false" import="true" targetId="6396-80c0-857e-a4ea" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b2bb-3061-0596-4225" name="Collen Preks" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="198c-f91b-3ec9-9e56" name="Collen Preks" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="dc65-e78a-d390-d9d5">6</characteristic>
+            <characteristic name="F" typeId="453a-8ce6-f448-bb37">+5</characteristic>
+            <characteristic name="S" typeId="d603-9472-1d68-663e">+5</characteristic>
+            <characteristic name="A" typeId="d1a5-3245-2f90-1ffe">12</characteristic>
+            <characteristic name="W" typeId="cd10-7835-de9f-ba64">+3</characteristic>
+            <characteristic name="H" typeId="c25e-02c0-2580-ff3c">14</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="75de-fbb9-eb76-d911" name="Knife" hidden="false" targetId="1ed7-8d7c-f190-78d2" type="profile"/>
+        <infoLink id="688c-c5ef-081b-ad91" name="Indestructible Rapid Fire" hidden="false" targetId="8930-1266-4a29-0816" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="fadd-eb8d-4763-924b" name="New CategoryLink" hidden="false" targetId="16bf-5402-ac6a-dab3" primary="true"/>
+        <categoryLink id="0258-7780-0f19-6b36" name="Faction: Dead or Alive Crew" hidden="false" targetId="83e3-703e-bdef-f3b1" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4fdc-2363-2bb0-ff22" name="Bounty" hidden="false" collective="false" import="true" targetId="731e-1314-df5e-0fa9" type="selectionEntry">
+          <costs>
+            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="300.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="66cb-ed9f-7a07-2712" name="Armoured Trooper" hidden="false" collective="false" import="true" targetId="a4c3-a70e-6571-f5f1" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="2618-5a5e-83e1-7d35" name="Carbine" hidden="false" targetId="33df-9e64-5d0e-ddf0" type="profile"/>
+        <infoLink id="04f7-36f2-6309-4b8b" name="Combat Armour" hidden="false" targetId="47a8-ff0e-8853-f4c1" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5355-b0a5-bf21-fafe" name="Specialists" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
+        <categoryLink id="63a5-13db-28ba-63f0" name="Faction: Dead or Alive Crew" hidden="false" targetId="83e3-703e-bdef-f3b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d3d6-8c92-bf78-0a1a" name="Commando" hidden="false" collective="false" import="true" targetId="25d0-2116-83ce-c078" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="4333-065d-faa4-5e66" name="Carbine" hidden="false" targetId="33df-9e64-5d0e-ddf0" type="profile"/>
+        <infoLink id="8622-909c-6be3-57f0" name="Grenade –Fragmentation" hidden="false" targetId="3e4d-99d7-96e7-f55a" type="profile"/>
+        <infoLink id="af44-d58f-277f-1cf8" name="Grenade –Smoke" hidden="false" targetId="5326-388e-c567-dd48" type="profile"/>
+        <infoLink id="f786-5724-5fd6-3c4c" name="Heavy Armour" hidden="false" targetId="b098-75ec-54b4-02f5" type="profile"/>
+        <infoLink id="7662-55c6-64d6-9ced" name="Hand Weapon" hidden="false" targetId="9474-d826-128b-3e89" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c47a-65c7-f596-6b73" name="New CategoryLink" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
+        <categoryLink id="f581-af4b-c664-36ab" name="Faction: Dead or Alive Crew" hidden="false" targetId="83e3-703e-bdef-f3b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6c15-7a01-381e-c6be" name="Burner" hidden="false" collective="false" import="true" targetId="3af1-995d-6a3f-2164" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="fb9c-08e8-a1b5-989e" name="Flamethrower" hidden="false" targetId="b73f-ed92-99a9-ea6f" type="profile"/>
+        <infoLink id="df09-0b25-083b-fcfe" name="Pistol" hidden="false" targetId="3a81-e812-849e-1d92" type="profile"/>
+        <infoLink id="999b-91f8-8a64-22ce" name="Knife" hidden="false" targetId="1ed7-8d7c-f190-78d2" type="profile"/>
+        <infoLink id="9fe8-8ea7-e79e-a32d" name="Heavy Armour" hidden="false" targetId="b098-75ec-54b4-02f5" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8e4d-c8a4-4521-2e9e" name="New CategoryLink" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
+        <categoryLink id="50f4-1cc4-4408-9e80" name="Faction: Dead or Alive Crew" hidden="false" targetId="83e3-703e-bdef-f3b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="cf38-33a4-3c13-ee3b" name="Codebreaker" hidden="false" collective="false" import="true" targetId="aee4-e6c5-e21b-8623" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="7c00-1e1e-ac56-f8e8" name="Carbine" hidden="false" targetId="33df-9e64-5d0e-ddf0" type="profile"/>
+        <infoLink id="b7d3-f6b3-6d25-dd4f" name="Deck" hidden="false" targetId="f616-0201-95ab-bfa7" type="profile"/>
+        <infoLink id="3ce7-262f-0204-8bfe" name="Knife" hidden="false" targetId="1ed7-8d7c-f190-78d2" type="profile"/>
+        <infoLink id="2fa1-c635-245b-5e25" name="Light Armour" hidden="false" targetId="eb6d-253d-4d80-d778" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a4f6-85d5-3075-3f91" name="New CategoryLink" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
+        <categoryLink id="763c-2430-868b-3fb9" name="Faction: Dead or Alive Crew" hidden="false" targetId="83e3-703e-bdef-f3b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="aea1-451b-c651-174f" name="Casecracker" hidden="false" collective="false" import="true" targetId="fa49-9ab4-5565-f466" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="932b-f965-7c6e-b194" name="Carbine" hidden="false" targetId="33df-9e64-5d0e-ddf0" type="profile"/>
+        <infoLink id="f259-48da-6025-3568" name="Picks" hidden="false" targetId="434d-59ed-0898-1ac7" type="profile"/>
+        <infoLink id="6c81-37fa-6e8f-719f" name="Light Armour" hidden="false" targetId="eb6d-253d-4d80-d778" type="profile"/>
+        <infoLink id="4e44-80c0-d1c1-0e8b" name="Knife" hidden="false" targetId="1ed7-8d7c-f190-78d2" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="af65-3254-1e96-be0f" name="New CategoryLink" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
+        <categoryLink id="249e-c63d-6a37-3885" name="Faction: Dead or Alive Crew" hidden="false" targetId="83e3-703e-bdef-f3b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8ecf-8474-7f8f-ae6a" name="Pathfinder" hidden="false" collective="false" import="true" targetId="8516-acdf-df6c-426d" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="1192-7ed8-08f1-e73c" name="Carbine" hidden="false" targetId="33df-9e64-5d0e-ddf0" type="profile"/>
+        <infoLink id="164a-b401-0deb-549b" name="Grenade –Fragmentation" hidden="false" targetId="3e4d-99d7-96e7-f55a" type="profile"/>
+        <infoLink id="d623-cd69-fba2-decd" name="Grenade –Smoke" hidden="false" targetId="5326-388e-c567-dd48" type="profile"/>
+        <infoLink id="2fb8-3d8c-a9fe-0924" name="Heavy Armour" hidden="false" targetId="b098-75ec-54b4-02f5" type="profile"/>
+        <infoLink id="2746-6701-2f1a-ccda" name="Hand Weapon" hidden="false" targetId="9474-d826-128b-3e89" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="93a2-6ccf-d3f5-6780" name="New CategoryLink" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
+        <categoryLink id="8b12-eab6-02f9-9d79" name="Faction: Dead or Alive Crew" hidden="false" targetId="83e3-703e-bdef-f3b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4fe0-6c1a-12a5-0b58" name="Sniper" hidden="false" collective="false" import="true" targetId="7ab1-4642-39ca-f8e1" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="6f82-12a4-46df-fc84" name="Carbine" hidden="false" targetId="33df-9e64-5d0e-ddf0" type="profile"/>
+        <infoLink id="6a94-a3c6-0a91-8910" name="Light Armour" hidden="false" targetId="eb6d-253d-4d80-d778" type="profile"/>
+        <infoLink id="db0a-5010-8b66-fad6" name="Hand Weapon" hidden="false" targetId="9474-d826-128b-3e89" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1209-f78c-0d17-fb90" name="New CategoryLink" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
+        <categoryLink id="1c56-b4cb-6777-6b42" name="Faction: Dead or Alive Crew" hidden="false" targetId="83e3-703e-bdef-f3b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8433-d72f-9216-0c6a" name="Grenadier" hidden="false" collective="false" import="true" targetId="d9db-e7da-d7fb-2ade" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="f999-9094-c0bb-4d87" name="Grenade Launcher" hidden="false" targetId="fb0d-2aee-5b14-124d" type="profile"/>
+        <infoLink id="7d7b-3997-5ebd-70f8" name="Pistol" hidden="false" targetId="3a81-e812-849e-1d92" type="profile"/>
+        <infoLink id="9a64-b431-1fe3-d2da" name="Heavy Armour" hidden="false" targetId="b098-75ec-54b4-02f5" type="profile"/>
+        <infoLink id="fd17-55d5-d66b-4a77" name="Knife" hidden="false" targetId="1ed7-8d7c-f190-78d2" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8603-227f-456a-280d" name="New CategoryLink" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
+        <categoryLink id="42ed-72bc-e711-d634" name="Faction: Dead or Alive Crew" hidden="false" targetId="83e3-703e-bdef-f3b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e4a2-000f-e535-fa27" name="Gunner" hidden="false" collective="false" import="true" targetId="de59-b02d-a3e1-8f76" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="94ac-ff01-1f7c-2952" name="Rapid Fire" hidden="false" targetId="8930-1266-4a29-0816" type="profile"/>
+        <infoLink id="1a78-3fb5-6a6d-296b" name="Pistol" hidden="false" targetId="3a81-e812-849e-1d92" type="profile"/>
+        <infoLink id="dfda-7f81-a039-a19a" name="Knife" hidden="false" targetId="1ed7-8d7c-f190-78d2" type="profile"/>
+        <infoLink id="3dc0-9c48-2e52-79cf" name="Heavy Armour" hidden="false" targetId="b098-75ec-54b4-02f5" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="86c4-882f-08bc-5887" name="New CategoryLink" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
+        <categoryLink id="8843-1117-0271-89b0" name="Faction: Dead or Alive Crew" hidden="false" targetId="83e3-703e-bdef-f3b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3e53-e64a-354e-64cc" name="Recruit" hidden="false" collective="false" import="true" targetId="47b9-b6d6-5068-6959" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="143c-6f60-0ac9-8302" name="Pistol" hidden="false" targetId="3a81-e812-849e-1d92" type="profile"/>
+        <infoLink id="a73e-da5e-846b-4c6a" name="Light Armour" hidden="false" targetId="eb6d-253d-4d80-d778" type="profile"/>
+        <infoLink id="3262-e200-a20b-9e2f" name="Knife" hidden="false" targetId="1ed7-8d7c-f190-78d2" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f741-377c-9d2a-806d" name="New CategoryLink" hidden="false" targetId="12dd-f26c-ca77-721a" primary="true"/>
+        <categoryLink id="2031-a9c9-4432-f022" name="Faction: Dead or Alive Crew" hidden="false" targetId="83e3-703e-bdef-f3b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="570e-8269-e6a4-47fe" name="Runner" hidden="false" collective="false" import="true" targetId="f23b-6f05-b103-c7d5" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="0205-df0e-1ebf-a979" name="Knife" hidden="false" targetId="1ed7-8d7c-f190-78d2" type="profile"/>
+        <infoLink id="6c24-cae7-1b91-1409" name="Pistol" hidden="false" targetId="3a81-e812-849e-1d92" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="75fa-2774-4c8d-66d9" name="New CategoryLink" hidden="false" targetId="12dd-f26c-ca77-721a" primary="true"/>
+        <categoryLink id="4eb7-d7dc-e5fa-df13" name="Faction: Dead or Alive Crew" hidden="false" targetId="83e3-703e-bdef-f3b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="cea1-33db-9613-2647" name="Hacker" hidden="false" collective="false" import="true" targetId="0c09-0d89-d90d-876b" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="0442-6478-19bb-f412" name="Pistol" hidden="false" targetId="3a81-e812-849e-1d92" type="profile"/>
+        <infoLink id="19c2-534f-008d-7db1" name="Light Armour" hidden="false" targetId="eb6d-253d-4d80-d778" type="profile"/>
+        <infoLink id="df70-4b1b-e319-881a" name="Knife" hidden="false" targetId="1ed7-8d7c-f190-78d2" type="profile"/>
+        <infoLink id="504d-1424-a0df-3117" name="Deck" hidden="false" targetId="f616-0201-95ab-bfa7" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a717-1541-6663-2a5a" name="New CategoryLink" hidden="false" targetId="12dd-f26c-ca77-721a" primary="true"/>
+        <categoryLink id="fab9-c8ff-7a29-d19a" name="Faction: Dead or Alive Crew" hidden="false" targetId="83e3-703e-bdef-f3b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="90a3-3791-0465-8897" name="Chisler" hidden="false" collective="false" import="true" targetId="131b-c9c6-1454-f5c4" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="f1d5-f3b1-df59-4976" name="Pistol" hidden="false" targetId="3a81-e812-849e-1d92" type="profile"/>
+        <infoLink id="a24b-8ec3-65cc-e2c3" name="Picks" hidden="false" targetId="434d-59ed-0898-1ac7" type="profile"/>
+        <infoLink id="a85b-39ed-1d7b-b081" name="Light Armour" hidden="false" targetId="eb6d-253d-4d80-d778" type="profile"/>
+        <infoLink id="3b32-ecc2-c443-33f8" name="Knife" hidden="false" targetId="1ed7-8d7c-f190-78d2" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="af30-97b1-2ff2-18b3" name="New CategoryLink" hidden="false" targetId="12dd-f26c-ca77-721a" primary="true"/>
+        <categoryLink id="5707-0486-2535-18f3" name="Faction: Dead or Alive Crew" hidden="false" targetId="83e3-703e-bdef-f3b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d549-2150-7d14-6d78" name="Guard Dog" hidden="false" collective="false" import="true" targetId="a8f1-fcf4-f430-4f54" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c15a-ca74-88b0-b6b7" name="New CategoryLink" hidden="false" targetId="12dd-f26c-ca77-721a" primary="true"/>
+        <categoryLink id="6036-4e2a-aafd-2060" name="Faction: Dead or Alive Crew" hidden="false" targetId="83e3-703e-bdef-f3b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="8aee-a18b-d11f-883d" name="Sentry" hidden="false" collective="false" import="true" targetId="c67f-2f9f-3fc0-9d0d" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="0d60-4b26-2009-072d" name="Carbine" hidden="false" targetId="33df-9e64-5d0e-ddf0" type="profile"/>
+        <infoLink id="5b03-6010-ba51-9563" name="Heavy Armour" hidden="false" targetId="b098-75ec-54b4-02f5" type="profile"/>
+        <infoLink id="82d0-2206-ec3b-7432" name="Hand Weapon" hidden="false" targetId="9474-d826-128b-3e89" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1751-5905-5425-d02a" name="New CategoryLink" hidden="false" targetId="12dd-f26c-ca77-721a" primary="true"/>
+        <categoryLink id="3889-d8dd-e3b2-d226" name="Faction: Dead or Alive Crew" hidden="false" targetId="83e3-703e-bdef-f3b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="72f1-d292-edbe-157a" name="Trooper" hidden="false" collective="false" import="true" targetId="50cd-3310-aa7c-fc1f" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="add7-290a-650b-8cb4" name="Carbine" hidden="false" targetId="33df-9e64-5d0e-ddf0" type="profile"/>
+        <infoLink id="e5d8-ef0a-1d81-72f3" name="Heavy Armour" hidden="false" targetId="b098-75ec-54b4-02f5" type="profile"/>
+        <infoLink id="7e4d-06fb-fb76-2d6d" name="Knife" hidden="false" targetId="1ed7-8d7c-f190-78d2" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d000-e835-14e7-9ea8" name="New CategoryLink" hidden="false" targetId="12dd-f26c-ca77-721a" primary="true"/>
+        <categoryLink id="c8a6-57a1-3099-b094" name="Faction: Dead or Alive Crew" hidden="false" targetId="83e3-703e-bdef-f3b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6302-657a-fdfc-182e" name="Medic" hidden="false" collective="false" import="true" targetId="a1cc-ac3b-a9cb-2547" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="b462-b02f-fafb-329b" name="Pistol" hidden="false" targetId="3a81-e812-849e-1d92" type="profile"/>
+        <infoLink id="5e88-3872-1a82-e933" name="Light Armour" hidden="false" targetId="eb6d-253d-4d80-d778" type="profile"/>
+        <infoLink id="cafe-7f14-ba3e-b7f1" name="Medic Kit" hidden="false" targetId="5907-12d3-16ad-484f" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2991-1161-6fa3-4295" name="New CategoryLink" hidden="false" targetId="12dd-f26c-ca77-721a" primary="true"/>
+        <categoryLink id="2c34-14db-5f75-b41e" name="Faction: Dead or Alive Crew" hidden="false" targetId="83e3-703e-bdef-f3b1" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="731e-1314-df5e-0fa9" name="Bounty" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e7b1-92c2-8781-9e01" name="Dark Energy" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="303f-3b06-35c3-70df" name="Dark Energy" hidden="false">
+          <description>Activation: 10 / Strain: 1 / Line of Sight
+The figure makes a +5 Shooting attack against any target within 12”. This attack ignores any armour worn by a figure (so subtract a figure’s armour 1modifier from their armour). Increase this attack to +7 against robots. If this attack targets a figure in combat, do not randomize the target, it can only hit the intended target. (Armour Interference).</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4281-ac7e-77ba-7e42" name="Psionic Fire" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="ab66-fd7d-ff6e-a450" name="Psionic Fire" hidden="false">
+          <description>Activation: 10 / Strain: 1 / Self Only
+The activator should place two flamethrower templates as thought the figure had just made a flamethrower attack. These templates may be touching, but may not overlap. Every figure touching a template immediately suffers a +3 flamethrower attack (see page 32). Figures only suffer one attack even if touching both templates. (Armour Interference).</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1545-d219-59d5-e596" name="Regenerate" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="abeb-b916-bd07-3302" name="Regenerate" hidden="false">
+          <description>Activation: 8 / Strain: 0 / Self Only
+The activator regains up to 3 points of lost Health.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="da1a-0442-2f64-e815" name="Hypnotic Suggestion" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="8eae-44c8-3cd7-59fd" name="Hypnotic Suggestion" hidden="false">
+          <description>Any figure that wishes to either move into combat with or make a Shooting attack against this model must first pass a Will Roll (TN14). If the roll is failed, the figure loses the action.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="91c1-3dee-5d80-92ed" name="Hypnotic Force" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="3669-be00-0bb6-1377" name="Hypnotic Force" hidden="false">
+          <description>This mental attack has unlimited range but requires line of sight to the target. This is a +4 attack, with the target using its Will Stat instead of if its Fight Stat for its Combat Roll. All figures are treated as Armour 10 when determining damage from this attack.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6396-80c0-857e-a4ea" name="Levitate" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="6415-91ca-5678-b211" name="Levitate" hidden="false">
+          <description>This creature never suffers any movement penalty for moving over rough ground or climbing.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
+        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>
