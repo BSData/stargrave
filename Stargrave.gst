@@ -2,7 +2,7 @@
 <gameSystem id="b7a1-a7ef-bd2f-c484" name="Stargrave" revision="10" battleScribeVersion="2.03" authorName="Eric Gibert" authorContact="ericgibert@yahoo.fr" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <comment>Stargrave </comment>
   <publications>
-    <publication id="205d-6ed1-3ffa-ebbb" name="Stragrave" publisher="Osprey Games"/>
+    <publication id="205d-6ed1-3ffa-ebbb" name="Stargrave" publisher="Osprey Games"/>
   </publications>
   <costTypes>
     <costType id="97c0-4241-980e-66e8" name="Crd" defaultCostLimit="-1.0" hidden="false"/>
@@ -187,9 +187,9 @@
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="131b-c9c6-1454-f5c4" name="Chisler" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="131b-c9c6-1454-f5c4" name="Chiseler" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="5080-5249-a859-187f" name="Chisler" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
+        <profile id="5080-5249-a859-187f" name="Chiseler" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
           <characteristics>
             <characteristic name="M" typeId="dc65-e78a-d390-d9d5">6</characteristic>
             <characteristic name="F" typeId="453a-8ce6-f448-bb37">+1</characteristic>
