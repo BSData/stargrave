@@ -537,7 +537,7 @@
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5458-bb3d-f66c-0c0f" name="Carabine" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="5458-bb3d-f66c-0c0f" name="Carbine" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="e163-99c4-ffd6-9698" name="Carbine" hidden="false" targetId="33df-9e64-5d0e-ddf0" type="profile"/>
       </infoLinks>
@@ -1610,7 +1610,7 @@ Creates an impenetrable, transparent wall, up to 6” long and 3” high anywher
     </selectionEntryGroup>
     <selectionEntryGroup id="270a-a5c0-3695-1fe4" name="Gears" hidden="false" collective="false" import="true">
       <entryLinks>
-        <entryLink id="0aab-f8ec-ff68-b16f" name="Carabine" hidden="false" collective="false" import="true" targetId="5458-bb3d-f66c-0c0f" type="selectionEntry">
+        <entryLink id="0aab-f8ec-ff68-b16f" name="Carbine" hidden="false" collective="false" import="true" targetId="5458-bb3d-f66c-0c0f" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdd2-4108-ee01-2333" type="max"/>
           </constraints>
