@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b1f0-5a8d-12f3-af0d" name="Dead or Alive Crew" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="b7a1-a7ef-bd2f-c484" gameSystemRevision="10" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b1f0-5a8d-12f3-af0d" name="Dead or Alive Crew" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="b7a1-a7ef-bd2f-c484" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="5263-178a-f3d3-4e7c" name="Crystophon Marrs" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -167,6 +167,7 @@
       <infoLinks>
         <infoLink id="75de-fbb9-eb76-d911" name="Knife" hidden="false" targetId="1ed7-8d7c-f190-78d2" type="profile"/>
         <infoLink id="688c-c5ef-081b-ad91" name="Indestructible Rapid Fire" hidden="false" targetId="8930-1266-4a29-0816" type="profile"/>
+        <infoLink id="d9dc-929e-bb89-dd8d" name="Heavy Armour" hidden="false" targetId="b098-75ec-54b4-02f5" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="fadd-eb8d-4763-924b" name="New CategoryLink" hidden="false" targetId="16bf-5402-ac6a-dab3" primary="true"/>
@@ -178,6 +179,9 @@
             <cost name="Crd" typeId="97c0-4241-980e-66e8" value="300.0"/>
           </costs>
         </entryLink>
+        <entryLink id="b470-fcc3-ea3e-7769" name="Never Wounded" hidden="false" collective="false" import="true" targetId="f186-a03a-6bc8-bb5b" type="selectionEntry"/>
+        <entryLink id="116b-718e-fb64-5613" name="Never Stunned" hidden="false" collective="false" import="true" targetId="9f01-fe97-5a17-44eb" type="selectionEntry"/>
+        <entryLink id="8091-e105-d942-f927" name="Immune to Critical Hits" hidden="false" collective="false" import="true" targetId="7495-99f9-9849-d18a" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
@@ -381,6 +385,10 @@
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="731e-1314-df5e-0fa9" name="Bounty" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8d2-e773-3b29-d5c1" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a095-a1a4-e7a2-914d" type="min"/>
+      </constraints>
       <costs>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
         <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
@@ -388,6 +396,10 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="e7b1-92c2-8781-9e01" name="Dark Energy" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a523-21a9-6242-fd8c" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30d8-8bc5-fb70-37ee" type="min"/>
+      </constraints>
       <rules>
         <rule id="303f-3b06-35c3-70df" name="Dark Energy" hidden="false">
           <description>Activation: 10 / Strain: 1 / Line of Sight
@@ -401,6 +413,10 @@ The figure makes a +5 Shooting attack against any target within 12”. This atta
       </costs>
     </selectionEntry>
     <selectionEntry id="4281-ac7e-77ba-7e42" name="Psionic Fire" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80cc-25df-7572-15f4" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e414-5251-3c5d-7d89" type="max"/>
+      </constraints>
       <rules>
         <rule id="ab66-fd7d-ff6e-a450" name="Psionic Fire" hidden="false">
           <description>Activation: 10 / Strain: 1 / Self Only
@@ -408,12 +424,16 @@ The activator should place two flamethrower templates as thought the figure had 
         </rule>
       </rules>
       <costs>
-        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="1.0"/>
         <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
         <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1545-d219-59d5-e596" name="Regenerate" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1bc9-93e3-05c8-7a98" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6808-9f74-842e-5d60" type="max"/>
+      </constraints>
       <rules>
         <rule id="abeb-b916-bd07-3302" name="Regenerate" hidden="false">
           <description>Activation: 8 / Strain: 0 / Self Only
@@ -427,6 +447,10 @@ The activator regains up to 3 points of lost Health.</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="da1a-0442-2f64-e815" name="Hypnotic Suggestion" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33a0-425c-94a0-da0c" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7bb-4f4a-6959-eb69" type="max"/>
+      </constraints>
       <rules>
         <rule id="8eae-44c8-3cd7-59fd" name="Hypnotic Suggestion" hidden="false">
           <description>Any figure that wishes to either move into combat with or make a Shooting attack against this model must first pass a Will Roll (TN14). If the roll is failed, the figure loses the action.</description>
@@ -439,6 +463,10 @@ The activator regains up to 3 points of lost Health.</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="91c1-3dee-5d80-92ed" name="Hypnotic Force" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f443-30e4-d4a3-4ed6" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ba7-c540-a13f-a663" type="max"/>
+      </constraints>
       <rules>
         <rule id="3669-be00-0bb6-1377" name="Hypnotic Force" hidden="false">
           <description>This mental attack has unlimited range but requires line of sight to the target. This is a +4 attack, with the target using its Will Stat instead of if its Fight Stat for its Combat Roll. All figures are treated as Armour 10 when determining damage from this attack.</description>
@@ -451,6 +479,10 @@ The activator regains up to 3 points of lost Health.</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="6396-80c0-857e-a4ea" name="Levitate" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f401-a188-cb71-1a3c" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36d8-5b16-b061-de93" type="max"/>
+      </constraints>
       <rules>
         <rule id="6415-91ca-5678-b211" name="Levitate" hidden="false">
           <description>This creature never suffers any movement penalty for moving over rough ground or climbing.</description>
@@ -461,6 +493,39 @@ The activator regains up to 3 points of lost Health.</description>
         <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
         <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="7495-99f9-9849-d18a" name="Immune to Critical Hits" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d20-61bb-fda4-1030" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85df-1a17-6191-471e" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="1ce2-ae3a-5600-07af" name="Immune to Critical Hits" hidden="false">
+          <description>This creature never suffers any extra Damage from a critical hit. Its opponent still automatically wins the fight on a roll of 20, but no additional Damage is inflicted.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry id="9f01-fe97-5a17-44eb" name="Never Stunned" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06e8-5cbc-9842-6490" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b614-3b53-421c-1b10" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="aaa1-7b35-85db-5f41" name="Never Stunned" hidden="false">
+          <description>This creature is never stunned, regardless of how much Damage it suffers from a shooting attack.</description>
+        </rule>
+      </rules>
+    </selectionEntry>
+    <selectionEntry id="f186-a03a-6bc8-bb5b" name="Never Wounded" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6808-5859-5600-b7bd" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7aff-3351-7038-441a" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="e4ed-cb53-88f1-233c" name="Never Wounded" hidden="false">
+          <description>This creature never suffers any penalties for being wounded.</description>
+        </rule>
+      </rules>
     </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>

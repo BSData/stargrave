@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="b7a1-a7ef-bd2f-c484" name="Stargrave" revision="10" battleScribeVersion="2.03" authorName="Eric Gibert" authorContact="ericgibert@yahoo.fr" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="b7a1-a7ef-bd2f-c484" name="Stargrave" revision="11" battleScribeVersion="2.03" authorName="Eric Gibert" authorContact="ericgibert@yahoo.fr" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <comment>Stargrave </comment>
   <publications>
     <publication id="205d-6ed1-3ffa-ebbb" name="Stargrave" publisher="Osprey Games"/>
@@ -94,20 +94,8 @@
           </modifiers>
         </categoryLink>
         <categoryLink id="01de-23b7-3e21-f63d" name="Configuration" hidden="false" targetId="9ddb-8d0f-b99a-39a5" primary="false"/>
-        <categoryLink id="c620-6d7a-aa9f-64dc" name="Captain" hidden="false" targetId="16bf-5402-ac6a-dab3" primary="false">
-          <rules>
-            <rule id="467a-c486-ca71-f243" name="Power Activation" publicationId="205d-6ed1-3ffa-ebbb" page="19" hidden="false">
-              <description>If this power is not one of your core powers, then the activation number is equal to the one listed for that power +2.</description>
-            </rule>
-          </rules>
-        </categoryLink>
-        <categoryLink id="5736-f25a-ae8c-8235" name="First Mate" hidden="false" targetId="8749-37ea-6f9e-0824" primary="false">
-          <rules>
-            <rule id="9c1d-b120-44a9-3f7c" name="Power Activation" publicationId="205d-6ed1-3ffa-ebbb" page="22" hidden="false">
-              <description>Take the activation number listed for that power and add +2 if it is a core power, +4 if it is not.</description>
-            </rule>
-          </rules>
-        </categoryLink>
+        <categoryLink id="c620-6d7a-aa9f-64dc" name="Captain" hidden="false" targetId="16bf-5402-ac6a-dab3" primary="false"/>
+        <categoryLink id="5736-f25a-ae8c-8235" name="First Mate" hidden="false" targetId="8749-37ea-6f9e-0824" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -1757,6 +1745,14 @@ Creates an impenetrable, transparent wall, up to 6” long and 3” high anywher
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="b036-a7e7-db3f-d23b" name="Power Activation (Captain)" publicationId="205d-6ed1-3ffa-ebbb" page="19" hidden="false">
+      <description>If this power is not one of your core powers, then the activation number is equal to the one listed for that power +2.</description>
+    </rule>
+    <rule id="6819-fdeb-c82b-4b42" name="Power Activation (First Mate)" publicationId="205d-6ed1-3ffa-ebbb" page="22" hidden="false">
+      <description>Take the activation number listed for that power and add +2 if it is a core power, +4 if it is not.</description>
+    </rule>
+  </sharedRules>
   <sharedProfiles>
     <profile id="6d34-5bce-381a-5876" name="Unarmed" hidden="false" typeId="b3e7-8aac-9b40-b90f" typeName="Weapon">
       <characteristics>
