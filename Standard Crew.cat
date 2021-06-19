@@ -1637,7 +1637,7 @@
         <categoryLink id="a717-1541-6663-2a5a" name="New CategoryLink" hidden="false" targetId="12dd-f26c-ca77-721a" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="2357-b27f-841e-6061" name="Chisler" hidden="false" collective="false" import="true" targetId="131b-c9c6-1454-f5c4" type="selectionEntry">
+    <entryLink id="2357-b27f-841e-6061" name="Chiseler" hidden="false" collective="false" import="true" targetId="131b-c9c6-1454-f5c4" type="selectionEntry">
       <infoLinks>
         <infoLink id="f1d5-f3b1-df59-4976" name="Pistol" hidden="false" targetId="3a81-e812-849e-1d92" type="profile"/>
         <infoLink id="a24b-8ec3-65cc-e2c3" name="Picks" hidden="false" targetId="434d-59ed-0898-1ac7" type="profile"/>
