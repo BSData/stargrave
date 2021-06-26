@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1adb-b357-2db9-e646" name="Standard Crew" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="b7a1-a7ef-bd2f-c484" gameSystemRevision="11" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1adb-b357-2db9-e646" name="Standard Crew" revision="18" battleScribeVersion="2.03" library="false" gameSystemId="b7a1-a7ef-bd2f-c484" gameSystemRevision="28" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="e7fc-369a-1059-31e1" name="First Mate Biomorph" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -34,6 +34,7 @@
       <categoryLinks>
         <categoryLink id="8311-91aa-c814-8b07" name="First Mate" hidden="false" targetId="8749-37ea-6f9e-0824" primary="true"/>
         <categoryLink id="d5b8-841f-4545-96e8" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+        <categoryLink id="cc77-9394-8453-8046" name="Core Biomorph" hidden="false" targetId="6939-3fb3-687a-2a0b" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="7a5e-f557-3a97-3a3e" name="Biomorph Choices" hidden="false" collective="false" import="true">
@@ -50,6 +51,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="54d1-3c5f-8e6d-61a8" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
@@ -60,6 +62,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e902-9a47-9cb1-b0ef" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
@@ -70,6 +73,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -90,11 +94,13 @@
           </constraints>
         </entryLink>
         <entryLink id="4868-71e6-8250-a229" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
+        <entryLink id="f530-504a-ca0a-2f64" name="Level" hidden="false" collective="false" import="true" targetId="4cd1-ff48-5eaf-e868" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
         <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+        <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4441-f05c-6eb0-22da" name="Veteran" hidden="false" collective="false" import="true" type="model">
@@ -130,6 +136,7 @@
       <categoryLinks>
         <categoryLink id="8ff2-30aa-43bc-cb09" name="New CategoryLink" hidden="false" targetId="16bf-5402-ac6a-dab3" primary="true"/>
         <categoryLink id="2874-379c-edd6-be27" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+        <categoryLink id="ed84-e859-9033-cb52" name="Core Veteran" hidden="false" targetId="1510-fec4-0334-8026" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="ae3c-8685-84ee-a21f" name="Veteran Choices" hidden="false" collective="false" import="true">
@@ -143,6 +150,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5853-69a5-4263-2ab0" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
@@ -150,6 +158,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8f48-0f41-257b-f8e9" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
@@ -157,6 +166,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -177,11 +187,13 @@
           </constraints>
         </entryLink>
         <entryLink id="a8df-e6de-d7fc-ca45" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
+        <entryLink id="883d-b85e-69aa-131a" name="Level" hidden="false" collective="false" import="true" targetId="4cd1-ff48-5eaf-e868" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
         <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+        <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fc64-9d1d-1a02-4051" name="Tekker" hidden="false" collective="false" import="true" type="model">
@@ -222,6 +234,7 @@
       <categoryLinks>
         <categoryLink id="35c6-2cd7-f948-2500" name="New CategoryLink" hidden="false" targetId="16bf-5402-ac6a-dab3" primary="true"/>
         <categoryLink id="dec7-f1f9-9467-dda4" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+        <categoryLink id="4ad3-f807-029a-c028" name="Core Tekker" hidden="false" targetId="8702-3db8-4e88-faf8" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="9068-16c6-8c81-5313" name="Tekker Choices" hidden="false" collective="false" import="true">
@@ -238,6 +251,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e09e-fe6f-424b-8750" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
@@ -248,6 +262,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1501-9652-2282-05b9" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
@@ -258,6 +273,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="709e-fe9b-05d8-f238" name="+1 Health" hidden="false" collective="false" import="true" type="upgrade">
@@ -268,6 +284,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -288,11 +305,13 @@
             <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="81fc-96be-8d62-b641" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="3e7b-9158-a182-0eb0" name="Level" hidden="false" collective="false" import="true" targetId="4cd1-ff48-5eaf-e868" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
         <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+        <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="35b5-2789-88be-ffd1" name="Psionicist" hidden="false" collective="false" import="true" type="model">
@@ -328,6 +347,7 @@
       <categoryLinks>
         <categoryLink id="4ef0-6230-5e45-3a57" name="New CategoryLink" hidden="false" targetId="16bf-5402-ac6a-dab3" primary="true"/>
         <categoryLink id="5b45-0540-21c9-5030" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+        <categoryLink id="19f9-568e-873c-fe20" name="Core Psionicist" hidden="false" targetId="9e36-ac96-3132-f141" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="0feb-779f-8aac-74e6" name="Psionicist Choices" hidden="false" collective="false" import="true">
@@ -341,6 +361,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="193b-e638-1b37-a9db" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
@@ -348,6 +369,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d8f4-0c56-aa60-06c4" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
@@ -355,6 +377,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -375,11 +398,13 @@
             <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4d23-5af5-1887-f5f8" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="5475-8bd2-752e-093d" name="Level" hidden="false" collective="false" import="true" targetId="4cd1-ff48-5eaf-e868" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
         <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+        <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7e2b-7422-9372-bcc3" name="Robotics Expert" hidden="false" collective="false" import="true" type="model">
@@ -420,6 +445,7 @@
       <categoryLinks>
         <categoryLink id="ae7f-210d-3465-ed45" name="New CategoryLink" hidden="false" targetId="16bf-5402-ac6a-dab3" primary="true"/>
         <categoryLink id="d4b5-9657-c842-a0f0" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+        <categoryLink id="e77d-ff66-ff01-8ddc" name="Core Robotics Expert" hidden="false" targetId="9d84-3333-57c7-92ea" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="84d5-3c86-a373-7475" name="Robotics Expert Choices" hidden="false" collective="false" import="true">
@@ -436,6 +462,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b9d8-51e5-8551-87f6" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
@@ -446,6 +473,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="77c7-0bd2-1f34-e91e" name="+1 Health" hidden="false" collective="false" import="true" type="upgrade">
@@ -456,6 +484,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c206-f02f-3526-f5e2" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
@@ -466,6 +495,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -486,11 +516,13 @@
             <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2e17-71b6-19e5-7dca" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="da4d-ef57-ed71-fa18" name="Level" hidden="false" collective="false" import="true" targetId="4cd1-ff48-5eaf-e868" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
         <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+        <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="84fc-0ae6-ae73-c028" name="Rogue" hidden="false" collective="false" import="true" type="model">
@@ -526,6 +558,7 @@
       <categoryLinks>
         <categoryLink id="507e-8c4a-6c57-0b45" name="New CategoryLink" hidden="false" targetId="16bf-5402-ac6a-dab3" primary="true"/>
         <categoryLink id="0d1a-aa0b-1477-c293" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+        <categoryLink id="aa17-e351-5291-6887" name="Core Rogue" hidden="false" targetId="8e49-f5d3-e9cd-c200" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="0796-7cb2-2bbe-9b1d" name="Rogue Choices" hidden="false" collective="false" import="true">
@@ -542,6 +575,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5dc5-ef9e-029c-578c" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
@@ -552,6 +586,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e7b7-1a52-477b-a4d8" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
@@ -562,6 +597,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -582,11 +618,13 @@
             <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="35da-5e76-765c-b445" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="7161-f59e-c756-4519" name="Level" hidden="false" collective="false" import="true" targetId="4cd1-ff48-5eaf-e868" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
         <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+        <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9136-661e-90b6-fd97" name="Biomorph" hidden="false" collective="false" import="true" type="model">
@@ -622,6 +660,7 @@
       <categoryLinks>
         <categoryLink id="86c6-aab1-08c0-1777" name="New CategoryLink" hidden="false" targetId="16bf-5402-ac6a-dab3" primary="true"/>
         <categoryLink id="f0b7-a6a3-6835-3555" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+        <categoryLink id="7327-32d0-7b9b-7d3a" name="Core Biomorph" hidden="false" targetId="6939-3fb3-687a-2a0b" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="a253-5a7a-0b29-69e8" name="Biomorph Choices" hidden="false" collective="false" import="true">
@@ -638,6 +677,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5da0-36a4-e1b8-f091" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
@@ -648,6 +688,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="32b5-8aa4-780a-32f6" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
@@ -658,6 +699,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -678,11 +720,13 @@
             <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d639-8402-d3d8-56d8" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="29e2-57ab-4e4e-28ab" name="Level" hidden="false" collective="false" import="true" targetId="4cd1-ff48-5eaf-e868" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
         <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+        <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9d6d-a32d-7054-364c" name="First Mate Cyborg" hidden="false" collective="false" import="true" type="model">
@@ -718,6 +762,7 @@
       <categoryLinks>
         <categoryLink id="419f-8d93-437f-5d37" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
         <categoryLink id="2660-2790-ff55-079d" name="New CategoryLink" hidden="false" targetId="8749-37ea-6f9e-0824" primary="true"/>
+        <categoryLink id="69c5-3f47-9c2c-2679" name="Core Cyborg" hidden="false" targetId="1795-c4e8-6ca2-380b" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="a8ab-62ad-974c-cf58" name="Cyborg Choices" hidden="false" collective="false" import="true">
@@ -734,6 +779,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3323-4c53-a815-4277" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
@@ -744,6 +790,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="aab4-ecb5-ea16-e3f5" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
@@ -754,6 +801,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -774,11 +822,13 @@
           </constraints>
         </entryLink>
         <entryLink id="0094-d7d0-41bc-0008" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
+        <entryLink id="18fe-cde1-1fd3-7c2c" name="Level" hidden="false" collective="false" import="true" targetId="4cd1-ff48-5eaf-e868" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
         <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+        <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="36d1-0a6b-8a65-fe71" name="Mystic" hidden="false" collective="false" import="true" type="model">
@@ -814,6 +864,7 @@
       <categoryLinks>
         <categoryLink id="d598-3c9e-508d-638d" name="New CategoryLink" hidden="false" targetId="16bf-5402-ac6a-dab3" primary="true"/>
         <categoryLink id="cfae-8e4d-1df1-5f88" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+        <categoryLink id="b899-829e-71e6-4086" name="Core Mystic" hidden="false" targetId="2934-b054-68dc-0468" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="1c92-a4e1-b741-d48b" name="Mystic Choices" hidden="false" collective="false" import="true">
@@ -827,6 +878,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c946-3359-82a7-829f" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
@@ -834,6 +886,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="457d-79d2-2714-50c1" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
@@ -841,6 +894,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -861,11 +915,13 @@
             <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d7cb-bbc1-a503-360e" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="5652-961b-fa02-ddfb" name="Level" hidden="false" collective="false" import="true" targetId="4cd1-ff48-5eaf-e868" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
         <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+        <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b3fd-a4d7-4d23-f7ce" name="Cyborg" hidden="false" collective="false" import="true" type="model">
@@ -901,6 +957,7 @@
       <categoryLinks>
         <categoryLink id="7c59-dbc4-636b-ac65" name="New CategoryLink" hidden="false" targetId="16bf-5402-ac6a-dab3" primary="true"/>
         <categoryLink id="d37b-517c-e43c-420d" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
+        <categoryLink id="1a8a-68d7-a518-a9a2" name="Core Cyborg" hidden="false" targetId="1795-c4e8-6ca2-380b" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="81d5-9e98-4704-c64e" name="Cyborg Choices" hidden="false" collective="false" import="true">
@@ -917,6 +974,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="11f3-e54d-39ef-8381" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
@@ -927,6 +985,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3b44-2734-bc3c-bb51" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
@@ -937,6 +996,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -957,11 +1017,13 @@
             <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a9b3-d1fa-fb48-2d27" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="cf3b-2653-070f-dcb7" name="Level" hidden="false" collective="false" import="true" targetId="4cd1-ff48-5eaf-e868" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
         <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+        <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="703b-b594-1549-7ce4" name="First Mate Mystic" hidden="false" collective="false" import="true" type="model">
@@ -997,6 +1059,7 @@
       <categoryLinks>
         <categoryLink id="cb96-0bb8-86b0-3c55" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
         <categoryLink id="a942-8ca7-000e-8ad5" name="New CategoryLink" hidden="false" targetId="8749-37ea-6f9e-0824" primary="true"/>
+        <categoryLink id="f939-e75d-95a0-cde9" name="Core Mystic" hidden="false" targetId="2934-b054-68dc-0468" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="3fb3-ece1-7d5b-2aab" name="Mystic Choices" hidden="false" collective="false" import="true">
@@ -1010,6 +1073,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="11db-61bb-a94b-227c" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
@@ -1017,6 +1081,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b59d-7931-829d-a558" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
@@ -1024,6 +1089,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1044,11 +1110,13 @@
           </constraints>
         </entryLink>
         <entryLink id="a9f9-71ef-16fb-c7a1" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
+        <entryLink id="6117-60d1-8069-1e95" name="Level" hidden="false" collective="false" import="true" targetId="4cd1-ff48-5eaf-e868" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
         <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+        <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dd7b-042e-4d07-7f8e" name="First Mate Psionicist" hidden="false" collective="false" import="true" type="model">
@@ -1084,6 +1152,7 @@
       <categoryLinks>
         <categoryLink id="573b-142b-f363-c8f9" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
         <categoryLink id="43af-9fdd-02b8-fb8c" name="New CategoryLink" hidden="false" targetId="8749-37ea-6f9e-0824" primary="true"/>
+        <categoryLink id="9607-cd4b-c4ef-ed40" name="Core Psionicist" hidden="false" targetId="9e36-ac96-3132-f141" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="719e-1c33-b21e-8e1e" name="Psionicist Choices" hidden="false" collective="false" import="true">
@@ -1097,6 +1166,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="905d-6d81-90cc-1067" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
@@ -1104,6 +1174,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="fa77-54db-3456-86e5" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
@@ -1111,6 +1182,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1131,11 +1203,13 @@
           </constraints>
         </entryLink>
         <entryLink id="72f3-ca90-ab7a-02a9" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
+        <entryLink id="3b57-0082-c9c0-5723" name="Level" hidden="false" collective="false" import="true" targetId="4cd1-ff48-5eaf-e868" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
         <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+        <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7caf-92d2-2c83-f857" name="First Mate Robotics Expert" hidden="false" collective="false" import="true" type="model">
@@ -1176,6 +1250,7 @@
       <categoryLinks>
         <categoryLink id="b906-f815-88e5-7daf" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
         <categoryLink id="77ed-f571-ba1a-5a81" name="New CategoryLink" hidden="false" targetId="8749-37ea-6f9e-0824" primary="true"/>
+        <categoryLink id="7835-a316-f5ad-5af1" name="Core Robotics Expert" hidden="false" targetId="9d84-3333-57c7-92ea" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="032c-91c2-68db-0a89" name="Robotics Expert Choices" hidden="false" collective="false" import="true">
@@ -1192,6 +1267,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="540a-a336-a6fc-6aea" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
@@ -1202,6 +1278,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="db90-74d0-aa74-43c5" name="+1 Health" hidden="false" collective="false" import="true" type="upgrade">
@@ -1212,6 +1289,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5cb8-80c4-3a0f-3eb8" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
@@ -1222,6 +1300,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1242,11 +1321,13 @@
           </constraints>
         </entryLink>
         <entryLink id="8bf1-8e48-af6b-347b" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
+        <entryLink id="43e1-36ec-98da-6818" name="Level" hidden="false" collective="false" import="true" targetId="4cd1-ff48-5eaf-e868" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
         <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+        <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6199-8f8e-c0fe-38ea" name="First Mate Rogue" hidden="false" collective="false" import="true" type="model">
@@ -1282,6 +1363,7 @@
       <categoryLinks>
         <categoryLink id="e919-91a0-b518-518c" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
         <categoryLink id="ad69-c071-227f-636a" name="New CategoryLink" hidden="false" targetId="8749-37ea-6f9e-0824" primary="true"/>
+        <categoryLink id="ff15-8195-0742-b48c" name="Core Rogue" hidden="false" targetId="8e49-f5d3-e9cd-c200" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="b7e8-7db1-b702-043b" name="Rogue Choices" hidden="false" collective="false" import="true">
@@ -1298,6 +1380,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3666-82f5-e5cd-0e6b" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
@@ -1308,6 +1391,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c40d-38e2-2da5-e730" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
@@ -1318,6 +1402,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1338,11 +1423,13 @@
           </constraints>
         </entryLink>
         <entryLink id="57cf-2d46-2e84-2821" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
+        <entryLink id="6456-6895-ed60-15e2" name="Level" hidden="false" collective="false" import="true" targetId="4cd1-ff48-5eaf-e868" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
         <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+        <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ce96-23fc-e0b7-e3e8" name="First Mate Tekker" hidden="false" collective="false" import="true" type="model">
@@ -1383,6 +1470,7 @@
       <categoryLinks>
         <categoryLink id="d517-3aba-473d-2aa0" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
         <categoryLink id="cbde-364b-fc1f-824f" name="New CategoryLink" hidden="false" targetId="8749-37ea-6f9e-0824" primary="true"/>
+        <categoryLink id="cb7e-d608-5078-993c" name="Core Tekker" hidden="false" targetId="8702-3db8-4e88-faf8" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="7236-e2bc-4650-0565" name="Tekker Choices" hidden="false" collective="false" import="true">
@@ -1399,6 +1487,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3aea-f295-c83e-8864" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
@@ -1409,6 +1498,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3ce8-551c-625b-45f6" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
@@ -1419,6 +1509,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="449a-2a69-7e11-59e2" name="+1 Health" hidden="false" collective="false" import="true" type="upgrade">
@@ -1429,6 +1520,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1449,11 +1541,13 @@
           </constraints>
         </entryLink>
         <entryLink id="6b04-ad04-79d0-97b3" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
+        <entryLink id="9312-50da-4f61-0e54" name="Level" hidden="false" collective="false" import="true" targetId="4cd1-ff48-5eaf-e868" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
         <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+        <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4bea-2bb5-2b58-e0fd" name="First Mate Veteran" hidden="false" collective="false" import="true" type="model">
@@ -1489,6 +1583,7 @@
       <categoryLinks>
         <categoryLink id="d8c3-5c9f-5268-ce7c" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
         <categoryLink id="dfdd-53dc-d756-4f70" name="New CategoryLink" hidden="false" targetId="8749-37ea-6f9e-0824" primary="true"/>
+        <categoryLink id="581c-34ec-897b-7e5e" name="Core Veteran" hidden="false" targetId="1510-fec4-0334-8026" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="77c5-657f-fb5d-39c6" name="Veteran Choices" hidden="false" collective="false" import="true">
@@ -1502,6 +1597,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e1f3-5290-6b92-2d55" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
@@ -1509,6 +1605,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1bc1-840a-ddf7-e61e" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
@@ -1516,6 +1613,7 @@
                 <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1536,11 +1634,13 @@
           </constraints>
         </entryLink>
         <entryLink id="ea56-faae-a5ba-40ad" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
+        <entryLink id="525b-c257-558e-7219" name="Level" hidden="false" collective="false" import="true" targetId="4cd1-ff48-5eaf-e868" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
         <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+        <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -1559,7 +1659,6 @@
       <infoLinks>
         <infoLink id="4333-065d-faa4-5e66" name="Carbine" hidden="false" targetId="33df-9e64-5d0e-ddf0" type="profile"/>
         <infoLink id="8622-909c-6be3-57f0" name="Grenade –Fragmentation" hidden="false" targetId="3e4d-99d7-96e7-f55a" type="profile"/>
-        <infoLink id="af44-d58f-277f-1cf8" name="Grenade –Smoke" hidden="false" targetId="5326-388e-c567-dd48" type="profile"/>
         <infoLink id="f786-5724-5fd6-3c4c" name="Heavy Armour" hidden="false" targetId="b098-75ec-54b4-02f5" type="profile"/>
         <infoLink id="7662-55c6-64d6-9ced" name="Hand Weapon" hidden="false" targetId="9474-d826-128b-3e89" type="profile"/>
       </infoLinks>
@@ -1608,7 +1707,6 @@
       <infoLinks>
         <infoLink id="1192-7ed8-08f1-e73c" name="Carbine" hidden="false" targetId="33df-9e64-5d0e-ddf0" type="profile"/>
         <infoLink id="164a-b401-0deb-549b" name="Grenade –Fragmentation" hidden="false" targetId="3e4d-99d7-96e7-f55a" type="profile"/>
-        <infoLink id="d623-cd69-fba2-decd" name="Grenade –Smoke" hidden="false" targetId="5326-388e-c567-dd48" type="profile"/>
         <infoLink id="2fb8-3d8c-a9fe-0924" name="Heavy Armour" hidden="false" targetId="b098-75ec-54b4-02f5" type="profile"/>
         <infoLink id="2746-6701-2f1a-ccda" name="Hand Weapon" hidden="false" targetId="9474-d826-128b-3e89" type="profile"/>
       </infoLinks>
@@ -1737,4 +1835,7 @@
       </categoryLinks>
     </entryLink>
   </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="4cd1-ff48-5eaf-e868" name="Level" hidden="false" collective="false" import="true" type="upgrade"/>
+  </sharedSelectionEntries>
 </catalogue>
