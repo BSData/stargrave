@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1adb-b357-2db9-e646" name="Standard Crew" revision="18" battleScribeVersion="2.03" library="false" gameSystemId="b7a1-a7ef-bd2f-c484" gameSystemRevision="28" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1adb-b357-2db9-e646" name="Standard Crew" revision="20" battleScribeVersion="2.03" library="false" gameSystemId="b7a1-a7ef-bd2f-c484" gameSystemRevision="33" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="e7fc-369a-1059-31e1" name="First Mate Biomorph" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -48,10 +48,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6a2-9bc0-c9f2-f278" type="max"/>
               </constraints>
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="54d1-3c5f-8e6d-61a8" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
@@ -59,10 +57,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75b3-1c29-94b7-bf3b" type="max"/>
               </constraints>
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e902-9a47-9cb1-b0ef" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
@@ -70,10 +66,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec11-5af1-9876-fb74" type="max"/>
               </constraints>
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -98,9 +92,7 @@
       </entryLinks>
       <costs>
         <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
-        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4441-f05c-6eb0-22da" name="Veteran" hidden="false" collective="false" import="true" type="model">
@@ -147,26 +139,20 @@
           <selectionEntries>
             <selectionEntry id="4111-be6e-185e-4c7f" name="+1 Move" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5853-69a5-4263-2ab0" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8f48-0f41-257b-f8e9" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -191,9 +177,7 @@
       </entryLinks>
       <costs>
         <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
-        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fc64-9d1d-1a02-4051" name="Tekker" hidden="false" collective="false" import="true" type="model">
@@ -248,10 +232,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33b0-8f4e-eb2c-70fa" type="max"/>
               </constraints>
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e09e-fe6f-424b-8750" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
@@ -259,10 +241,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abe6-7a6d-bb2a-12f9" type="max"/>
               </constraints>
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1501-9652-2282-05b9" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
@@ -270,10 +250,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62bd-5499-0616-a90c" type="max"/>
               </constraints>
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="709e-fe9b-05d8-f238" name="+1 Health" hidden="false" collective="false" import="true" type="upgrade">
@@ -281,10 +259,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5dac-8722-f814-e1bc" type="max"/>
               </constraints>
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -308,10 +284,8 @@
         <entryLink id="3e7b-9158-a182-0eb0" name="Level" hidden="false" collective="false" import="true" targetId="4cd1-ff48-5eaf-e868" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
         <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="35b5-2789-88be-ffd1" name="Psionicist" hidden="false" collective="false" import="true" type="model">
@@ -358,26 +332,20 @@
           <selectionEntries>
             <selectionEntry id="af2c-c120-b6fd-ab2b" name="+1 Move" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="193b-e638-1b37-a9db" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d8f4-0c56-aa60-06c4" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -401,10 +369,8 @@
         <entryLink id="5475-8bd2-752e-093d" name="Level" hidden="false" collective="false" import="true" targetId="4cd1-ff48-5eaf-e868" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
         <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7e2b-7422-9372-bcc3" name="Robotics Expert" hidden="false" collective="false" import="true" type="model">
@@ -459,10 +425,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d0b-4e15-1050-da67" type="max"/>
               </constraints>
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b9d8-51e5-8551-87f6" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
@@ -470,10 +434,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78a4-fcd7-61b2-4f6c" type="max"/>
               </constraints>
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="77c7-0bd2-1f34-e91e" name="+1 Health" hidden="false" collective="false" import="true" type="upgrade">
@@ -481,10 +443,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91dc-ae27-a2af-61eb" type="max"/>
               </constraints>
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c206-f02f-3526-f5e2" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
@@ -492,10 +452,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4722-52eb-02d4-900b" type="max"/>
               </constraints>
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -519,10 +477,8 @@
         <entryLink id="da4d-ef57-ed71-fa18" name="Level" hidden="false" collective="false" import="true" targetId="4cd1-ff48-5eaf-e868" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
         <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="84fc-0ae6-ae73-c028" name="Rogue" hidden="false" collective="false" import="true" type="model">
@@ -572,10 +528,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63e1-3b96-a76d-32b8" type="max"/>
               </constraints>
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5dc5-ef9e-029c-578c" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
@@ -583,10 +537,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecf7-c4d2-6e8a-5e0d" type="max"/>
               </constraints>
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e7b7-1a52-477b-a4d8" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
@@ -594,10 +546,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ccf-362d-0e0f-50f5" type="max"/>
               </constraints>
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -621,10 +571,8 @@
         <entryLink id="7161-f59e-c756-4519" name="Level" hidden="false" collective="false" import="true" targetId="4cd1-ff48-5eaf-e868" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
         <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9136-661e-90b6-fd97" name="Biomorph" hidden="false" collective="false" import="true" type="model">
@@ -674,10 +622,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c11-965d-74a2-7870" type="max"/>
               </constraints>
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5da0-36a4-e1b8-f091" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
@@ -685,10 +631,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10f9-d9dc-3e90-34c7" type="max"/>
               </constraints>
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="32b5-8aa4-780a-32f6" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
@@ -696,10 +640,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ed9-43e2-d2a5-2de5" type="max"/>
               </constraints>
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -723,10 +665,8 @@
         <entryLink id="29e2-57ab-4e4e-28ab" name="Level" hidden="false" collective="false" import="true" targetId="4cd1-ff48-5eaf-e868" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
         <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9d6d-a32d-7054-364c" name="First Mate Cyborg" hidden="false" collective="false" import="true" type="model">
@@ -776,10 +716,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b105-409f-9481-6993" type="max"/>
               </constraints>
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3323-4c53-a815-4277" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
@@ -787,10 +725,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd82-c490-9004-4c20" type="max"/>
               </constraints>
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="aab4-ecb5-ea16-e3f5" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
@@ -798,10 +734,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc47-8de5-1516-a151" type="max"/>
               </constraints>
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -825,10 +759,8 @@
         <entryLink id="18fe-cde1-1fd3-7c2c" name="Level" hidden="false" collective="false" import="true" targetId="4cd1-ff48-5eaf-e868" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
         <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="36d1-0a6b-8a65-fe71" name="Mystic" hidden="false" collective="false" import="true" type="model">
@@ -875,26 +807,20 @@
           <selectionEntries>
             <selectionEntry id="dc76-34c8-afd6-b5dd" name="+1 Move" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c946-3359-82a7-829f" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="457d-79d2-2714-50c1" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -918,10 +844,8 @@
         <entryLink id="5652-961b-fa02-ddfb" name="Level" hidden="false" collective="false" import="true" targetId="4cd1-ff48-5eaf-e868" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
         <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b3fd-a4d7-4d23-f7ce" name="Cyborg" hidden="false" collective="false" import="true" type="model">
@@ -971,10 +895,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="903b-6892-3a0f-2ef5" type="max"/>
               </constraints>
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="11f3-e54d-39ef-8381" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
@@ -982,10 +904,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e596-2700-aed6-c065" type="max"/>
               </constraints>
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3b44-2734-bc3c-bb51" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
@@ -993,10 +913,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3ae-ae66-0dc1-41be" type="max"/>
               </constraints>
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1020,10 +938,8 @@
         <entryLink id="cf3b-2653-070f-dcb7" name="Level" hidden="false" collective="false" import="true" targetId="4cd1-ff48-5eaf-e868" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
         <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="703b-b594-1549-7ce4" name="First Mate Mystic" hidden="false" collective="false" import="true" type="model">
@@ -1070,26 +986,20 @@
           <selectionEntries>
             <selectionEntry id="a6ea-b2c7-a441-cb87" name="+1 Move" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="11db-61bb-a94b-227c" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b59d-7931-829d-a558" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1113,10 +1023,8 @@
         <entryLink id="6117-60d1-8069-1e95" name="Level" hidden="false" collective="false" import="true" targetId="4cd1-ff48-5eaf-e868" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
         <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="dd7b-042e-4d07-7f8e" name="First Mate Psionicist" hidden="false" collective="false" import="true" type="model">
@@ -1163,26 +1071,20 @@
           <selectionEntries>
             <selectionEntry id="38bc-3e72-5ad6-9efc" name="+1 Move" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="905d-6d81-90cc-1067" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="fa77-54db-3456-86e5" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1206,10 +1108,8 @@
         <entryLink id="3b57-0082-c9c0-5723" name="Level" hidden="false" collective="false" import="true" targetId="4cd1-ff48-5eaf-e868" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
         <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7caf-92d2-2c83-f857" name="First Mate Robotics Expert" hidden="false" collective="false" import="true" type="model">
@@ -1264,10 +1164,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5667-ee7e-7511-65ca" type="max"/>
               </constraints>
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="540a-a336-a6fc-6aea" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
@@ -1275,10 +1173,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a83b-69fc-d4cc-8b8d" type="max"/>
               </constraints>
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="db90-74d0-aa74-43c5" name="+1 Health" hidden="false" collective="false" import="true" type="upgrade">
@@ -1286,10 +1182,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ed9-1451-2669-1c17" type="max"/>
               </constraints>
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="5cb8-80c4-3a0f-3eb8" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
@@ -1297,10 +1191,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e07a-f39c-3561-fe5d" type="max"/>
               </constraints>
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1324,10 +1216,8 @@
         <entryLink id="43e1-36ec-98da-6818" name="Level" hidden="false" collective="false" import="true" targetId="4cd1-ff48-5eaf-e868" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
         <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6199-8f8e-c0fe-38ea" name="First Mate Rogue" hidden="false" collective="false" import="true" type="model">
@@ -1377,10 +1267,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa8b-86c3-f1ec-3a5a" type="max"/>
               </constraints>
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3666-82f5-e5cd-0e6b" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
@@ -1388,10 +1276,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7578-14e0-ff5f-0b5a" type="max"/>
               </constraints>
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="c40d-38e2-2da5-e730" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
@@ -1399,10 +1285,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdfe-3904-0a9f-39b3" type="max"/>
               </constraints>
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1426,10 +1310,8 @@
         <entryLink id="6456-6895-ed60-15e2" name="Level" hidden="false" collective="false" import="true" targetId="4cd1-ff48-5eaf-e868" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
         <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ce96-23fc-e0b7-e3e8" name="First Mate Tekker" hidden="false" collective="false" import="true" type="model">
@@ -1484,10 +1366,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be4e-459e-047e-1d28" type="max"/>
               </constraints>
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3aea-f295-c83e-8864" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
@@ -1495,10 +1375,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34db-5acc-f96b-28e3" type="max"/>
               </constraints>
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="3ce8-551c-625b-45f6" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
@@ -1506,10 +1384,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19e7-286b-fef5-c321" type="max"/>
               </constraints>
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="449a-2a69-7e11-59e2" name="+1 Health" hidden="false" collective="false" import="true" type="upgrade">
@@ -1517,10 +1393,8 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f9b-776c-4d14-0719" type="max"/>
               </constraints>
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1544,10 +1418,8 @@
         <entryLink id="9312-50da-4f61-0e54" name="Level" hidden="false" collective="false" import="true" targetId="4cd1-ff48-5eaf-e868" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
         <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4bea-2bb5-2b58-e0fd" name="First Mate Veteran" hidden="false" collective="false" import="true" type="model">
@@ -1594,26 +1466,20 @@
           <selectionEntries>
             <selectionEntry id="e1a3-8ae5-9aed-baf7" name="+1 Move" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e1f3-5290-6b92-2d55" name="+1 Fight" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1bc1-840a-ddf7-e61e" name="+1 Shoot" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
-                <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
                 <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
                 <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-                <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1638,9 +1504,7 @@
       </entryLinks>
       <costs>
         <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
-        <cost name="Strain" typeId="5f21-baed-98f8-696b" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Activation" typeId="0708-e02a-19d9-f5cf" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -1654,6 +1518,13 @@
         <categoryLink id="7853-02a8-0357-6efc" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
         <categoryLink id="5355-b0a5-bf21-fafe" name="Specialists" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="6e9a-9ff3-915c-cf16" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c80f-b09e-03ce-5aa1" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </entryLink>
     <entryLink id="fa10-c128-39ae-9c14" name="Commando" hidden="false" collective="false" import="true" targetId="25d0-2116-83ce-c078" type="selectionEntry">
       <infoLinks>
@@ -1666,6 +1537,13 @@
         <categoryLink id="c47a-65c7-f596-6b73" name="New CategoryLink" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
         <categoryLink id="468d-4abf-762a-f6ed" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="ed38-d4ae-1b7e-0398" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c3e2-a8ca-90c5-8b31" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </entryLink>
     <entryLink id="0ae6-4f82-3d3e-c931" name="Burner" hidden="false" collective="false" import="true" targetId="3af1-995d-6a3f-2164" type="selectionEntry">
       <infoLinks>
@@ -1678,6 +1556,13 @@
         <categoryLink id="8e4d-c8a4-4521-2e9e" name="New CategoryLink" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
         <categoryLink id="9af8-adf8-ea6e-6729" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="ffed-d2f3-21de-888f" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7fed-a9f6-2a26-0cf3" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </entryLink>
     <entryLink id="c0f9-223a-2b7f-eb3a" name="Codebreaker" hidden="false" collective="false" import="true" targetId="aee4-e6c5-e21b-8623" type="selectionEntry">
       <infoLinks>
@@ -1690,6 +1575,13 @@
         <categoryLink id="a4f6-85d5-3075-3f91" name="New CategoryLink" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
         <categoryLink id="fd6e-a869-c9be-f0e4" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="4810-d4cc-f037-41ed" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="45e0-08fe-33a4-0246" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </entryLink>
     <entryLink id="56f6-d810-ffb5-e636" name="Casecracker" hidden="false" collective="false" import="true" targetId="fa49-9ab4-5565-f466" type="selectionEntry">
       <infoLinks>
@@ -1702,6 +1594,13 @@
         <categoryLink id="af65-3254-1e96-be0f" name="New CategoryLink" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
         <categoryLink id="e952-3fdb-733a-5405" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="294c-b43c-3569-6543" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9e55-e6c0-e608-d562" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </entryLink>
     <entryLink id="eeb6-d21a-fdea-690a" name="Pathfinder" hidden="false" collective="false" import="true" targetId="8516-acdf-df6c-426d" type="selectionEntry">
       <infoLinks>
@@ -1714,6 +1613,13 @@
         <categoryLink id="93a2-6ccf-d3f5-6780" name="New CategoryLink" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
         <categoryLink id="2ccd-cac9-3c1c-9d23" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="ea56-c705-1fa3-cecd" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="92ca-a46f-3bfd-556b" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </entryLink>
     <entryLink id="a18f-8a4a-e827-1dbc" name="Sniper" hidden="false" collective="false" import="true" targetId="7ab1-4642-39ca-f8e1" type="selectionEntry">
       <infoLinks>
@@ -1725,6 +1631,13 @@
         <categoryLink id="1209-f78c-0d17-fb90" name="New CategoryLink" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
         <categoryLink id="08c3-affd-ad96-1ac2" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="a3f5-9779-2d28-8c68" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a242-fd8f-e697-800b" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </entryLink>
     <entryLink id="6f87-54ba-bdd7-acc4" name="Grenadier" hidden="false" collective="false" import="true" targetId="d9db-e7da-d7fb-2ade" type="selectionEntry">
       <infoLinks>
@@ -1737,6 +1650,13 @@
         <categoryLink id="f996-4ac9-0f88-3dae" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
         <categoryLink id="8603-227f-456a-280d" name="New CategoryLink" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="60db-4ab4-f23b-3b22" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cb7a-d460-5603-286e" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </entryLink>
     <entryLink id="c442-6855-a388-89ef" name="Gunner" hidden="false" collective="false" import="true" targetId="de59-b02d-a3e1-8f76" type="selectionEntry">
       <infoLinks>
@@ -1749,6 +1669,13 @@
         <categoryLink id="86c4-882f-08bc-5887" name="New CategoryLink" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
         <categoryLink id="14b2-f310-fa6a-a467" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="56fe-0d83-bcad-c065" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="559e-c906-efda-ebb9" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </entryLink>
     <entryLink id="1fc4-b68a-929f-4fca" name="Recruit" hidden="false" collective="false" import="true" targetId="47b9-b6d6-5068-6959" type="selectionEntry">
       <infoLinks>
@@ -1760,6 +1687,13 @@
         <categoryLink id="f741-377c-9d2a-806d" name="New CategoryLink" hidden="false" targetId="12dd-f26c-ca77-721a" primary="true"/>
         <categoryLink id="1883-467f-efd6-a7eb" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="a729-6c75-1621-5720" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="950a-8a55-0108-854b" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </entryLink>
     <entryLink id="50f1-7efb-5f8a-9de3" name="Runner" hidden="false" collective="false" import="true" targetId="f23b-6f05-b103-c7d5" type="selectionEntry">
       <infoLinks>
@@ -1770,6 +1704,13 @@
         <categoryLink id="8140-f934-d52a-8fa6" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
         <categoryLink id="75fa-2774-4c8d-66d9" name="New CategoryLink" hidden="false" targetId="12dd-f26c-ca77-721a" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="0066-79d6-2ed3-47bf" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2928-7801-483d-5212" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </entryLink>
     <entryLink id="ba7f-0d61-b3c6-3ccd" name="Hacker" hidden="false" collective="false" import="true" targetId="0c09-0d89-d90d-876b" type="selectionEntry">
       <infoLinks>
@@ -1782,6 +1723,13 @@
         <categoryLink id="51b9-6296-1334-d081" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
         <categoryLink id="a717-1541-6663-2a5a" name="New CategoryLink" hidden="false" targetId="12dd-f26c-ca77-721a" primary="true"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="dce2-360e-f4ed-fcab" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a76c-d394-279d-32fa" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </entryLink>
     <entryLink id="2357-b27f-841e-6061" name="Chiseler" hidden="false" collective="false" import="true" targetId="131b-c9c6-1454-f5c4" type="selectionEntry">
       <infoLinks>
@@ -1794,6 +1742,13 @@
         <categoryLink id="af30-97b1-2ff2-18b3" name="New CategoryLink" hidden="false" targetId="12dd-f26c-ca77-721a" primary="true"/>
         <categoryLink id="2ab0-4d19-62f3-1c07" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="4a31-c095-8582-4a49" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3f9f-442f-6a71-c16c" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </entryLink>
     <entryLink id="d6f0-ce33-5aea-4009" name="Guard Dog" hidden="false" collective="false" import="true" targetId="a8f1-fcf4-f430-4f54" type="selectionEntry">
       <categoryLinks>
@@ -1811,6 +1766,13 @@
         <categoryLink id="1751-5905-5425-d02a" name="New CategoryLink" hidden="false" targetId="12dd-f26c-ca77-721a" primary="true"/>
         <categoryLink id="df41-a48d-40f0-6194" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="cec7-4975-3d23-ec48" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f8b9-8e42-0286-50d4" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </entryLink>
     <entryLink id="ac03-007d-dada-c15d" name="Trooper" hidden="false" collective="false" import="true" targetId="50cd-3310-aa7c-fc1f" type="selectionEntry">
       <infoLinks>
@@ -1822,6 +1784,13 @@
         <categoryLink id="d000-e835-14e7-9ea8" name="New CategoryLink" hidden="false" targetId="12dd-f26c-ca77-721a" primary="true"/>
         <categoryLink id="9a07-0f11-f1e4-42be" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="ee3b-1680-863c-d31c" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8270-c9b6-5df1-5e48" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </entryLink>
     <entryLink id="de70-4ea5-633b-b6d0" name="Medic" hidden="false" collective="false" import="true" targetId="a1cc-ac3b-a9cb-2547" type="selectionEntry">
       <infoLinks>
@@ -1833,9 +1802,21 @@
         <categoryLink id="2991-1161-6fa3-4295" name="New CategoryLink" hidden="false" targetId="12dd-f26c-ca77-721a" primary="true"/>
         <categoryLink id="ee6b-435d-f49c-10a6" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
       </categoryLinks>
+      <entryLinks>
+        <entryLink id="edad-8755-b14a-1bc2" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1297-f687-f6d0-b224" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="4cd1-ff48-5eaf-e868" name="Level" hidden="false" collective="false" import="true" type="upgrade"/>
+    <selectionEntry id="4cd1-ff48-5eaf-e868" name="Level" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>
