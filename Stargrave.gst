@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="b7a1-a7ef-bd2f-c484" name="Stargrave" revision="33" battleScribeVersion="2.03" authorName="Eric Gibert" authorContact="ericgibert@yahoo.fr" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="b7a1-a7ef-bd2f-c484" name="Stargrave" revision="34" battleScribeVersion="2.03" authorName="Eric Gibert" authorContact="ericgibert@yahoo.fr" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <comment>Stargrave </comment>
   <publications>
-    <publication id="205d-6ed1-3ffa-ebbb" name="Stargrave" publisher="Osprey Games"/>
+    <publication id="205d-6ed1-3ffa-ebbb" name="Stargrave" publisher="" publicationDate="2021-04-29" publisherUrl="https://ospreypublishing.com/store/osprey-games/stargrave/stargrave"/>
+    <publication id="460c-b731-33cf-903c" name="Quarantine 37" shortName="" publicationDate="2021-09-16" publisherUrl="https://ospreypublishing.com/stargrave-quarantine-37"/>
   </publications>
   <costTypes>
-    <costType id="97c0-4241-980e-66e8" name="Crd" defaultCostLimit="-1.0" hidden="false"/>
+    <costType id="97c0-4241-980e-66e8" name="Cr" defaultCostLimit="-1.0" hidden="false"/>
     <costType id="ef24-ff59-caa4-b0e8" name="Gear Slot" defaultCostLimit="-1.0" hidden="true"/>
   </costTypes>
   <profileTypes>
@@ -49,6 +50,11 @@
         <characteristicType id="7838-c665-ec7e-a018" name="Note"/>
       </characteristicTypes>
     </profileType>
+    <profileType id="e4aa-fc26-645f-e592" name="Attribute">
+      <characteristicTypes>
+        <characteristicType id="7001-0d96-d790-3547" name="Description"/>
+      </characteristicTypes>
+    </profileType>
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="13f2-16cf-e0bd-6624" name="Specialists" hidden="false">
@@ -85,6 +91,9 @@
     <categoryEntry id="8e49-f5d3-e9cd-c200" name="Core Rogue" hidden="false"/>
     <categoryEntry id="8702-3db8-4e88-faf8" name="Core Tekker" hidden="false"/>
     <categoryEntry id="1510-fec4-0334-8026" name="Core Veteran" hidden="false"/>
+    <categoryEntry id="f4d2-cac3-ede8-a8dd" name="Robot" hidden="false"/>
+    <categoryEntry id="bc20-7fbc-9e6d-b851" name="Core Aristocrat" hidden="false"/>
+    <categoryEntry id="a163-ca0d-f3a8-52fa" name="Core Hunter" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="798e-117b-84d4-1408" name="Stargrave Crew" publicationId="205d-6ed1-3ffa-ebbb" page="11" hidden="false">
@@ -134,7 +143,7 @@
         <entryLink id="cc95-7547-67ab-3883" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="20.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="20.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -158,7 +167,7 @@
         <entryLink id="f93e-49ce-ce14-910b" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -182,7 +191,7 @@
         <entryLink id="ab64-2a38-a5b7-e207" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -206,7 +215,7 @@
         <entryLink id="fc4a-f2fe-a0e3-f243" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="20.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="20.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -230,7 +239,7 @@
         <entryLink id="7882-618d-7f5c-7faa" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="10.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="10.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -254,7 +263,7 @@
         <entryLink id="d02f-6884-295d-9cfa" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="50.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="50.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -278,7 +287,7 @@
         <entryLink id="71ad-ea25-5ae6-3aca" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="50.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="50.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -302,7 +311,7 @@
         <entryLink id="bc5c-8691-8e47-ccad" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="100.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="100.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -326,7 +335,7 @@
         <entryLink id="5023-9cba-f03b-2502" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="75.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="75.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -350,7 +359,7 @@
         <entryLink id="8754-fbc2-7828-e90f" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="75.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="75.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -374,7 +383,7 @@
         <entryLink id="27d9-e6e1-c6fc-62c5" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="75.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="75.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -398,7 +407,7 @@
         <entryLink id="3d52-874e-7c02-a3fc" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="100.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="100.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -422,7 +431,7 @@
         <entryLink id="4e9a-1708-bff5-e0d5" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="100.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="100.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -446,7 +455,7 @@
         <entryLink id="f4d6-186a-e8b6-814c" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="100.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="100.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -470,7 +479,7 @@
         <entryLink id="2770-fdc4-bb10-8479" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="100.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="100.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -494,7 +503,7 @@
         <entryLink id="a51a-aadd-d868-c219" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="100.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="100.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -518,7 +527,7 @@
         <entryLink id="5f5b-be85-73ea-7717" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="150.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="150.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -528,7 +537,7 @@
       </infoLinks>
       <costs>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ea4f-6372-4af1-e30b" name="Combat Armour" hidden="false" collective="false" import="true" type="upgrade">
@@ -537,7 +546,7 @@
       </infoLinks>
       <costs>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2c5f-174f-fa1f-26c7" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
@@ -546,7 +555,7 @@
       </infoLinks>
       <costs>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5cee-33b2-65b6-c8a0" name="Shield" hidden="false" collective="false" import="true" type="upgrade">
@@ -555,7 +564,7 @@
       </infoLinks>
       <costs>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cb72-75b1-00d6-d034" name="Deck" hidden="false" collective="false" import="true" type="upgrade">
@@ -564,7 +573,7 @@
       </infoLinks>
       <costs>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d820-8ec9-e4eb-df4a" name="Filter Mask" hidden="false" collective="false" import="true" type="upgrade">
@@ -573,7 +582,7 @@
       </infoLinks>
       <costs>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2579-e6e7-e7dc-73c1" name="Medic Kit" hidden="false" collective="false" import="true" type="upgrade">
@@ -582,7 +591,7 @@
       </infoLinks>
       <costs>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="84b2-39a3-0985-b603" name="Picks" hidden="false" collective="false" import="true" type="upgrade">
@@ -591,7 +600,7 @@
       </infoLinks>
       <costs>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4fcb-337a-cabb-7e51" name="Flamethrower" hidden="false" collective="false" import="true" type="upgrade">
@@ -600,7 +609,7 @@
       </infoLinks>
       <costs>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="97aa-31b1-6492-ac84" name="Grenade Launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -609,7 +618,7 @@
       </infoLinks>
       <costs>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ccbe-994d-4323-a5b7" name="Grenade (Frag/Smoke)" hidden="false" collective="false" import="true" type="upgrade">
@@ -618,7 +627,7 @@
       </infoLinks>
       <costs>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="751f-ebe1-9a04-524e" name="Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
@@ -627,7 +636,7 @@
       </infoLinks>
       <costs>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cb09-0362-58dc-6b9d" name="Knife" hidden="false" collective="false" import="true" type="upgrade">
@@ -636,7 +645,7 @@
       </infoLinks>
       <costs>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4039-8fee-a371-8311" name="Pistol" hidden="false" collective="false" import="true" type="upgrade">
@@ -645,7 +654,7 @@
       </infoLinks>
       <costs>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5e6a-f427-bc23-ed0a" name="Rapid Fire" hidden="false" collective="false" import="true" type="upgrade">
@@ -654,7 +663,7 @@
       </infoLinks>
       <costs>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1075-090d-31e0-ad87" name="Shotgun" hidden="false" collective="false" import="true" type="upgrade">
@@ -663,7 +672,7 @@
       </infoLinks>
       <costs>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f80d-224c-77b3-3bc8" name="Unarmed" hidden="false" collective="false" import="true" type="upgrade">
@@ -672,7 +681,7 @@
       </infoLinks>
       <costs>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b824-fc04-4c55-b49e" name="Heavy Armour" hidden="false" collective="false" import="true" type="upgrade">
@@ -681,16 +690,19 @@
       </infoLinks>
       <costs>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e6de-0e1b-01a2-306f" name="is a Robot" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="950a-cd3d-a6a4-2232" type="max"/>
       </constraints>
+      <categoryLinks>
+        <categoryLink id="03d2-8883-2e4a-0ee5" name="Robot" hidden="false" targetId="f4d2-cac3-ede8-a8dd" primary="false"/>
+      </categoryLinks>
       <costs>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3094-bb20-c571-1ce3" name="Snap-shot" hidden="false" collective="false" import="true" type="upgrade">
@@ -699,7 +711,7 @@
       </infoLinks>
       <costs>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="1.0"/>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2142-0f14-2ee3-210e" name="Indestructible Carbine" hidden="false" collective="false" import="true" type="upgrade">
@@ -708,7 +720,7 @@
       </infoLinks>
       <costs>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7d86-9352-f297-367e" name="Core Power" hidden="false" collective="false" import="true" type="upgrade">
@@ -717,7 +729,170 @@
       </constraints>
       <costs>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
-        <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ddaf-6fd9-0c24-f268" name="Gunfighter" publicationId="460c-b731-33cf-903c" page="17" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="7a1d-c00a-21a2-3ca2" name="Gunfighter" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="dc65-e78a-d390-d9d5">6</characteristic>
+            <characteristic name="F" typeId="453a-8ce6-f448-bb37">+3</characteristic>
+            <characteristic name="S" typeId="d603-9472-1d68-663e">+4</characteristic>
+            <characteristic name="A" typeId="d1a5-3245-2f90-1ffe">10</characteristic>
+            <characteristic name="W" typeId="cd10-7835-de9f-ba64">+3</characteristic>
+            <characteristic name="H" typeId="c25e-02c0-2580-ff3c">14</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="fbfc-7331-0617-7611" name="Two-Gun Fighter" hidden="false" targetId="f749-2d4d-23a0-35c5" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5465-959e-ddd4-78b6" name="Specialists" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2968-c670-7864-0a0a" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="100.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="870d-7d2b-9017-6253" name="Mule" publicationId="460c-b731-33cf-903c" page="18" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="e385-df17-f456-4b9f" name="Mule" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="dc65-e78a-d390-d9d5">6</characteristic>
+            <characteristic name="F" typeId="453a-8ce6-f448-bb37">+0</characteristic>
+            <characteristic name="S" typeId="d603-9472-1d68-663e">+0</characteristic>
+            <characteristic name="A" typeId="d1a5-3245-2f90-1ffe">10</characteristic>
+            <characteristic name="W" typeId="cd10-7835-de9f-ba64">+0</characteristic>
+            <characteristic name="H" typeId="c25e-02c0-2580-ff3c">12</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="9076-76c1-abcd-77d4" name="4 Gear Slots" hidden="false" typeId="e4aa-fc26-645f-e592" typeName="Attribute">
+          <characteristics>
+            <characteristic name="Description" typeId="7001-0d96-d790-3547">Unlike most soldiers, mules have 4 gear slots, and can carry any gear, even gear that only captains and first mates are normally allowed to carry. Mules may not however, actually use any gear at all, nor gain any benefit from carrying gear. They may spend an action to give a piece of gear to a friendly figure within 1&quot;, or a friendly figure within 1&quot; may use an action to take or swap gear from the mule, provided that neither figure is in combat, and the figure ending up with the gear has a gear slot available.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="3af6-aefa-fbf9-567d" name="No Penalties for Carrying Physical-Loot Tokens" hidden="false" typeId="e4aa-fc26-645f-e592" typeName="Attribute">
+          <characteristics>
+            <characteristic name="Description" typeId="7001-0d96-d790-3547">Mules do not suffer any penalties at all for carrying physical-loot tokens.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="b593-83b4-d186-3f55" name="Soldiers" hidden="false" targetId="12dd-f26c-ca77-721a" primary="false"/>
+        <categoryLink id="5a77-8643-9495-cb0b" name="Robot" hidden="false" targetId="f4d2-cac3-ede8-a8dd" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="50.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="edc8-3053-99c7-59c8" name="Q-Bot" publicationId="460c-b731-33cf-903c" page="19" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="be1d-f589-7cd3-cc9e" name="Q-Bot" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="dc65-e78a-d390-d9d5">6</characteristic>
+            <characteristic name="F" typeId="453a-8ce6-f448-bb37">+1</characteristic>
+            <characteristic name="S" typeId="d603-9472-1d68-663e">+1</characteristic>
+            <characteristic name="A" typeId="d1a5-3245-2f90-1ffe">10</characteristic>
+            <characteristic name="W" typeId="cd10-7835-de9f-ba64">+0</characteristic>
+            <characteristic name="H" typeId="c25e-02c0-2580-ff3c">12</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="5d5c-f0bc-4952-81f3" name="Soldiers" hidden="false" targetId="12dd-f26c-ca77-721a" primary="false"/>
+        <categoryLink id="c42b-2312-0f14-9ea4" name="Robot" hidden="false" targetId="f4d2-cac3-ede8-a8dd" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="50.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ec79-99ee-b2ac-4037" name="Ravaged" publicationId="460c-b731-33cf-903c" page="20" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="3a6b-823f-d722-5065" name="Ravaged" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="dc65-e78a-d390-d9d5">6</characteristic>
+            <characteristic name="F" typeId="453a-8ce6-f448-bb37">+1</characteristic>
+            <characteristic name="S" typeId="d603-9472-1d68-663e">+1</characteristic>
+            <characteristic name="A" typeId="d1a5-3245-2f90-1ffe">10</characteristic>
+            <characteristic name="W" typeId="cd10-7835-de9f-ba64">+1</characteristic>
+            <characteristic name="H" typeId="c25e-02c0-2580-ff3c">14</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="bc3b-383d-a657-60e5" name="High Pain Threshold" hidden="false" targetId="a98a-4e8d-9c24-9732" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="81f5-95da-884a-bf8c" name="Soldiers" hidden="false" targetId="12dd-f26c-ca77-721a" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="fc91-ad22-efac-3d7a" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="acf7-1340-bcfb-7676" name="Ravaged Trooper" publicationId="460c-b731-33cf-903c" page="21" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="0744-e9c6-1770-6962" name="Ravaged Trooper" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="dc65-e78a-d390-d9d5">5</characteristic>
+            <characteristic name="F" typeId="453a-8ce6-f448-bb37">+1</characteristic>
+            <characteristic name="S" typeId="d603-9472-1d68-663e">+2</characteristic>
+            <characteristic name="A" typeId="d1a5-3245-2f90-1ffe">11</characteristic>
+            <characteristic name="W" typeId="cd10-7835-de9f-ba64">+1</characteristic>
+            <characteristic name="H" typeId="c25e-02c0-2580-ff3c">16</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8313-1ef9-55c6-aa5f" name="High Pain Threshold" hidden="false" targetId="a98a-4e8d-9c24-9732" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="abef-e353-b84a-8164" name="Soldiers" hidden="false" targetId="12dd-f26c-ca77-721a" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e32b-0fc2-d1a3-1d93" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="50.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="413f-5fcd-3d6e-120c" name="Trophy-Taker" publicationId="460c-b731-33cf-903c" page="21" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="e848-7bcc-2ac5-e9bd" name="Trophy-Taker" hidden="false" typeId="e0cd-0aa7-dba3-2af3" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="dc65-e78a-d390-d9d5">6</characteristic>
+            <characteristic name="F" typeId="453a-8ce6-f448-bb37">+3</characteristic>
+            <characteristic name="S" typeId="d603-9472-1d68-663e">+3</characteristic>
+            <characteristic name="A" typeId="d1a5-3245-2f90-1ffe">11</characteristic>
+            <characteristic name="W" typeId="cd10-7835-de9f-ba64">+3</characteristic>
+            <characteristic name="H" typeId="c25e-02c0-2580-ff3c">14</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1712-b4aa-ed06-9be1" name="Beast Fighter" hidden="false" targetId="31c8-502f-0a0f-508e" type="profile"/>
+        <infoLink id="4758-5af5-fc49-9333" name="Trophy-Taker" hidden="false" targetId="fe86-6eae-37f6-a385" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7f67-84e4-b91d-6e10" name="Specialists" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="ef76-6ab9-3ef6-6949" name="is a Robot" hidden="false" collective="false" import="true" targetId="e6de-0e1b-01a2-306f" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+        <cost name="Cr" typeId="97c0-4241-980e-66e8" value="100.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -763,7 +938,7 @@ This figure immediately gains an additional action during this activation, and a
             <entryLink id="b644-ff9c-8c66-4dab" name="Core Power" hidden="false" collective="false" import="true" targetId="7d86-9352-f297-367e" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -803,7 +978,7 @@ The target figure gains the Levitate attribute (page 156) for the rest of the ga
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -844,7 +1019,7 @@ This power can be used Out of Game (B), in which case the activating figure star
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -885,7 +1060,7 @@ Alternatively, one standard (not Advanced Technology) pistol, carbine, or shotgu
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -925,7 +1100,7 @@ This power may only be used against a soldier carrying a loot token. That figure
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -965,7 +1140,7 @@ Immediately unlocks one physical-loot counter.</description>
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -1005,7 +1180,7 @@ If successful, place one bribe token next to the table and make your opponent aw
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -1050,7 +1225,7 @@ No figure may draw line of sight to this figure if it is more than 12” away. I
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -1090,7 +1265,7 @@ Immediately cancels all effects of one ongoing Line of Sight power. It has no ef
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -1130,7 +1305,7 @@ Select one member of the crew that is in line of sight. That figure now activate
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -1170,7 +1345,7 @@ This power may only be used while a figure is in combat. The figure may make one
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -1210,7 +1385,7 @@ This power may only be used against uncontrolled animals. The target animal must
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -1255,7 +1430,7 @@ Select one robot in line of sight. That robot must make an immediate Will Roll (
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -1300,7 +1475,7 @@ The target member of the crew receives +1 Shoot for the duration of the game. Th
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -1340,7 +1515,7 @@ The player may immediately add one robot soldier to their crew for no cost. This
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -1380,7 +1555,7 @@ The figure makes a +5 Shooting attack against any target within 12”. This atta
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -1425,7 +1600,7 @@ This power may only target a member of the same warband that is carrying a data-
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -1470,7 +1645,7 @@ Immediately unlocks one data-loot counter.</description>
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -1510,7 +1685,7 @@ This power targets an unlocked data-loot token or a figure carrying such a token
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -1550,7 +1725,7 @@ This power may be used against any figure within 12”. The activator may choose
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -1595,7 +1770,7 @@ Place a drone next to the activator (see Chapter Six: Bestiary, page 144). This 
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -1641,7 +1816,7 @@ If targeted against a non-robot figure, all firearms carried by that figure imme
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -1686,7 +1861,7 @@ A small energy shield forms around the user. This shield absorbs the next 3 poin
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -1728,7 +1903,7 @@ make an immediate Fight Roll (TN16). If it fails, the activator may move the tar
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -1773,7 +1948,7 @@ Place a fortune token either next to the figure or on your crew sheet next to th
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -1813,7 +1988,7 @@ This power may be used whenever the crew sells anything. The crew receives 20% m
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -1853,7 +2028,7 @@ This power restores up to 5 points of lost Health to a target figure within 6”
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -1893,7 +2068,7 @@ Creates a holographic wall 6” long and 3” high. No line of sight may be draw
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -1934,7 +2109,7 @@ and counts as an uncontrolled figure for the rest of the game. (Armour Interfere
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -1974,7 +2149,7 @@ Immediately move one member of the same crew that is in line of sight 6” in an
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -2014,7 +2189,7 @@ If successfully activated, the figure may attempt to use one of their other powe
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -2059,7 +2234,7 @@ The next time this figure makes a Shooting attack with a carbine, pistol, or sho
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -2099,7 +2274,7 @@ The activator should place two flamethrower templates as thought the figure had 
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -2139,7 +2314,7 @@ The target figure must make a Will Roll (TN16). If it fails, move that figure up
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -2179,7 +2354,7 @@ Choose one non-robot member of the crew that has been reduced to 0 Health during
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -2219,7 +2394,7 @@ The target figure is surrounded by psychic energy. The next time it is hit with 
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -2259,7 +2434,7 @@ The activator regains up to 3 points of lost Health.</description>
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -2299,7 +2474,7 @@ This power may be used on any robot soldier. That robot can always activate in t
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -2344,7 +2519,7 @@ This power allows the user to select one robot in the same crew that is within l
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -2384,7 +2559,7 @@ This power restores up to 5 points of lost Health to a target robot within 6”.
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -2424,7 +2599,7 @@ The activator gains one of the following traits of its choice: Amphibious, Burro
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -2469,7 +2644,7 @@ A figure may not make a Power Move when attempting to activate this power. The a
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -2509,7 +2684,7 @@ Select one robot in the crew. The robot may be given one of the following enhanc
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -2550,7 +2725,7 @@ The target of this power must make an immediate Will Roll (TN16). If it fails, i
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -2590,7 +2765,7 @@ For the rest of the battle, this figure receives -2 Fight whenever rolling again
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -2630,7 +2805,7 @@ The activator may make an immediate grenade or grenade launcher attack as a free
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -2670,7 +2845,7 @@ The activator may select one of the following stat increases: +1 Move, +1 Fight,
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -2710,7 +2885,7 @@ The figure immediately grows a set of indestructible claws. These count as a han
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -2750,7 +2925,7 @@ The activator may select up to two members of their crew, including itself. All 
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -2790,7 +2965,7 @@ May target one member of the same crew that is within Line of Sight and 12” fr
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -2830,7 +3005,7 @@ A figure must be carrying a hand weapon in order to use this power. This hand we
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
           </costs>
         </selectionEntry>
@@ -2870,8 +3045,320 @@ Creates an impenetrable, transparent wall, up to 6” long and 3” high anywher
             </rule>
           </rules>
           <costs>
-            <cost name="Crd" typeId="97c0-4241-980e-66e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
             <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="96fa-7b92-ea6d-e3d3" name="Beast Call" publicationId="460c-b731-33cf-903c" page="14" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02ee-bb91-3142-b8ac" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="1059-d93d-f2be-2d8b" name="Beast Call" hidden="false" typeId="a2e0-41b3-dd72-62cd" typeName="Power">
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="increment" field="1f90-ce6b-c67a-92fd" value="2">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8749-37ea-6f9e-0824" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="1f90-ce6b-c67a-92fd" value="2">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a163-ca0d-f3a8-52fa" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
+                <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
+                <characteristic name="Note" typeId="7838-c665-ec7e-a018">Touch</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="b409-cd7b-2f5a-cde2" name="Beast Call" hidden="false">
+              <description>This power has no specific target, instead immediately roll on the Random Encounter table (see Stargrave rulebook, page 140) and place that creature at a randomly determined point on the table edge. The figure that used the power may choose to reroll this randomly determined point, but in this case, the second roll must be accepted. The figure may not use this power again while this creature remains on the table.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1339-ab4d-2387-d90e" name="Crack Shot" publicationId="460c-b731-33cf-903c" page="14" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eed3-b1d3-da15-a659" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="74da-8762-d452-09e4" name="Crack Shot" hidden="false" typeId="a2e0-41b3-dd72-62cd" typeName="Power">
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="increment" field="1f90-ce6b-c67a-92fd" value="2">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8749-37ea-6f9e-0824" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="1f90-ce6b-c67a-92fd" value="2">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a163-ca0d-f3a8-52fa" type="notInstanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
+                <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
+                <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self Only</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="6407-de23-e991-ca06" name="Crack Shot" hidden="false">
+              <description>This figure now scores a critical hit on Shooting Attacks on a natural 19 or 20 (though not if the defender also rolls a 20). In addition, this figure never suffers a jam result for rolling a natural 1 on a shooting attack or for any other reason.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0088-0294-0622-32b9" name="Contacts" publicationId="460c-b731-33cf-903c" page="14" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c15-379f-3376-e10b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="49eb-0ddd-4550-14c6" name="Contacts" hidden="false" typeId="a2e0-41b3-dd72-62cd" typeName="Power">
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="increment" field="1f90-ce6b-c67a-92fd" value="2">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8749-37ea-6f9e-0824" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="1f90-ce6b-c67a-92fd" value="2">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bc20-7fbc-9e6d-b851" type="notInstanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
+                <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
+                <characteristic name="Note" typeId="7838-c665-ec7e-a018">Out of Game  (A)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="2136-b8fd-b601-45ab" name="Contacts" hidden="false">
+              <description>The figure has numerous contacts, especially when looking to buy specific items. The crew may select one item from any Advanced Technology table. The crew may buy this item at any point before the start of their next game.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="dd52-ba89-a1ca-af94" name="Indifference" publicationId="460c-b731-33cf-903c" page="14" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d519-d4be-da3c-146d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4919-e90b-066e-2c8f" name="Indifference" hidden="false" typeId="a2e0-41b3-dd72-62cd" typeName="Power">
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="increment" field="1f90-ce6b-c67a-92fd" value="2">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8749-37ea-6f9e-0824" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="1f90-ce6b-c67a-92fd" value="2">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bc20-7fbc-9e6d-b851" type="notInstanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
+                <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
+                <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self-Only</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="be93-9e59-d9d8-8211" name="Indifference" hidden="false">
+              <description>This figure is able to compartmentalize pain and shock so that it doesn&apos;t slow them down. For the rest of the game, this figure never counts as wounded. In addition, whenever the figure suffers damage that would normally stun it, the player may choose whether or not the figure is stunned.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4a2a-c192-d2bd-a1f5" name="Inspiring" publicationId="460c-b731-33cf-903c" page="14" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ca7-c179-3754-4b5d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a4c3-4bbb-4fef-392e" name="Inspiring" hidden="false" typeId="a2e0-41b3-dd72-62cd" typeName="Power">
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="increment" field="1f90-ce6b-c67a-92fd" value="2">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8749-37ea-6f9e-0824" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="1f90-ce6b-c67a-92fd" value="2">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bc20-7fbc-9e6d-b851" type="notInstanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
+                <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">1</characteristic>
+                <characteristic name="Note" typeId="7838-c665-ec7e-a018">Self-Only</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="de79-6ed8-1903-39f4" name="Inspiring" hidden="false">
+              <description>This power may be used in two different ways: either the target figure immediately recovers from being stunned and suffers no penalties for this stunning during their own activation; or the target figure receives +1 Fight for the remainder of the game. A figure may never receive more than +1 Fight from the use of this power.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="89bf-20cf-e3de-f4e8" name="Investments" publicationId="460c-b731-33cf-903c" page="15" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb26-3037-f511-2db6" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d7a3-676b-019f-d640" name="Investments" hidden="false" typeId="a2e0-41b3-dd72-62cd" typeName="Power">
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="increment" field="1f90-ce6b-c67a-92fd" value="2">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8749-37ea-6f9e-0824" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="1f90-ce6b-c67a-92fd" value="2">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bc20-7fbc-9e6d-b851" type="notInstanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
+                <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
+                <characteristic name="Note" typeId="7838-c665-ec7e-a018">Out of Game (A)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="b00e-d500-8e2e-0a60" name="Investments" hidden="false">
+              <description>The figure is a master of making money work. The crew immediately gains 50cr.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6415-1694-4988-4c9a" name="Study Prey" publicationId="460c-b731-33cf-903c" page="15" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6239-3e2e-4af4-0011" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9d40-71f1-1b7e-0936" name="Study Prey" hidden="false" typeId="a2e0-41b3-dd72-62cd" typeName="Power">
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="increment" field="1f90-ce6b-c67a-92fd" value="2">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8749-37ea-6f9e-0824" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="1f90-ce6b-c67a-92fd" value="2">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a163-ca0d-f3a8-52fa" type="notInstanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">12</characteristic>
+                <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
+                <characteristic name="Note" typeId="7838-c665-ec7e-a018">Out of Game (A)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="30b8-e88a-0c99-b921" name="Study Prey" hidden="false">
+              <description>If this figure&apos;s crew killed any uncontrolled creatures during the previous game, they receive +5 experience points for each creature, in addition to any experience points normally claimed from the experience point table or from the bonus expereince points for a scenario. A maximum of +25 experience points can be earned in this fashion, even if both the captain and first mate possess this power. These bonus experience points do not count against the 300 expereince point maximum for each game.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6a02-a5d8-c678-46b2" name="Weapon Maintenance" publicationId="460c-b731-33cf-903c" page="15" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a61b-8283-f7a6-36a7" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2000-2dcd-3bb7-be18" name="Weapon Maintenance" hidden="false" typeId="a2e0-41b3-dd72-62cd" typeName="Power">
+              <modifierGroups>
+                <modifierGroup>
+                  <modifiers>
+                    <modifier type="increment" field="1f90-ce6b-c67a-92fd" value="2">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8749-37ea-6f9e-0824" type="instanceOf"/>
+                      </conditions>
+                    </modifier>
+                    <modifier type="increment" field="1f90-ce6b-c67a-92fd" value="2">
+                      <conditions>
+                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a163-ca0d-f3a8-52fa" type="notInstanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <characteristics>
+                <characteristic name="Activation" typeId="1f90-ce6b-c67a-92fd">10</characteristic>
+                <characteristic name="Strain" typeId="c696-f8c0-ecd7-2a79">0</characteristic>
+                <characteristic name="Note" typeId="7838-c665-ec7e-a018">Out of Game (B)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="019b-5fa7-011c-e376" name="Weapon Maintenance" hidden="false">
+              <description>Select one carbine, shotgun, or pistol. That weapon becomes indestrctible, gains +1 damage, and never jams (Shooting Rolls of &apos;1&apos; trigger no special effects), for the duration of the next game.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
+            <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -3198,6 +3685,26 @@ Smoke: circular cloud of smoke 4” in diameter and 3” high. No line of sight 
         <characteristic name="Max Range" typeId="0ca8-352b-e65a-1036">24&quot;</characteristic>
         <characteristic name="Gear Slots" typeId="ab7f-6a7e-3141-0227">3</characteristic>
         <characteristic name="Notes" typeId="1d86-7031-0559-c0d3">2 targets, -1 Move unless wearing heavy armour or combat armour.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="31c8-502f-0a0f-508e" name="Beast Fighter" publicationId="460c-b731-33cf-903c" page="91" hidden="false" typeId="e4aa-fc26-645f-e592" typeName="Attribute">
+      <characteristics>
+        <characteristic name="Description" typeId="7001-0d96-d790-3547">This fighter gains +1 Fight when fighting an uncontrolled creature and +1 Shoot when making a shooting attack against an uncontrolled creature with a pistol, carbine, or shotgun.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="a98a-4e8d-9c24-9732" name="High Pain Threshold" publicationId="460c-b731-33cf-903c" page="92" hidden="false" typeId="e4aa-fc26-645f-e592" typeName="Attribute">
+      <characteristics>
+        <characteristic name="Description" typeId="7001-0d96-d790-3547">This figure never counts as wounded. In addition, they are only stunned if they suffer 7 or more points of damage from a single shooting attack.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="fe86-6eae-37f6-a385" name="Trophy-Taker" publicationId="460c-b731-33cf-903c" page="94" hidden="false" typeId="e4aa-fc26-645f-e592" typeName="Attribute">
+      <characteristics>
+        <characteristic name="Description" typeId="7001-0d96-d790-3547">Any time a cre gains a bounty from a creature, and the cre includes a figure with this attribute, the crew gains an adition 10cr.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f749-2d4d-23a0-35c5" name="Two-Gun Fighter" publicationId="460c-b731-33cf-903c" page="94" hidden="false" typeId="e4aa-fc26-645f-e592" typeName="Attribute">
+      <characteristics>
+        <characteristic name="Description" typeId="7001-0d96-d790-3547">This figure gains +1 damage to shooting attacks made with a pistol if they are carrying 2 or more unjammed pistols. If a gunfighter rolls a jammed result, they may continue shooting with their other pistol without clearing the jam, if they so choose. However, in this case, they lose the +1 damage bonus for using two pistols.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
