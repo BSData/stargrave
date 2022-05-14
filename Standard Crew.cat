@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1adb-b357-2db9-e646" name="Standard Crew" revision="21" battleScribeVersion="2.03" library="false" gameSystemId="b7a1-a7ef-bd2f-c484" gameSystemRevision="34" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1adb-b357-2db9-e646" name="Standard Crew" revision="22" battleScribeVersion="2.03" library="false" gameSystemId="b7a1-a7ef-bd2f-c484" gameSystemRevision="34" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="e7fc-369a-1059-31e1" name="First Mate Biomorph" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -1947,8 +1947,8 @@
     <entryLink id="eeb6-d21a-fdea-690a" name="Pathfinder" hidden="false" collective="false" import="true" targetId="8516-acdf-df6c-426d" type="selectionEntry">
       <infoLinks>
         <infoLink id="1192-7ed8-08f1-e73c" name="Carbine" hidden="false" targetId="33df-9e64-5d0e-ddf0" type="profile"/>
-        <infoLink id="164a-b401-0deb-549b" name="Grenade –Fragmentation" hidden="false" targetId="3e4d-99d7-96e7-f55a" type="profile"/>
-        <infoLink id="2fb8-3d8c-a9fe-0924" name="Heavy Armour" hidden="false" targetId="b098-75ec-54b4-02f5" type="profile"/>
+        <infoLink id="164a-b401-0deb-549b" name="Grenade (Frag/Smoke)" hidden="false" targetId="3e4d-99d7-96e7-f55a" type="profile"/>
+        <infoLink id="2fb8-3d8c-a9fe-0924" name="Light Armour" hidden="false" targetId="eb6d-253d-4d80-d778" type="profile"/>
         <infoLink id="2746-6701-2f1a-ccda" name="Hand Weapon" hidden="false" targetId="9474-d826-128b-3e89" type="profile"/>
       </infoLinks>
       <categoryLinks>
@@ -2002,7 +2002,7 @@
     </entryLink>
     <entryLink id="c442-6855-a388-89ef" name="Gunner" hidden="false" collective="false" import="true" targetId="de59-b02d-a3e1-8f76" type="selectionEntry">
       <infoLinks>
-        <infoLink id="94ac-ff01-1f7c-2952" name="Rapid Fire" hidden="false" targetId="8930-1266-4a29-0816" type="profile"/>
+        <infoLink id="94ac-ff01-1f7c-2952" name="Rapid Fire" hidden="false" targetId="b3ca-b785-4ce7-ec01" type="profile"/>
         <infoLink id="1a78-3fb5-6a6d-296b" name="Pistol" hidden="false" targetId="3a81-e812-849e-1d92" type="profile"/>
         <infoLink id="dfda-7f81-a039-a19a" name="Knife" hidden="false" targetId="1ed7-8d7c-f190-78d2" type="profile"/>
         <infoLink id="3dc0-9c48-2e52-79cf" name="Heavy Armour" hidden="false" targetId="b098-75ec-54b4-02f5" type="profile"/>
