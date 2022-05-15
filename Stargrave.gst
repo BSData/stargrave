@@ -540,6 +540,7 @@
       </infoLinks>
       <costs>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ea4f-6372-4af1-e30b" name="Combat Armour" hidden="false" collective="false" import="true" type="upgrade">
@@ -568,6 +569,7 @@
       </entryLinks>
       <costs>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2c5f-174f-fa1f-26c7" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
@@ -576,6 +578,7 @@
       </infoLinks>
       <costs>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5cee-33b2-65b6-c8a0" name="Shield" hidden="false" collective="false" import="true" type="upgrade">
@@ -584,6 +587,7 @@
       </infoLinks>
       <costs>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cb72-75b1-00d6-d034" name="Deck" hidden="false" collective="false" import="true" type="upgrade">
@@ -628,6 +632,7 @@
       </infoLinks>
       <costs>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="97aa-31b1-6492-ac84" name="Grenade Launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -636,6 +641,7 @@
       </infoLinks>
       <costs>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ccbe-994d-4323-a5b7" name="Grenade (Frag/Smoke)" hidden="false" collective="false" import="true" type="upgrade">
@@ -644,6 +650,7 @@
       </infoLinks>
       <costs>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="751f-ebe1-9a04-524e" name="Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
@@ -652,6 +659,7 @@
       </infoLinks>
       <costs>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cb09-0362-58dc-6b9d" name="Knife" hidden="false" collective="false" import="true" type="upgrade">
@@ -660,6 +668,7 @@
       </infoLinks>
       <costs>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4039-8fee-a371-8311" name="Pistol" hidden="false" collective="false" import="true" type="upgrade">
@@ -668,6 +677,7 @@
       </infoLinks>
       <costs>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5e6a-f427-bc23-ed0a" name="Rapid Fire" hidden="false" collective="false" import="true" type="upgrade">
@@ -676,6 +686,7 @@
       </infoLinks>
       <costs>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1075-090d-31e0-ad87" name="Shotgun" hidden="false" collective="false" import="true" type="upgrade">
@@ -684,6 +695,7 @@
       </infoLinks>
       <costs>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f80d-224c-77b3-3bc8" name="Unarmed" hidden="false" collective="false" import="true" type="upgrade">
@@ -701,6 +713,7 @@
       </infoLinks>
       <costs>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e6de-0e1b-01a2-306f" name="is a Robot" hidden="false" collective="false" import="true" type="upgrade">
@@ -721,6 +734,7 @@
       </infoLinks>
       <costs>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2142-0f14-2ee3-210e" name="Indestructible Carbine" hidden="false" collective="false" import="true" type="upgrade">
@@ -729,6 +743,7 @@
       </infoLinks>
       <costs>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
+        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7d86-9352-f297-367e" name="Core Power" hidden="false" collective="false" import="true" type="upgrade">
