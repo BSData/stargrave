@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1adb-b357-2db9-e646" name="Standard Crew" revision="22" battleScribeVersion="2.03" library="false" gameSystemId="b7a1-a7ef-bd2f-c484" gameSystemRevision="34" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1adb-b357-2db9-e646" name="Standard Crew" revision="23" battleScribeVersion="2.03" library="false" gameSystemId="b7a1-a7ef-bd2f-c484" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="e7fc-369a-1059-31e1" name="First Mate Biomorph" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -1852,242 +1852,351 @@
   </selectionEntries>
   <entryLinks>
     <entryLink id="ec5c-5c9a-2f64-a18b" name="Armoured Trooper" hidden="false" collective="false" import="true" targetId="a4c3-a70e-6571-f5f1" type="selectionEntry">
-      <infoLinks>
-        <infoLink id="2618-5a5e-83e1-7d35" name="Carbine" hidden="false" targetId="33df-9e64-5d0e-ddf0" type="profile"/>
-        <infoLink id="04f7-36f2-6309-4b8b" name="Combat Armour" hidden="false" targetId="47a8-ff0e-8853-f4c1" type="profile"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="7853-02a8-0357-6efc" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
         <categoryLink id="5355-b0a5-bf21-fafe" name="Specialists" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="6e9a-9ff3-915c-cf16" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+        <entryLink id="8d7b-9cac-12fe-783a" name="Combat Armour" hidden="false" collective="false" import="true" targetId="ea4f-6372-4af1-e30b" type="selectionEntry">
           <constraints>
-            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c80f-b09e-03ce-5aa1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe3a-ff88-3488-edba" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3003-ac19-5d14-eb72" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="3d53-a7dc-2836-65d9" name="Soldier Weapon" hidden="false" collective="false" import="true" targetId="807b-4425-bf96-be3b" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
     <entryLink id="fa10-c128-39ae-9c14" name="Commando" hidden="false" collective="false" import="true" targetId="25d0-2116-83ce-c078" type="selectionEntry">
-      <infoLinks>
-        <infoLink id="4333-065d-faa4-5e66" name="Carbine" hidden="false" targetId="33df-9e64-5d0e-ddf0" type="profile"/>
-        <infoLink id="8622-909c-6be3-57f0" name="Grenade –Fragmentation" hidden="false" targetId="3e4d-99d7-96e7-f55a" type="profile"/>
-        <infoLink id="f786-5724-5fd6-3c4c" name="Heavy Armour" hidden="false" targetId="b098-75ec-54b4-02f5" type="profile"/>
-        <infoLink id="7662-55c6-64d6-9ced" name="Hand Weapon" hidden="false" targetId="9474-d826-128b-3e89" type="profile"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="c47a-65c7-f596-6b73" name="New CategoryLink" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
         <categoryLink id="468d-4abf-762a-f6ed" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="ed38-d4ae-1b7e-0398" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+        <entryLink id="33ab-01a2-7c6e-80e3" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="b824-fc04-4c55-b49e" type="selectionEntry">
           <constraints>
-            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c3e2-a8ca-90c5-8b31" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29d2-b7c6-71e2-2be3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0cf-9707-c254-845c" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="5da7-9b89-ddd9-39c8" name="Grenade (Frag/Smoke)" hidden="false" collective="false" import="true" targetId="ccbe-994d-4323-a5b7" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73f6-e13f-064c-a113" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f54-f5fe-6b3e-ec8b" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6209-c6ac-b39b-9686" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="751f-ebe1-9a04-524e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b24-b5fd-f4d0-71cf" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26f2-9dea-8192-d553" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="75d3-2587-e2dd-d95c" name="Soldier Weapon" hidden="false" collective="false" import="true" targetId="807b-4425-bf96-be3b" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
     <entryLink id="0ae6-4f82-3d3e-c931" name="Burner" hidden="false" collective="false" import="true" targetId="3af1-995d-6a3f-2164" type="selectionEntry">
-      <infoLinks>
-        <infoLink id="fb9c-08e8-a1b5-989e" name="Flamethrower" hidden="false" targetId="b73f-ed92-99a9-ea6f" type="profile"/>
-        <infoLink id="df09-0b25-083b-fcfe" name="Pistol" hidden="false" targetId="3a81-e812-849e-1d92" type="profile"/>
-        <infoLink id="999b-91f8-8a64-22ce" name="Knife" hidden="false" targetId="1ed7-8d7c-f190-78d2" type="profile"/>
-        <infoLink id="9fe8-8ea7-e79e-a32d" name="Heavy Armour" hidden="false" targetId="b098-75ec-54b4-02f5" type="profile"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="8e4d-c8a4-4521-2e9e" name="New CategoryLink" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
         <categoryLink id="9af8-adf8-ea6e-6729" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="ffed-d2f3-21de-888f" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+        <entryLink id="74cf-8ef3-8d75-c1d1" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="b824-fc04-4c55-b49e" type="selectionEntry">
           <constraints>
-            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7fed-a9f6-2a26-0cf3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e95-00bd-cb4a-9c05" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ef9-c25e-529b-ad34" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f7b5-9c96-3cb5-989c" name="Flamethrower" hidden="false" collective="false" import="true" targetId="4fcb-337a-cabb-7e51" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="166d-ebd0-b5e3-d628" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41b9-a792-add7-931b" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d064-bfb2-3252-c0d2" name="Knife" hidden="false" collective="false" import="true" targetId="cb09-0362-58dc-6b9d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a13c-2de1-6c4d-91b3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="664d-8a15-8acc-af48" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8a57-bc69-7c58-b122" name="Pistol" hidden="false" collective="false" import="true" targetId="4039-8fee-a371-8311" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2edb-2dd6-3be0-0392" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b394-ff5f-7092-0fe2" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
     </entryLink>
     <entryLink id="c0f9-223a-2b7f-eb3a" name="Codebreaker" hidden="false" collective="false" import="true" targetId="aee4-e6c5-e21b-8623" type="selectionEntry">
-      <infoLinks>
-        <infoLink id="7c00-1e1e-ac56-f8e8" name="Carbine" hidden="false" targetId="33df-9e64-5d0e-ddf0" type="profile"/>
-        <infoLink id="b7d3-f6b3-6d25-dd4f" name="Deck" hidden="false" targetId="f616-0201-95ab-bfa7" type="profile"/>
-        <infoLink id="3ce7-262f-0204-8bfe" name="Knife" hidden="false" targetId="1ed7-8d7c-f190-78d2" type="profile"/>
-        <infoLink id="2fa1-c635-245b-5e25" name="Light Armour" hidden="false" targetId="eb6d-253d-4d80-d778" type="profile"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="a4f6-85d5-3075-3f91" name="New CategoryLink" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
         <categoryLink id="fd6e-a869-c9be-f0e4" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="4810-d4cc-f037-41ed" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+        <entryLink id="b04e-1566-d059-77ac" name="Light Armour" hidden="false" collective="false" import="true" targetId="2c5f-174f-fa1f-26c7" type="selectionEntry">
           <constraints>
-            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="45e0-08fe-33a4-0246" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="836f-f252-8ce6-b120" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cba-32e6-5a85-a0e7" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="36d2-4a8d-bc3b-a764" name="Deck" hidden="false" collective="false" import="true" targetId="cb72-75b1-00d6-d034" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51f8-e673-cec9-df0a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89be-cbcc-2ccf-e4a9" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="f98f-78ad-eac0-3589" name="Knife" hidden="false" collective="false" import="true" targetId="cb09-0362-58dc-6b9d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a04e-6ada-08ed-2881" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac3f-e0bd-e6c2-e8a5" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d9ce-a1cb-7edf-c13e" name="Soldier Weapon" hidden="false" collective="false" import="true" targetId="807b-4425-bf96-be3b" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
     <entryLink id="56f6-d810-ffb5-e636" name="Casecracker" hidden="false" collective="false" import="true" targetId="fa49-9ab4-5565-f466" type="selectionEntry">
-      <infoLinks>
-        <infoLink id="932b-f965-7c6e-b194" name="Carbine" hidden="false" targetId="33df-9e64-5d0e-ddf0" type="profile"/>
-        <infoLink id="f259-48da-6025-3568" name="Picks" hidden="false" targetId="434d-59ed-0898-1ac7" type="profile"/>
-        <infoLink id="6c81-37fa-6e8f-719f" name="Light Armour" hidden="false" targetId="eb6d-253d-4d80-d778" type="profile"/>
-        <infoLink id="4e44-80c0-d1c1-0e8b" name="Knife" hidden="false" targetId="1ed7-8d7c-f190-78d2" type="profile"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="af65-3254-1e96-be0f" name="New CategoryLink" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
         <categoryLink id="e952-3fdb-733a-5405" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="294c-b43c-3569-6543" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+        <entryLink id="9621-14ff-9d1e-4192" name="Light Armour" hidden="false" collective="false" import="true" targetId="2c5f-174f-fa1f-26c7" type="selectionEntry">
           <constraints>
-            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9e55-e6c0-e608-d562" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9204-0643-bf7a-9bd0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59eb-fb80-7948-6834" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="6c89-48ba-fc0c-0501" name="Picks" hidden="false" collective="false" import="true" targetId="84b2-39a3-0985-b603" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3cd-94bf-d3e2-d1a4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="38d7-b646-0c59-97dc" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d242-4c1c-e904-b6ac" name="Knife" hidden="false" collective="false" import="true" targetId="cb09-0362-58dc-6b9d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c201-df39-7d50-640d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0642-e36e-20a9-bd7e" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="e7b6-6a6d-6daf-e9f0" name="Soldier Weapon" hidden="false" collective="false" import="true" targetId="807b-4425-bf96-be3b" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
     <entryLink id="eeb6-d21a-fdea-690a" name="Pathfinder" hidden="false" collective="false" import="true" targetId="8516-acdf-df6c-426d" type="selectionEntry">
-      <infoLinks>
-        <infoLink id="1192-7ed8-08f1-e73c" name="Carbine" hidden="false" targetId="33df-9e64-5d0e-ddf0" type="profile"/>
-        <infoLink id="164a-b401-0deb-549b" name="Grenade (Frag/Smoke)" hidden="false" targetId="3e4d-99d7-96e7-f55a" type="profile"/>
-        <infoLink id="2fb8-3d8c-a9fe-0924" name="Light Armour" hidden="false" targetId="eb6d-253d-4d80-d778" type="profile"/>
-        <infoLink id="2746-6701-2f1a-ccda" name="Hand Weapon" hidden="false" targetId="9474-d826-128b-3e89" type="profile"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="93a2-6ccf-d3f5-6780" name="New CategoryLink" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
         <categoryLink id="2ccd-cac9-3c1c-9d23" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="ea56-c705-1fa3-cecd" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+        <entryLink id="3342-f9c4-ecb1-f744" name="Light Armour" hidden="false" collective="false" import="true" targetId="2c5f-174f-fa1f-26c7" type="selectionEntry">
           <constraints>
-            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="92ca-a46f-3bfd-556b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aff1-7bfc-d04b-fb19" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbd9-8d5b-e53a-be09" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="d4f2-099d-a571-3648" name="Grenade (Frag/Smoke)" hidden="false" collective="false" import="true" targetId="ccbe-994d-4323-a5b7" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1789-568e-cfbc-e774" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e827-d5c2-ca6d-0ea7" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="bdc8-43b4-311c-ae72" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="751f-ebe1-9a04-524e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="936c-cf39-ad68-a9a0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e78b-0fbf-b735-e26b" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="e1f7-1c24-b782-ba62" name="Soldier Weapon" hidden="false" collective="false" import="true" targetId="807b-4425-bf96-be3b" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
     <entryLink id="a18f-8a4a-e827-1dbc" name="Sniper" hidden="false" collective="false" import="true" targetId="7ab1-4642-39ca-f8e1" type="selectionEntry">
-      <infoLinks>
-        <infoLink id="6f82-12a4-46df-fc84" name="Carbine" hidden="false" targetId="33df-9e64-5d0e-ddf0" type="profile"/>
-        <infoLink id="6a94-a3c6-0a91-8910" name="Light Armour" hidden="false" targetId="eb6d-253d-4d80-d778" type="profile"/>
-        <infoLink id="db0a-5010-8b66-fad6" name="Hand Weapon" hidden="false" targetId="9474-d826-128b-3e89" type="profile"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="1209-f78c-0d17-fb90" name="New CategoryLink" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
         <categoryLink id="08c3-affd-ad96-1ac2" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="a3f5-9779-2d28-8c68" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+        <entryLink id="edce-08c9-7eb9-3201" name="Light Armour" hidden="false" collective="false" import="true" targetId="2c5f-174f-fa1f-26c7" type="selectionEntry">
           <constraints>
-            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a242-fd8f-e697-800b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbb3-1bc2-8d3a-5c6e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="900d-a02d-c62d-79d7" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="a93f-14b8-6d2d-235f" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="751f-ebe1-9a04-524e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17f5-6966-b036-b6a6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5024-46e4-2fc2-efc2" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="189d-9d95-4a53-9ede" name="Soldier Weapon" hidden="false" collective="false" import="true" targetId="807b-4425-bf96-be3b" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
     <entryLink id="6f87-54ba-bdd7-acc4" name="Grenadier" hidden="false" collective="false" import="true" targetId="d9db-e7da-d7fb-2ade" type="selectionEntry">
-      <infoLinks>
-        <infoLink id="f999-9094-c0bb-4d87" name="Grenade Launcher" hidden="false" targetId="fb0d-2aee-5b14-124d" type="profile"/>
-        <infoLink id="7d7b-3997-5ebd-70f8" name="Pistol" hidden="false" targetId="3a81-e812-849e-1d92" type="profile"/>
-        <infoLink id="9a64-b431-1fe3-d2da" name="Heavy Armour" hidden="false" targetId="b098-75ec-54b4-02f5" type="profile"/>
-        <infoLink id="fd17-55d5-d66b-4a77" name="Knife" hidden="false" targetId="1ed7-8d7c-f190-78d2" type="profile"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="f996-4ac9-0f88-3dae" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
         <categoryLink id="8603-227f-456a-280d" name="New CategoryLink" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="60db-4ab4-f23b-3b22" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+        <entryLink id="da58-fd9f-c382-4bba" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="b824-fc04-4c55-b49e" type="selectionEntry">
           <constraints>
-            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cb7a-d460-5603-286e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a675-df83-42a6-385f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c471-16e4-8ec3-271a" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="ee4b-f577-effa-eb53" name="Grenade Launcher" hidden="false" collective="false" import="true" targetId="97aa-31b1-6492-ac84" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8661-a63b-63b2-15f3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58a8-1c72-af93-aab6" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="44b8-b20d-14da-eddd" name="Knife" hidden="false" collective="false" import="true" targetId="cb09-0362-58dc-6b9d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20eb-25a2-f8e4-b3d6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c47-41f6-bde6-fa36" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6ec3-6996-9ee0-3af6" name="Pistol" hidden="false" collective="false" import="true" targetId="4039-8fee-a371-8311" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c59-7e56-e7ee-ab5d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b436-2965-2a81-ad2f" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
     </entryLink>
     <entryLink id="c442-6855-a388-89ef" name="Gunner" hidden="false" collective="false" import="true" targetId="de59-b02d-a3e1-8f76" type="selectionEntry">
-      <infoLinks>
-        <infoLink id="94ac-ff01-1f7c-2952" name="Rapid Fire" hidden="false" targetId="b3ca-b785-4ce7-ec01" type="profile"/>
-        <infoLink id="1a78-3fb5-6a6d-296b" name="Pistol" hidden="false" targetId="3a81-e812-849e-1d92" type="profile"/>
-        <infoLink id="dfda-7f81-a039-a19a" name="Knife" hidden="false" targetId="1ed7-8d7c-f190-78d2" type="profile"/>
-        <infoLink id="3dc0-9c48-2e52-79cf" name="Heavy Armour" hidden="false" targetId="b098-75ec-54b4-02f5" type="profile"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="86c4-882f-08bc-5887" name="New CategoryLink" hidden="false" targetId="13f2-16cf-e0bd-6624" primary="true"/>
         <categoryLink id="14b2-f310-fa6a-a467" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="56fe-0d83-bcad-c065" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+        <entryLink id="b85c-c104-1098-a276" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="b824-fc04-4c55-b49e" type="selectionEntry">
           <constraints>
-            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="559e-c906-efda-ebb9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaae-65bc-5f34-8382" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="725c-e891-210f-4669" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="42d8-f657-2737-9032" name="Knife" hidden="false" collective="false" import="true" targetId="cb09-0362-58dc-6b9d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="858e-bcd1-f7bf-0ba8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1efc-a73e-68b1-91d5" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9e8c-a903-e585-33cb" name="Pistol" hidden="false" collective="false" import="true" targetId="4039-8fee-a371-8311" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cd7-d6e9-d29c-23ba" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29dc-42ed-54d6-2c93" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9331-533a-fe3c-d509" name="Rapid Fire" hidden="false" collective="false" import="true" targetId="5e6a-f427-bc23-ed0a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="289c-2d37-1de8-a823" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe7b-86dc-6f7f-6322" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
     </entryLink>
     <entryLink id="1fc4-b68a-929f-4fca" name="Recruit" hidden="false" collective="false" import="true" targetId="47b9-b6d6-5068-6959" type="selectionEntry">
-      <infoLinks>
-        <infoLink id="143c-6f60-0ac9-8302" name="Pistol" hidden="false" targetId="3a81-e812-849e-1d92" type="profile"/>
-        <infoLink id="a73e-da5e-846b-4c6a" name="Light Armour" hidden="false" targetId="eb6d-253d-4d80-d778" type="profile"/>
-        <infoLink id="3262-e200-a20b-9e2f" name="Knife" hidden="false" targetId="1ed7-8d7c-f190-78d2" type="profile"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="f741-377c-9d2a-806d" name="New CategoryLink" hidden="false" targetId="12dd-f26c-ca77-721a" primary="true"/>
         <categoryLink id="1883-467f-efd6-a7eb" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="a729-6c75-1621-5720" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+        <entryLink id="9c75-8c89-0841-9f56" name="Light Armour" hidden="false" collective="false" import="true" targetId="2c5f-174f-fa1f-26c7" type="selectionEntry">
           <constraints>
-            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="950a-8a55-0108-854b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e290-bf5f-4373-a013" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0be-a052-c343-2d3a" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="ac8c-c64f-3e14-dca0" name="Knife" hidden="false" collective="false" import="true" targetId="cb09-0362-58dc-6b9d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59b5-61a1-854e-c64b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e739-a01b-b0da-cf5c" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="99b7-9808-c076-e944" name="Pistol" hidden="false" collective="false" import="true" targetId="4039-8fee-a371-8311" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14b9-0f88-f480-4f3a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0ff-7b4f-9b21-bbb7" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
     </entryLink>
     <entryLink id="50f1-7efb-5f8a-9de3" name="Runner" hidden="false" collective="false" import="true" targetId="f23b-6f05-b103-c7d5" type="selectionEntry">
-      <infoLinks>
-        <infoLink id="0205-df0e-1ebf-a979" name="Knife" hidden="false" targetId="1ed7-8d7c-f190-78d2" type="profile"/>
-        <infoLink id="6c24-cae7-1b91-1409" name="Pistol" hidden="false" targetId="3a81-e812-849e-1d92" type="profile"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="8140-f934-d52a-8fa6" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
         <categoryLink id="75fa-2774-4c8d-66d9" name="New CategoryLink" hidden="false" targetId="12dd-f26c-ca77-721a" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="0066-79d6-2ed3-47bf" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+        <entryLink id="22e4-9736-45d5-7b94" name="Pistol" hidden="false" collective="false" import="true" targetId="4039-8fee-a371-8311" type="selectionEntry">
           <constraints>
-            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2928-7801-483d-5212" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4773-e3ab-122a-b417" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9022-ba19-a9c5-605f" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="bd65-c9b2-559f-0c42" name="Knife" hidden="false" collective="false" import="true" targetId="cb09-0362-58dc-6b9d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e62-aed6-4ba5-6c35" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="565f-1f61-4762-09ce" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
     </entryLink>
     <entryLink id="ba7f-0d61-b3c6-3ccd" name="Hacker" hidden="false" collective="false" import="true" targetId="0c09-0d89-d90d-876b" type="selectionEntry">
-      <infoLinks>
-        <infoLink id="0442-6478-19bb-f412" name="Pistol" hidden="false" targetId="3a81-e812-849e-1d92" type="profile"/>
-        <infoLink id="19c2-534f-008d-7db1" name="Light Armour" hidden="false" targetId="eb6d-253d-4d80-d778" type="profile"/>
-        <infoLink id="df70-4b1b-e319-881a" name="Knife" hidden="false" targetId="1ed7-8d7c-f190-78d2" type="profile"/>
-        <infoLink id="504d-1424-a0df-3117" name="Deck" hidden="false" targetId="f616-0201-95ab-bfa7" type="profile"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="51b9-6296-1334-d081" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
         <categoryLink id="a717-1541-6663-2a5a" name="New CategoryLink" hidden="false" targetId="12dd-f26c-ca77-721a" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="dce2-360e-f4ed-fcab" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+        <entryLink id="dfc6-1daf-6d66-892f" name="Pistol" hidden="false" collective="false" import="true" targetId="4039-8fee-a371-8311" type="selectionEntry">
           <constraints>
-            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a76c-d394-279d-32fa" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab30-db30-0505-4819" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcf9-4d04-9e76-19fe" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="da7a-4d57-9731-d99e" name="Deck" hidden="false" collective="false" import="true" targetId="cb72-75b1-00d6-d034" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be40-e096-e6d7-e0d9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="08a8-d38f-cc85-ebaf" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="556c-2192-d566-267c" name="Light Armour" hidden="false" collective="false" import="true" targetId="2c5f-174f-fa1f-26c7" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4231-57ac-ce09-d715" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3a9-ae45-5630-db35" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c3c0-10f8-6427-ff4c" name="Knife" hidden="false" collective="false" import="true" targetId="cb09-0362-58dc-6b9d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f34-6053-47e1-670b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19fa-18a1-b739-d618" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
     </entryLink>
     <entryLink id="2357-b27f-841e-6061" name="Chiseler" hidden="false" collective="false" import="true" targetId="131b-c9c6-1454-f5c4" type="selectionEntry">
-      <infoLinks>
-        <infoLink id="f1d5-f3b1-df59-4976" name="Pistol" hidden="false" targetId="3a81-e812-849e-1d92" type="profile"/>
-        <infoLink id="a24b-8ec3-65cc-e2c3" name="Picks" hidden="false" targetId="434d-59ed-0898-1ac7" type="profile"/>
-        <infoLink id="a85b-39ed-1d7b-b081" name="Light Armour" hidden="false" targetId="eb6d-253d-4d80-d778" type="profile"/>
-        <infoLink id="3b32-ecc2-c443-33f8" name="Knife" hidden="false" targetId="1ed7-8d7c-f190-78d2" type="profile"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="af30-97b1-2ff2-18b3" name="New CategoryLink" hidden="false" targetId="12dd-f26c-ca77-721a" primary="true"/>
         <categoryLink id="2ab0-4d19-62f3-1c07" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="4a31-c095-8582-4a49" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+        <entryLink id="dd51-ce5a-909f-5530" name="Light Armour" hidden="false" collective="false" import="true" targetId="2c5f-174f-fa1f-26c7" type="selectionEntry">
           <constraints>
-            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3f9f-442f-6a71-c16c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcaf-6bf3-10b4-5b03" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02ca-29d0-daa1-b9c0" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="95b8-403a-314b-1b5c" name="Picks" hidden="false" collective="false" import="true" targetId="84b2-39a3-0985-b603" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c628-878b-2813-6de0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68b2-7866-a6c1-3331" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="ba44-4cb0-ad3e-1359" name="Knife" hidden="false" collective="false" import="true" targetId="cb09-0362-58dc-6b9d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2096-b2af-8845-acdb" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13ea-c133-1a09-afd8" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9da1-5f00-452f-4c60" name="Pistol" hidden="false" collective="false" import="true" targetId="4039-8fee-a371-8311" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f704-1978-0b53-524d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e068-a186-6b2e-7d72" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -2099,55 +2208,69 @@
       </categoryLinks>
     </entryLink>
     <entryLink id="43d8-e5db-163c-85c1" name="Sentry" hidden="false" collective="false" import="true" targetId="c67f-2f9f-3fc0-9d0d" type="selectionEntry">
-      <infoLinks>
-        <infoLink id="0d60-4b26-2009-072d" name="Carbine" hidden="false" targetId="33df-9e64-5d0e-ddf0" type="profile"/>
-        <infoLink id="5b03-6010-ba51-9563" name="Heavy Armour" hidden="false" targetId="b098-75ec-54b4-02f5" type="profile"/>
-        <infoLink id="82d0-2206-ec3b-7432" name="Hand Weapon" hidden="false" targetId="9474-d826-128b-3e89" type="profile"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="1751-5905-5425-d02a" name="New CategoryLink" hidden="false" targetId="12dd-f26c-ca77-721a" primary="true"/>
         <categoryLink id="df41-a48d-40f0-6194" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="cec7-4975-3d23-ec48" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+        <entryLink id="43a6-afdd-262a-90fa" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="b824-fc04-4c55-b49e" type="selectionEntry">
           <constraints>
-            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f8b9-8e42-0286-50d4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d463-43ac-e653-c828" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cce5-2a6e-a1e7-4eb3" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="2298-2a2a-1527-25f7" name="Soldier Weapon" hidden="false" collective="false" import="true" targetId="807b-4425-bf96-be3b" type="selectionEntryGroup"/>
+        <entryLink id="9ddf-72b8-c704-d93f" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="751f-ebe1-9a04-524e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d11-40fe-d319-f94d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9278-8da3-9d46-eb52" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
     </entryLink>
     <entryLink id="ac03-007d-dada-c15d" name="Trooper" hidden="false" collective="false" import="true" targetId="50cd-3310-aa7c-fc1f" type="selectionEntry">
-      <infoLinks>
-        <infoLink id="add7-290a-650b-8cb4" name="Carbine" hidden="false" targetId="33df-9e64-5d0e-ddf0" type="profile"/>
-        <infoLink id="e5d8-ef0a-1d81-72f3" name="Heavy Armour" hidden="false" targetId="b098-75ec-54b4-02f5" type="profile"/>
-        <infoLink id="7e4d-06fb-fb76-2d6d" name="Knife" hidden="false" targetId="1ed7-8d7c-f190-78d2" type="profile"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="d000-e835-14e7-9ea8" name="New CategoryLink" hidden="false" targetId="12dd-f26c-ca77-721a" primary="true"/>
         <categoryLink id="9a07-0f11-f1e4-42be" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="ee3b-1680-863c-d31c" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+        <entryLink id="c70a-b796-990a-d09f" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="b824-fc04-4c55-b49e" type="selectionEntry">
           <constraints>
-            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8270-c9b6-5df1-5e48" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a97d-b29e-8718-4693" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de2d-8bea-9e94-eabb" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="8675-6906-5356-08cb" name="Knife" hidden="false" collective="false" import="true" targetId="cb09-0362-58dc-6b9d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="848d-8c1a-3cfe-df88" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ee1-d884-1e4f-84f4" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="72a7-728b-eb5e-3cb0" name="Soldier Weapon" hidden="false" collective="false" import="true" targetId="807b-4425-bf96-be3b" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
     <entryLink id="de70-4ea5-633b-b6d0" name="Medic" hidden="false" collective="false" import="true" targetId="a1cc-ac3b-a9cb-2547" type="selectionEntry">
-      <infoLinks>
-        <infoLink id="b462-b02f-fafb-329b" name="Pistol" hidden="false" targetId="3a81-e812-849e-1d92" type="profile"/>
-        <infoLink id="5e88-3872-1a82-e933" name="Light Armour" hidden="false" targetId="eb6d-253d-4d80-d778" type="profile"/>
-        <infoLink id="cafe-7f14-ba3e-b7f1" name="Medic Kit" hidden="false" targetId="5907-12d3-16ad-484f" type="profile"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="2991-1161-6fa3-4295" name="New CategoryLink" hidden="false" targetId="12dd-f26c-ca77-721a" primary="true"/>
         <categoryLink id="ee6b-435d-f49c-10a6" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="edad-8755-b14a-1bc2" name="Gears" hidden="false" collective="false" import="true" targetId="270a-a5c0-3695-1fe4" type="selectionEntryGroup">
+        <entryLink id="8493-59a7-63f5-7f1d" name="Light Armour" hidden="false" collective="false" import="true" targetId="2c5f-174f-fa1f-26c7" type="selectionEntry">
           <constraints>
-            <constraint field="ef24-ff59-caa4-b0e8" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1297-f687-f6d0-b224" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67e6-04f7-9e58-422c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8beb-1575-1315-9e94" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9123-9299-48a6-c2f5" name="Medic Kit" hidden="false" collective="false" import="true" targetId="2579-e6e7-e7dc-73c1" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd8e-6c0b-470d-3dae" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49cb-6c4b-e620-0ce2" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7e05-d106-2568-06a9" name="Pistol" hidden="false" collective="false" import="true" targetId="4039-8fee-a371-8311" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="908f-68df-251f-76f1" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2df0-1c48-7870-05c6" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -2266,18 +2389,13 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd56-2d8b-5879-da58" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="4435-4610-deeb-5315" name="Carbine" hidden="false" collective="false" import="true" targetId="5458-bb3d-f66c-0c0f" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59b2-3aba-af4e-4d4a" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22d4-8bf4-ddf8-d54f" type="max"/>
-          </constraints>
-        </entryLink>
         <entryLink id="122f-a51c-3357-53f5" name="Knife" hidden="false" collective="false" import="true" targetId="cb09-0362-58dc-6b9d" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b71-d731-33a1-c9d4" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa10-dcce-c66c-fdc9" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="d817-ba7f-bbee-cfdc" name="Soldier Weapon" hidden="false" collective="false" import="true" targetId="807b-4425-bf96-be3b" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
     <entryLink id="482f-d09a-4fc6-b6b1" name="Trophy-Taker" hidden="false" collective="false" import="true" targetId="413f-5fcd-3d6e-120c" type="selectionEntry">
@@ -2286,12 +2404,6 @@
         <categoryLink id="0155-5271-fcef-6bc9" name="Faction: Stargrave Crew" hidden="false" targetId="7011-8c8a-78f8-283e" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="b664-3641-82ff-8807" name="Carbine" hidden="false" collective="false" import="true" targetId="5458-bb3d-f66c-0c0f" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f337-8601-d388-135e" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5b5-d3a3-41e6-006a" type="max"/>
-          </constraints>
-        </entryLink>
         <entryLink id="fbd9-3476-403f-102e" name="Light Armour" hidden="false" collective="false" import="true" targetId="2c5f-174f-fa1f-26c7" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edeb-4788-09a6-fc90" type="min"/>
@@ -2304,6 +2416,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba60-bac0-d7a8-6ee2" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="ed85-ae6b-86bd-3509" name="Soldier Weapon" hidden="false" collective="false" import="true" targetId="807b-4425-bf96-be3b" type="selectionEntryGroup"/>
       </entryLinks>
     </entryLink>
   </entryLinks>
@@ -2315,4 +2428,23 @@
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="807b-4425-bf96-be3b" name="Soldier Weapon" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="076c-7019-f95d-01ad" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="977a-c070-be34-fe56" type="min"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="9f0c-e9f7-29e7-a72f" name="Carbine" hidden="false" collective="false" import="true" targetId="5458-bb3d-f66c-0c0f" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="2566-f31f-7c96-d7b2" value="0.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2566-f31f-7c96-d7b2" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="4e39-0cf5-8ae1-b5fc" name="Shotgun" hidden="false" collective="false" import="true" targetId="1075-090d-31e0-ad87" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
 </catalogue>

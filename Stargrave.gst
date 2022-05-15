@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="b7a1-a7ef-bd2f-c484" name="Stargrave" revision="34" battleScribeVersion="2.03" authorName="Eric Gibert" authorContact="ericgibert@yahoo.fr" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="b7a1-a7ef-bd2f-c484" name="Stargrave" revision="35" battleScribeVersion="2.03" authorName="Eric Gibert" authorContact="ericgibert@yahoo.fr" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <comment>Stargrave </comment>
   <publications>
     <publication id="205d-6ed1-3ffa-ebbb" name="Stargrave" publisher="" publicationDate="2021-04-29" publisherUrl="https://ospreypublishing.com/store/osprey-games/stargrave/stargrave"/>
@@ -232,6 +232,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="87ae-3841-f0cf-cc67" name="Animal" hidden="false" targetId="66d8-a71e-328d-9ffd" type="profile"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="c341-ebc3-4b99-f872" name="Soldiers" hidden="false" targetId="12dd-f26c-ca77-721a" primary="false"/>
       </categoryLinks>
@@ -536,7 +539,6 @@
         <infoLink id="e163-99c4-ffd6-9698" name="Carbine" hidden="false" targetId="33df-9e64-5d0e-ddf0" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -544,8 +546,27 @@
       <infoLinks>
         <infoLink id="8f8b-2663-5c68-f90d" name="Combat Armour" hidden="false" targetId="47a8-ff0e-8853-f4c1" type="profile"/>
       </infoLinks>
+      <entryLinks>
+        <entryLink id="8c7e-15a5-4329-572a" name="Pistol" hidden="false" collective="false" import="true" targetId="4039-8fee-a371-8311" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc91-964a-3c5e-fca4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb6b-b94d-44c7-7b1c" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="ee73-2fad-2293-6f42" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="751f-ebe1-9a04-524e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d287-a9d0-e3d9-8684" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f629-f7d0-6274-7e24" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="487b-3dca-bd34-3d3b" name="Filter Mask" hidden="false" collective="false" import="true" targetId="d820-8ec9-e4eb-df4a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ceaa-6881-6010-f36c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa4f-99f5-b8e1-a399" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
-        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -554,7 +575,6 @@
         <infoLink id="034c-e64b-0700-9949" name="Light Armour" hidden="false" targetId="eb6d-253d-4d80-d778" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -563,7 +583,6 @@
         <infoLink id="7143-72b8-a61b-c938" name="Shield" hidden="false" targetId="20a2-d49a-fcfb-94af" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -608,7 +627,6 @@
         <infoLink id="27a5-46bf-cf45-0395" name="Flamethrower" hidden="false" targetId="b73f-ed92-99a9-ea6f" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -617,7 +635,6 @@
         <infoLink id="5901-45b4-005b-5dd1" name="Grenade Launcher" hidden="false" targetId="fb0d-2aee-5b14-124d" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -626,7 +643,6 @@
         <infoLink id="ebe2-7fe9-ba91-d3da" name="Grenade (Frag/Smoke)" hidden="false" targetId="3e4d-99d7-96e7-f55a" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -635,7 +651,6 @@
         <infoLink id="b895-88b4-bfde-8f5c" name="Hand Weapon" hidden="false" targetId="9474-d826-128b-3e89" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -644,7 +659,6 @@
         <infoLink id="75f6-9a6c-bd2b-8987" name="Knife" hidden="false" targetId="1ed7-8d7c-f190-78d2" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -653,7 +667,6 @@
         <infoLink id="7732-f87e-f90b-d32f" name="Pistol" hidden="false" targetId="3a81-e812-849e-1d92" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -662,7 +675,6 @@
         <infoLink id="1efd-9eb7-9c41-0cae" name="Rapid Fire" hidden="false" targetId="8930-1266-4a29-0816" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -671,7 +683,6 @@
         <infoLink id="c384-15af-5222-7e1f" name="Shotgun" hidden="false" targetId="a452-5648-e9ae-773e" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -689,7 +700,6 @@
         <infoLink id="989b-0e0a-9031-7fb7" name="Heavy Armour" hidden="false" targetId="b098-75ec-54b4-02f5" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -710,7 +720,6 @@
         <infoLink id="ecd6-1476-9e7f-43b1" name="Snap-shot" hidden="false" targetId="1181-23e9-c3a4-035e" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="1.0"/>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -719,7 +728,6 @@
         <infoLink id="a017-e9eb-bc28-2545" name="Indestructible Carbine" hidden="false" targetId="4e7e-ac64-3f76-e35d" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3363,158 +3371,141 @@ Creates an impenetrable, transparent wall, up to 6” long and 3” high anywher
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="270a-a5c0-3695-1fe4" name="Gears" hidden="false" collective="false" import="true">
-      <entryLinks>
-        <entryLink id="0aab-f8ec-ff68-b16f" name="Carbine" hidden="false" collective="false" import="true" targetId="5458-bb3d-f66c-0c0f" type="selectionEntry">
+    <selectionEntryGroup id="270a-a5c0-3695-1fe4" name="Equipment" hidden="false" collective="false" import="true">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="460d-26e5-f8dd-78d0" name="Weapons" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="0de9-c045-c762-238c" name="Unarmed" hidden="false" collective="false" import="true" targetId="f80d-224c-77b3-3bc8" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5de7-260b-3f6a-098f" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="a7a0-b872-2204-43d0" name="Knife" hidden="false" collective="false" import="true" targetId="cb09-0362-58dc-6b9d" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f598-e209-0577-affa" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="1.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="56a7-6741-482f-63d3" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="751f-ebe1-9a04-524e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07c0-40ec-19ca-9083" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="1.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="3086-2384-9c00-3010" name="Pistol" hidden="false" collective="false" import="true" targetId="4039-8fee-a371-8311" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b9f-c86e-2635-f553" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="1.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="938d-d3a7-8593-85f7" name="Carbine" hidden="false" collective="false" import="true" targetId="5458-bb3d-f66c-0c0f" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="117a-54d8-bec8-43da" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="2.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="bcda-6a24-4070-acce" name="Shotgun" hidden="false" collective="false" import="true" targetId="1075-090d-31e0-ad87" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5bc-6c61-641b-867d" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="2.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="f804-72c1-79c6-e52c" name="Flamethrower" hidden="false" collective="false" import="true" targetId="4fcb-337a-cabb-7e51" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37df-8704-b50c-70d4" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="2.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="7fe5-e5da-1e4b-c15b" name="Grenade (Frag/Smoke)" hidden="false" collective="false" import="true" targetId="ccbe-994d-4323-a5b7" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3ed-68b1-fae7-fa68" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="1.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="c858-3212-f0dd-060a" name="Rapid Fire" hidden="false" collective="false" import="true" targetId="5e6a-f427-bc23-ed0a" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e16d-dac9-d940-8cef" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="3.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="510e-501e-c555-881b" name="Grenade Launcher" hidden="false" collective="false" import="true" targetId="97aa-31b1-6492-ac84" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8706-e94f-10fe-8c80" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="3.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="feb6-a461-e02e-24a3" name="General" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="aee1-8fbf-36ec-b56f" name="Deck" hidden="false" collective="false" import="true" targetId="cb72-75b1-00d6-d034" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="512a-14c7-fc75-81e4" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="8ca3-a0ac-2969-df20" name="Filter Mask" hidden="false" collective="false" import="true" targetId="d820-8ec9-e4eb-df4a" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6514-8b13-6696-1a0c" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="f48b-4df0-b3ea-4402" name="Medic Kit" hidden="false" collective="false" import="true" targetId="2579-e6e7-e7dc-73c1" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c703-1745-b053-e77d" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="80f3-aa0a-b2d0-1856" name="Picks" hidden="false" collective="false" import="true" targetId="84b2-39a3-0985-b603" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70c1-e872-2068-3cb6" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="94b5-2c9d-faa7-c483" name="Armour" hidden="false" collective="false" import="true">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdd2-4108-ee01-2333" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbb2-b7d3-4581-ff26" type="max"/>
           </constraints>
-          <costs>
-            <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="2.0"/>
-          </costs>
-        </entryLink>
-        <entryLink id="47c5-4451-5bdf-bfcb" name="Combat Armour" hidden="false" collective="false" import="true" targetId="ea4f-6372-4af1-e30b" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5dae-fabf-312b-bd9a" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="2.0"/>
-          </costs>
-        </entryLink>
-        <entryLink id="9772-5396-af84-2c91" name="Light Armour" hidden="false" collective="false" import="true" targetId="2c5f-174f-fa1f-26c7" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3024-da86-2f90-49f2" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="1.0"/>
-          </costs>
-        </entryLink>
-        <entryLink id="e7ff-17fd-c223-aa2e" name="Shield" hidden="false" collective="false" import="true" targetId="5cee-33b2-65b6-c8a0" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0152-3874-208e-71ba" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="1.0"/>
-          </costs>
-        </entryLink>
-        <entryLink id="e2b9-0f52-1a11-9f7f" name="Deck" hidden="false" collective="false" import="true" targetId="cb72-75b1-00d6-d034" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ed5-5fe1-3ff8-b3fc" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="1.0"/>
-          </costs>
-        </entryLink>
-        <entryLink id="b29c-073d-6962-7b0e" name="Flamethrower" hidden="false" collective="false" import="true" targetId="4fcb-337a-cabb-7e51" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3553-6d18-a906-e014" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="2.0"/>
-          </costs>
-        </entryLink>
-        <entryLink id="ccfd-378e-3150-5480" name="Picks" hidden="false" collective="false" import="true" targetId="84b2-39a3-0985-b603" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7997-5407-97ff-8039" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="1.0"/>
-          </costs>
-        </entryLink>
-        <entryLink id="a8c4-9be2-17cf-4399" name="Grenade Launcher" hidden="false" collective="false" import="true" targetId="97aa-31b1-6492-ac84" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ac3-35c1-f8cb-88f8" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="3.0"/>
-          </costs>
-        </entryLink>
-        <entryLink id="2ca7-d5f9-b47b-e817" name="Grenade (Frag/Smoke)" hidden="false" collective="false" import="true" targetId="ccbe-994d-4323-a5b7" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b09c-83da-f990-3258" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="1.0"/>
-          </costs>
-        </entryLink>
-        <entryLink id="96a7-687c-7d3c-ba96" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="751f-ebe1-9a04-524e" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba5d-cdf3-f87b-5600" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="1.0"/>
-          </costs>
-        </entryLink>
-        <entryLink id="dc8d-a563-cd8c-1494" name="Knife" hidden="false" collective="false" import="true" targetId="cb09-0362-58dc-6b9d" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="636d-bc4a-c222-ee60" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="34a1-2c59-8f01-1273" name="Pistol" hidden="false" collective="false" import="true" targetId="4039-8fee-a371-8311" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab40-cc1c-b78d-8c3d" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="1.0"/>
-          </costs>
-        </entryLink>
-        <entryLink id="0b06-7d92-d0fa-4aea" name="Rapid Fire" hidden="false" collective="false" import="true" targetId="5e6a-f427-bc23-ed0a" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc69-8cb0-668f-5e16" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="3.0"/>
-          </costs>
-        </entryLink>
-        <entryLink id="96f7-257b-3072-1294" name="Shotgun" hidden="false" collective="false" import="true" targetId="1075-090d-31e0-ad87" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="170f-88cc-2aeb-9967" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="2.0"/>
-          </costs>
-        </entryLink>
-        <entryLink id="4434-0fd0-779a-746b" name="Unarmed" hidden="false" collective="false" import="true" targetId="f80d-224c-77b3-3bc8" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e754-0269-66d1-7d8a" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="1.0"/>
-          </costs>
-        </entryLink>
-        <entryLink id="f612-42f8-f646-0f4c" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="b824-fc04-4c55-b49e" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5ed-866a-7ecd-0660" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="1.0"/>
-          </costs>
-        </entryLink>
-        <entryLink id="316f-1045-7157-7b88" name="Indestructible Carbine" hidden="false" collective="false" import="true" targetId="2142-0f14-2ee3-210e" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6459-b44d-2d81-ffb9" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="2.0"/>
-          </costs>
-        </entryLink>
-        <entryLink id="64d2-f612-09ae-3091" name="Medic Kit" hidden="false" collective="false" import="true" targetId="2579-e6e7-e7dc-73c1" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec8d-caf6-4ef1-295d" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="1.0"/>
-          </costs>
-        </entryLink>
-        <entryLink id="54db-22d3-1995-24c1" name="Filter Mask" hidden="false" collective="false" import="true" targetId="d820-8ec9-e4eb-df4a" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfa7-602c-4e9c-77a9" type="max"/>
-          </constraints>
-          <costs>
-            <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="1.0"/>
-          </costs>
-        </entryLink>
-      </entryLinks>
+          <entryLinks>
+            <entryLink id="68a9-9ba3-12d2-ca3c" name="Light Armour" hidden="false" collective="false" import="true" targetId="2c5f-174f-fa1f-26c7" type="selectionEntry">
+              <costs>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="1.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="6ca0-4667-70a7-c7a1" name="Heavy Armour" hidden="false" collective="false" import="true" targetId="b824-fc04-4c55-b49e" type="selectionEntry">
+              <costs>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="1.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="43ae-6593-42d1-0c8e" name="Combat Armour" hidden="false" collective="false" import="true" targetId="ea4f-6372-4af1-e30b" type="selectionEntry">
+              <costs>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="2.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="2175-eec5-7cd9-5b2d" name="Shield" hidden="false" collective="false" import="true" targetId="5cee-33b2-65b6-c8a0" type="selectionEntry">
+              <costs>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="1.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
@@ -3705,6 +3696,11 @@ Smoke: circular cloud of smoke 4” in diameter and 3” high. No line of sight 
     <profile id="f749-2d4d-23a0-35c5" name="Two-Gun Fighter" publicationId="460c-b731-33cf-903c" page="94" hidden="false" typeId="e4aa-fc26-645f-e592" typeName="Attribute">
       <characteristics>
         <characteristic name="Description" typeId="7001-0d96-d790-3547">This figure gains +1 damage to shooting attacks made with a pistol if they are carrying 2 or more unjammed pistols. If a gunfighter rolls a jammed result, they may continue shooting with their other pistol without clearing the jam, if they so choose. However, in this case, they lose the +1 damage bonus for using two pistols.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="66d8-a71e-328d-9ffd" name="Animal" hidden="false" typeId="e4aa-fc26-645f-e592" typeName="Attribute">
+      <characteristics>
+        <characteristic name="Description" typeId="7001-0d96-d790-3547">A natural creature with less-than-human intelligence. Animals cannot interact with loot tokens and have no gear slots.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
