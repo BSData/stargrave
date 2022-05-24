@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1adb-b357-2db9-e646" name="Standard Crew" revision="24" battleScribeVersion="2.03" library="false" gameSystemId="b7a1-a7ef-bd2f-c484" gameSystemRevision="35" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1adb-b357-2db9-e646" name="Standard Crew" revision="25" battleScribeVersion="2.03" library="false" gameSystemId="b7a1-a7ef-bd2f-c484" gameSystemRevision="36" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry id="e7fc-369a-1059-31e1" name="First Mate Biomorph" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -134,7 +134,28 @@
                 <condition field="selections" scope="4441-f05c-6eb0-22da" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4111-be6e-185e-4c7f" type="notEqualTo"/>
               </conditions>
             </modifier>
+            <modifier type="increment" field="d1a5-3245-2f90-1ffe" value="1">
+              <conditions>
+                <condition field="selections" scope="4441-f05c-6eb0-22da" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2c5f-174f-fa1f-26c7" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="d1a5-3245-2f90-1ffe" value="4">
+              <conditions>
+                <condition field="selections" scope="4441-f05c-6eb0-22da" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ea4f-6372-4af1-e30b" type="greaterThan"/>
+              </conditions>
+            </modifier>
           </modifiers>
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="4441-f05c-6eb0-22da" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b824-fc04-4c55-b49e" type="greaterThan"/>
+              </conditions>
+              <modifiers>
+                <modifier type="increment" field="d1a5-3245-2f90-1ffe" value="2"/>
+                <modifier type="decrement" field="dc65-e78a-d390-d9d5" value="1"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
           <characteristics>
             <characteristic name="M" typeId="dc65-e78a-d390-d9d5">6</characteristic>
             <characteristic name="F" typeId="453a-8ce6-f448-bb37">+4</characteristic>
@@ -237,7 +258,7 @@
           <modifierGroups>
             <modifierGroup>
               <conditions>
-                <condition field="selections" scope="fc64-9d1d-1a02-4051" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b824-fc04-4c55-b49e" type="equalTo"/>
+                <condition field="selections" scope="fc64-9d1d-1a02-4051" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b824-fc04-4c55-b49e" type="greaterThan"/>
               </conditions>
               <modifiers>
                 <modifier type="increment" field="d1a5-3245-2f90-1ffe" value="2"/>
@@ -821,7 +842,7 @@
           <modifierGroups>
             <modifierGroup>
               <conditions>
-                <condition field="selections" scope="9d6d-a32d-7054-364c" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6ca0-4667-70a7-c7a1" type="greaterThan"/>
+                <condition field="selections" scope="9d6d-a32d-7054-364c" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b824-fc04-4c55-b49e" type="greaterThan"/>
               </conditions>
               <modifiers>
                 <modifier type="increment" field="d1a5-3245-2f90-1ffe" value="2"/>

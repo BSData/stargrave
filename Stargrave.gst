@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="b7a1-a7ef-bd2f-c484" name="Stargrave" revision="35" battleScribeVersion="2.03" authorName="Eric Gibert" authorContact="ericgibert@yahoo.fr" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="b7a1-a7ef-bd2f-c484" name="Stargrave" revision="36" battleScribeVersion="2.03" authorName="Eric Gibert" authorContact="ericgibert@yahoo.fr" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <comment>Stargrave </comment>
   <publications>
     <publication id="205d-6ed1-3ffa-ebbb" name="Stargrave" publisher="" publicationDate="2021-04-29" publisherUrl="https://ospreypublishing.com/store/osprey-games/stargrave/stargrave"/>
@@ -3399,9 +3399,6 @@ Creates an impenetrable, transparent wall, up to 6” long and 3” high anywher
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f598-e209-0577-affa" type="max"/>
               </constraints>
-              <costs>
-                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="1.0"/>
-              </costs>
             </entryLink>
             <entryLink id="56a7-6741-482f-63d3" name="Hand Weapon" hidden="false" collective="false" import="true" targetId="751f-ebe1-9a04-524e" type="selectionEntry">
               <constraints>
@@ -3475,21 +3472,33 @@ Creates an impenetrable, transparent wall, up to 6” long and 3” high anywher
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="512a-14c7-fc75-81e4" type="max"/>
               </constraints>
+              <costs>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="1.0"/>
+              </costs>
             </entryLink>
             <entryLink id="8ca3-a0ac-2969-df20" name="Filter Mask" hidden="false" collective="false" import="true" targetId="d820-8ec9-e4eb-df4a" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6514-8b13-6696-1a0c" type="max"/>
               </constraints>
+              <costs>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="1.0"/>
+              </costs>
             </entryLink>
             <entryLink id="f48b-4df0-b3ea-4402" name="Medic Kit" hidden="false" collective="false" import="true" targetId="2579-e6e7-e7dc-73c1" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c703-1745-b053-e77d" type="max"/>
               </constraints>
+              <costs>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="1.0"/>
+              </costs>
             </entryLink>
             <entryLink id="80f3-aa0a-b2d0-1856" name="Picks" hidden="false" collective="false" import="true" targetId="84b2-39a3-0985-b603" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70c1-e872-2068-3cb6" type="max"/>
               </constraints>
+              <costs>
+                <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="1.0"/>
+              </costs>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
