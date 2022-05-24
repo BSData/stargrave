@@ -544,9 +544,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="ea4f-6372-4af1-e30b" name="Combat Armour" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="8f8b-2663-5c68-f90d" name="Combat Armour" hidden="false" targetId="47a8-ff0e-8853-f4c1" type="profile"/>
-      </infoLinks>
       <entryLinks>
         <entryLink id="8c7e-15a5-4329-572a" name="Pistol" hidden="false" collective="false" import="true" targetId="4039-8fee-a371-8311" type="selectionEntry">
           <constraints>
@@ -573,9 +570,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="2c5f-174f-fa1f-26c7" name="Light Armour" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="034c-e64b-0700-9949" name="Light Armour" hidden="false" targetId="eb6d-253d-4d80-d778" type="profile"/>
-      </infoLinks>
       <costs>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
@@ -708,9 +702,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="b824-fc04-4c55-b49e" name="Heavy Armour" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="989b-0e0a-9031-7fb7" name="Heavy Armour" hidden="false" targetId="b098-75ec-54b4-02f5" type="profile"/>
-      </infoLinks>
       <costs>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
         <cost name="Gear Slot" typeId="ef24-ff59-caa4-b0e8" value="0.0"/>
@@ -3620,27 +3611,6 @@ Smoke: circular cloud of smoke 4” in diameter and 3” high. No line of sight 
         <characteristic name="Max Range" typeId="0ca8-352b-e65a-1036">Template</characteristic>
         <characteristic name="Gear Slots" typeId="ab7f-6a7e-3141-0227">2</characteristic>
         <characteristic name="Notes" typeId="1d86-7031-0559-c0d3">-1 Move unless wearing heavy armour or combat armour. Target Armour and Cover modifiers (see page 32).</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="eb6d-253d-4d80-d778" name="Light Armour" hidden="false" typeId="4964-c115-f812-5840" typeName="Armour">
-      <characteristics>
-        <characteristic name="Armour Modifier" typeId="f0e8-d49c-087e-fa0c">+1</characteristic>
-        <characteristic name="Gear Slots" typeId="6549-13ce-c4ce-c0eb">1</characteristic>
-        <characteristic name="Notes" typeId="1497-0f7b-2529-cf2c"/>
-      </characteristics>
-    </profile>
-    <profile id="b098-75ec-54b4-02f5" name="Heavy Armour" hidden="false" typeId="4964-c115-f812-5840" typeName="Armour">
-      <characteristics>
-        <characteristic name="Armour Modifier" typeId="f0e8-d49c-087e-fa0c">+2</characteristic>
-        <characteristic name="Gear Slots" typeId="6549-13ce-c4ce-c0eb">1</characteristic>
-        <characteristic name="Notes" typeId="1497-0f7b-2529-cf2c">- 1 Move</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="47a8-ff0e-8853-f4c1" name="Combat Armour" hidden="false" typeId="4964-c115-f812-5840" typeName="Armour">
-      <characteristics>
-        <characteristic name="Armour Modifier" typeId="f0e8-d49c-087e-fa0c">+4</characteristic>
-        <characteristic name="Gear Slots" typeId="6549-13ce-c4ce-c0eb">2</characteristic>
-        <characteristic name="Notes" typeId="1497-0f7b-2529-cf2c">50cr upkeep fee. Includes hand weapon, pistol, and filter mask.</characteristic>
       </characteristics>
     </profile>
     <profile id="20a2-d49a-fcfb-94af" name="Shield" hidden="false" typeId="4964-c115-f812-5840" typeName="Armour">
