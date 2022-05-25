@@ -676,7 +676,7 @@
     </selectionEntry>
     <selectionEntry id="5e6a-f427-bc23-ed0a" name="Rapid Fire" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="1efd-9eb7-9c41-0cae" name="Rapid Fire" hidden="false" targetId="8930-1266-4a29-0816" type="profile"/>
+        <infoLink id="1efd-9eb7-9c41-0cae" name="Rapid Fire" hidden="false" targetId="b3ca-b785-4ce7-ec01" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="Cr" typeId="97c0-4241-980e-66e8" value="0.0"/>
